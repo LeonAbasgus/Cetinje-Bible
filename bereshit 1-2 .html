@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Genesis 1–2 | Interactive Hebrew-English Study</title>
+  <meta name="description" content="Interactive study tool for Genesis chapters 1–2 with Hebrew morphology, transliteration, and translation tooltips.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Fonts: Latin & Hebrew -->
+  <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Noto+Sans+Hebrew&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Assistant', sans-serif;
+      background: #fdfdfb;
+      color: #222;
+      line-height: 1.6;
+      margin: 2em;
+      padding-top: 70px; /* Offset for fixed nav */
+    }
+/* Make top interface bar sticky below nav */
+#interface-bar {
+  position: sticky;
+  top: 2.8em; /* adjusts for nav height */
+  background: #fdfdfb;
+  z-index: 999;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Make verse content a little easier to read on small screens */
+@media (max-width: 600px) {
+  body {
+    margin: 1em;
+    padding-top: 80px; /* adjust if nav/interface bar is sticky */
+  }
+
+  #nav-panel {
+    font-size: 0.95em;
+    padding: 0.6em 1em;
+  }
+
+  #interface-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+    font-size: 0.95em;
+  }
+
+  .verse {
+    font-size: 1.1em;
+  }
+
+  .syntax {
+    font-size: 0.95em;
+  }
+}
+
+    .hebrew {
+      font-family: 'Noto Sans Hebrew', sans-serif;
+      direction: rtl;
+      font-size: 1.4em;
+      margin-bottom: 0.4em;
+    }
+
+    .translit {
+      font-style: italic;
+      margin-bottom: 0.4em;
+    }
+
+    .translation {
+      margin-bottom: 0.4em;
+    }
+
+    .verse {
+      padding: 1.2em 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .word {
+      position: relative;
+      cursor: help;
+      white-space: nowrap;
+    }
+
+    .word:hover::after {
+      content: attr(data-info);
+      position: absolute;
+      bottom: 100%;
+      right: 0;
+      background: #f0f0e0;
+      color: #000;
+      border: 1px solid #999;
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-size: 0.85em;
+      white-space: nowrap;
+      z-index: 10;
+    }
+
+    .syntax {
+      background: #eef3ff;
+      padding: 0.6em 1em;
+      border-left: 4px solid #4d77aa;
+      margin-top: 0.4em;
+      font-size: 0.95em;
+      transition: opacity 0.3s ease;
+    }
+
+    .syntax[data-mode="off"] {
+      opacity: 0.15;
+    }
+
+    #nav-panel {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #fdfdfb;
+      border-bottom: 1px solid #ccc;
+      padding: 0.8em 1em;
+      z-index: 1000;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      font-size: 0.95em;
+    }
+
+    #chapter-selector {
+      display: flex;
+      justify-content: center;
+      gap: 0.5em;
+      margin-bottom: 0.8em;
+    }
+
+    .chapter-btn {
+      background-color: #ffffff;
+      border: 1px solid #bbb;
+      border-radius: 4px 4px 0 0;
+      padding: 0.4em 1em;
+      font-size: 1em;
+      font-family: 'Assistant', sans-serif;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .chapter-btn:hover {
+      background-color: #eee;
+    }
+
+    .chapter-btn.active {
+      background-color: #f0f0f0;
+      border-bottom: 2px solid transparent;
+      font-weight: bold;
+    }
+
+    #audio-player {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #f8f8f8;
+      border-top: 1px solid #ccc;
+      padding: 0.75em 1.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    #audio-player button {
+      background: #ffffff;
+      border: 1px solid #ccc;
+      font-size: 1em;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Assistant', sans-serif;
+    }
+
+    #audio-player button:hover {
+      background: #e9e9e9;
+    }
+  </style>
+</head>
+<body id="top">
+  <nav id="nav-panel">
+    <strong>Jump to:</strong>
+    <a href="#gen1">Genesis 1</a> |
+    <a href="#gen2">Genesis 2</a>
+  </nav>
+  <h1>📜 Genesis 1–2</h1>
+  <div id="interface-bar" style="text-align:right; padding: 0.5em 1em; display: flex; justify-content: flex-end; gap: 2em; align-items: center; font-size: 0.95em;">
+  <label style="white-space: nowrap;">
+    <input type="checkbox" id="toggle-list-mode" />
+    📄 Morphology list
+  </label>
+
+  <label for="language-select" style="white-space: nowrap;">
+    🌐 Interface:
+    <select id="language-select">
+      <option value="en" selected>English</option>
+      <option value="he">עברית</option>
+      <option value="la">Latin</option>
+      <option value="grc">Ancient Greek</option>
+    </select>
+  </label>
+</div>
+
+  <div id="content">
+    <!-- Genesis 1:1 -->
+    <div class="verse" id="gen1_1" data-audio="audio/gen1_1.mp3">
+      <h3>Genesis 1:1</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Preposition + noun, 'In the beginning'">בְּרֵאשִׁית</span>
+        <span class="word" data-info="Verb (perfect, 3ms), 'created'">בָּרָא</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object marker">אֵת</span>
+        <span class="word" data-info="Definite noun, 'the heavens'">הַשָּׁמַיִם</span>
+        <span class="word" data-info="Conjunction + definite noun, 'and the earth'">וְאֵת הָאָרֶץ</span>
+      </p>
+      <p class="translit">
+        Bereshit bara Elohim et hashamayim ve’et haaretz
+      </p>
+      <p class="translation" data-lang="en">
+        In the beginning God created the heavens and the earth.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Temporal prepositional clause + subject + verb + coordinated object (direct object marker + accusatives).
+      </div>
+    </div>
+
+    <!-- Genesis 1:2 -->
+    <div class="verse" id="gen1_2" data-audio="audio/gen1_2.mp3">
+      <h3>Genesis 1:2</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Conjunction, 'and'">וְ</span>
+        <span class="word" data-info="Noun, 'earth'">הָאָרֶץ</span>
+        <span class="word" data-info="Verb (imperfect, 3fs), 'was'">הָיְתָה</span>
+        <span class="word" data-info="Noun, 'formless'">תֹהוּ</span>
+        <span class="word" data-info="Conjunction + noun, 'and void'">וָבֹהוּ</span>
+        <span class="word" data-info="Noun, 'darkness'">וְחֹשֶׁךְ</span>
+        <span class="word" data-info="Preposition, 'upon'">עַל</span>
+        <span class="word" data-info="Construct noun, 'face of'">פְּנֵי</span>
+        <span class="word" data-info="Noun, 'deep'">תְּהוֹם</span>
+        <span class="word" data-info="Conjunction + noun phrase, 'and the Spirit of God'">וְרוּחַ אֱלֹהִים</span>
+        <span class="word" data-info="Participle (fem. sg.), 'hovering'">מְרַחֶפֶת</span>
+        <span class="word" data-info="Preposition, 'over'">עַל</span>
+        <span class="word" data-info="Construct noun, 'face of'">פְּנֵי</span>
+        <span class="word" data-info="Noun, 'waters'">הַמָּיִם</span>
+      </p>
+      <p class="translit">
+        Vehaaretz hayetah tohu vavohu; vechoshekh al penei tehom; veruach Elohim merachefet al penei hamayim
+      </p>
+      <p class="translation" data-lang="en">
+        Now the earth was formless and void, and darkness was upon the face of the deep, and the Spirit of God was hovering over the surface of the waters.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Disjunctive clause with verbless pairs + participial phrase with embedded subject.
+      </div>
+    </div>
+
+    <!-- Genesis 1:3 -->
+    <div class="verse" id="gen1_3" data-audio="audio/gen1_3.mp3">
+      <h3>Genesis 1:3</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and said'">וַיֹּאמֶר</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Jussive verb, 'let there be'">יְהִי</span>
+        <span class="word" data-info="Noun, 'light'">אוֹר</span>
+        <span class="word" data-info="Verb (perfect, 3ms), 'and there was'">וַיְהִי</span>
+        <span class="word" data-info="Noun, 'light'">אוֹר</span>
+      </p>
+      <p class="translit">
+        Vayomer Elohim: yehi or — vayehi or
+      </p>
+      <p class="translation" data-lang="en">
+        And God said, “Let there be light”; and there was light.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Direct speech with jussive verb followed by narrative affirmation.
+      </div>
+    </div>
+
+    <!-- Genesis 1:4 -->
+    <div class="verse" id="gen1_4" data-audio="audio/gen1_4.mp3">
+      <h3>Genesis 1:4</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and saw'">וַיַּרְא</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object marker">אֶת</span>
+        <span class="word" data-info="Noun, 'light'">הָאוֹר</span>
+        <span class="word" data-info="Conjunction, 'that'">כִּי</span>
+        <span class="word" data-info="Adjective, 'good'">טוֹב</span>
+        <span class="word" data-info="Conj. + verb, 'and He separated'">וַיַּבְדֵּל</span>
+        <span class="word" data-info="Preposition phrase, 'between the light and the darkness'">בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ</span>
+      </p>
+      <p class="translit">
+        Vayar Elohim et ha’or ki tov; vayavdel bein ha’or uvein hachoshekh
+      </p>
+      <p class="translation" data-lang="en">
+        And God saw that the light was good; and God separated the light from the darkness.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Evaluative clause with embedded direct object + coordinated contrast.
+      </div>
+    </div>
+
+    <!-- Genesis 1:5 -->
+    <div class="verse" id="gen1_5" data-audio="audio/gen1_5.mp3">
+      <h3>Genesis 1:5</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and called'">וַיִּקְרָא</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Preposition + definite noun, 'to the light'">לָאוֹר</span>
+        <span class="word" data-info="Noun, 'day'">יוֹם</span>
+        <span class="word" data-info="Conjunction + definite noun, 'and to the darkness'">וְלַחֹשֶׁךְ</span>
+        <span class="word" data-info="Verb (perfect, 3ms), 'He called'">קָרָא</span>
+        <span class="word" data-info="Noun, 'night'">לָיְלָה</span>
+        <span class="word" data-info="Temporal phrase, 'and there was evening and there was morning'">וַיְהִי עֶרֶב וַיְהִי בֹקֶר</span>
+        <span class="word" data-info="Ordinal phrase, 'day one / first day'">יוֹם אֶחָד</span>
+      </p>
+      <p class="translit">
+        Vayikra Elohim la’or yom, vela’chosekh kara layla; vayehi erev vayehi voker — yom echad
+      </p>
+      <p class="translation" data-lang="en">
+        And God called the light “day,” and the darkness He called “night.” And there was evening, and there was morning — the first day.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Parallel naming clauses + temporal formula concluding the day.
+      </div>
+    </div>
+    <!-- Genesis 1:6 -->
+    <div class="verse" id="gen1_6" data-audio="audio/gen1_6.mp3">
+      <h3>Genesis 1:6</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (jussive, 3ms), 'let there be'">יְהִי</span>
+        <span class="word" data-info="Noun, 'firmament / expanse'">רָקִיעַ</span>
+        <span class="word" data-info="Prepositional phrase, 'in the midst of the waters'">בְּתוֹךְ הַמָּיִם</span>
+        <span class="word" data-info="Conjunction + verb, 'and let it divide'">וִיהִי מַבְדִּיל</span>
+        <span class="word" data-info="Preposition phrase, 'between waters and waters'">בֵּין מַיִם וּבֵין מַיִם</span>
+      </p>
+      <p class="translit">
+        Yehi raqia b’tokh hamayim, vihi mavdil bein mayim uvein mayim
+      </p>
+      <p class="translation" data-lang="en">
+        Let there be a firmament in the midst of the waters, and let it divide between the waters and the waters.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Coordinated volitional clauses describing spatial separation via new creation.
+      </div>
+    </div>
+
+    <!-- Genesis 1:7 -->
+    <div class="verse" id="gen1_7" data-audio="audio/gen1_7.mp3">
+      <h3>Genesis 1:7</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (imperfect/converted, 3ms), 'and made'">וַיַּעַשׂ</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object marker + noun, 'the firmament'">אֶת הָרָקִיעַ</span>
+        <span class="word" data-info="Conjunction + verb, 'and separated'">וַיַּבְדֵּל</span>
+        <span class="word" data-info="Preposition + noun, 'between the waters'">בֵּין הַמַּיִם</span>
+        <span class="word" data-info="Relative clause: 'which were under'">אֲשֶׁר מִתַּחַת</span>
+        <span class="word" data-info="Definite noun: 'firmament'">לָרָקִיעַ</span>
+        <span class="word" data-info="Conjunction + between">וּבֵין</span>
+        <span class="word" data-info="Waters above">הַמַּיִם אֲשֶׁר מֵעַל</span>
+        <span class="word" data-info="To the firmament">לָרָקִיעַ</span>
+      </p>
+      <p class="translit">
+        Vaya'as Elohim et ha-raqia, vayavdel bein hamayim asher mitakhat laraqia uvein hamayim asher me'al laraqia
+      </p>
+      <p class="translation" data-lang="en">
+        And God made the firmament and separated the waters which were below the firmament from the waters which were above the firmament.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Narrative clause with coordinated verbs, prepositional contrasts, and relative clauses indicating spatial distinctions.
+      </div>
+    </div>
+
+    <!-- Genesis 1:8 -->
+    <div class="verse" id="gen1_8" data-audio="audio/gen1_8.mp3">
+      <h3>Genesis 1:8</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and called'">וַיִּקְרָא</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object + noun, 'firmament'">לָרָקִיעַ</span>
+        <span class="word" data-info="Noun, 'heaven/sky'">שָׁמַיִם</span>
+      </p>
+      <p class="translit">
+        Vayikra Elohim laraqia shamayim
+      </p>
+      <p class="translation" data-lang="en">
+        And God called the firmament “sky.”
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Naming construction: verb + subject + object + name, forming a redefinition.
+      </div>
+    </div>
+
+    <!-- Genesis 1:9 -->
+    <div class="verse" id="gen1_9" data-audio="audio/gen1_9.mp3">
+      <h3>Genesis 1:9</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (jussive, 3mp), 'let be gathered'">יִקָּווּ</span>
+        <span class="word" data-info="Noun (pl. masc.), 'waters'">הַמַּיִם</span>
+        <span class="word" data-info="Preposition 'from under' + noun">מִתַּחַת הַשָּׁמַיִם</span>
+        <span class="word" data-info="Preposition 'to one place'">אֶל מָקוֹם אֶחָד</span>
+        <span class="word" data-info="Conjunction + verb (jussive, 3fs), 'and let appear'">וְתֵרָאֶה</span>
+        <span class="word" data-info="Noun (fem.), 'dry land'">הַיַּבָּשָׁה</span>
+      </p>
+      <p class="translit">
+        Yikkavu hamayim mitakhat hashamayim el makom echad, veteira’eh hayabashah
+      </p>
+      <p class="translation" data-lang="en">
+        Let the waters under the heavens be gathered to one place, and let the dry land appear.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Jussive constructions with parallel imperatives: coordinated divine commands governing waters and land appearance.
+      </div>
+    </div>
+    <!-- Genesis 1:10 -->
+    <div class="verse" id="gen1_10" data-audio="audio/gen1_10.mp3">
+      <h3>Genesis 1:10</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and called'">וַיִּקְרָא</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object + noun, 'the dry land'">לַיַּבָּשָׁה</span>
+        <span class="word" data-info="Noun, 'earth'">אֶרֶץ</span>
+        <span class="word" data-info="Conjunction, 'and'">וּלְמִקְוֵה</span>
+        <span class="word" data-info="Noun, 'gathering/collection'">הַמַּיִם</span>
+        <span class="word" data-info="Verb (perfect, 3ms), 'He called'">קָרָא</span>
+        <span class="word" data-info="Noun, 'seas'">יַמִּים</span>
+      </p>
+      <p class="translit">
+        Vayikra Elohim layabashah eretz, ulmikveh hamayim kara yamim
+      </p>
+      <p class="translation" data-lang="en">
+        And God called the dry land “earth,” and the gathering of the waters He called “seas.”
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Parallel naming clauses with verb + subject + object + designation.
+      </div>
+    </div>
+
+    <!-- Genesis 1:11 -->
+    <div class="verse" id="gen1_11" data-audio="audio/gen1_11.mp3">
+      <h3>Genesis 1:11</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (jussive, 3fs), 'Let sprout'">תַּדְשֵׁא</span>
+        <span class="word" data-info="Noun (fem.), 'earth'">הָאָרֶץ</span>
+        <span class="word" data-info="Noun, 'grass/vegetation'">דֶּשֶׁא</span>
+        <span class="word" data-info="Noun + participle, 'herb yielding seed'">עֵשֶׂב מַזְרִיעַ זֶרַע</span>
+        <span class="word" data-info="Noun + participle, 'fruit tree making fruit'">וְעֵץ פְּרִי עֹשֶׂה פְּרִי</span>
+        <span class="word" data-info="Preposition 'according to'; noun 'kind'">לְמִינֵהוּ</span>
+      </p>
+      <p class="translit">
+        Tad'she haaretz deshe, esev mazri'a zera, ve'etz peri oseh peri le'minehu
+      </p>
+      <p class="translation" data-lang="en">
+        Let the earth bring forth grass, herbs yielding seed, and fruit trees bearing fruit after their kind.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Jussive verb governing a triple object clause with participial expansions.
+      </div>
+    </div>
+
+    <!-- Genesis 1:12 -->
+    <div class="verse" id="gen1_12" data-audio="audio/gen1_12.mp3">
+      <h3>Genesis 1:12</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3fs), 'And the earth brought forth'">וַתּוֹצֵא הָאָרֶץ</span>
+        <span class="word" data-info="Noun, 'grass'">דֶּשֶׁא</span>
+        <span class="word" data-info="Noun + participle, 'herb yielding seed'">עֵשֶׂב מַזְרִיעַ זֶרַע</span>
+        <span class="word" data-info="Noun + participle, 'tree making fruit'">וְעֵץ עֹשֶׂה פְּרִי</span>
+        <span class="word" data-info="Relative clause, 'whose seed is in it'">אֲשֶׁר זַרְעוֹ-בוֹ</span>
+      </p>
+      <p class="translit">
+        Vatotze haaretz deshe, esev mazri'a zera, ve'etz oseh peri asher zar'o bo
+      </p>
+      <p class="translation" data-lang="en">
+        And the earth brought forth grass, herbs yielding seed, and trees bearing fruit, whose seed is in them.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Narrative perfect verb with asyndetic object series; embedded relative clause.
+      </div>
+    </div>
+    <!-- Genesis 1:13 -->
+    <div class="verse" id="gen1_13" data-audio="audio/gen1_13.mp3">
+      <h3>Genesis 1:13</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and there was'">וַיְהִי</span>
+        <span class="word" data-info="Noun (masc.), 'evening'">עֶרֶב</span>
+        <span class="word" data-info="Conjunction + verb, 'and there was'">וַיְהִי</span>
+        <span class="word" data-info="Noun (masc.), 'morning'">בֹקֶר</span>
+        <span class="word" data-info="Noun phrase, 'third day'">יוֹם שְׁלִישִׁי</span>
+      </p>
+      <p class="translit">
+        Vayehi erev vayehi voker, yom shlishi
+      </p>
+      <p class="translation" data-lang="en">
+        And there was evening, and there was morning — the third day.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Formulaic sequence closing the creative day, with temporal pairing and ordinal conclusion.
+      </div>
+    </div>
+
+    <!-- Genesis 1:14 -->
+    <div class="verse" id="gen1_14" data-audio="audio/gen1_14.mp3">
+      <h3>Genesis 1:14</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (jussive, 3mp), 'Let there be'">יְהִי</span>
+        <span class="word" data-info="Noun (pl. masc.), 'lights'">מְאֹרֹת</span>
+        <span class="word" data-info="Preposition + noun, 'in the firmament'">בִּרְקִיעַ</span>
+        <span class="word" data-info="Noun (pl. masc.), 'the heavens'">הַשָּׁמַיִם</span>
+        <span class="word" data-info="Infinitive, 'to divide'">לְהַבְדִּיל</span>
+        <span class="word" data-info="Preposition + noun, 'between the day'">בֵּין הַיּוֹם</span>
+        <span class="word" data-info="Conjunction + preposition + noun, 'and between the night'">וּבֵין הַלַּיְלָה</span>
+      </p>
+      <p class="translit">
+        Yehi me'orot birki'a hashamayim lehavdil bein hayom uvein halayla
+      </p>
+      <p class="translation" data-lang="en">
+        Let there be lights in the firmament of the heavens to divide the day from the night.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Jussive verb + infinitive of purpose + prepositional contrast pairs.
+      </div>
+    </div>
+
+    <!-- Genesis 1:15 -->
+    <div class="verse" id="gen1_15" data-audio="audio/gen1_15.mp3">
+      <h3>Genesis 1:15</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Conjunction + verb (3mp), 'and let them be'">וְהָיוּ</span>
+        <span class="word" data-info="Preposition + noun, 'for lights'">לִמְאוֹרֹת</span>
+        <span class="word" data-info="Prepositional phrase, 'in the firmament of the heavens'">בִּרְקִיעַ הַשָּׁמַיִם</span>
+        <span class="word" data-info="Infinitive + preposition, 'to give light upon the earth'">לְהָאִיר עַל הָאָרֶץ</span>
+      </p>
+      <p class="translit">
+        Vehayu lime'orot birki'a hashamayim leha'ir al haaretz
+      </p>
+      <p class="translation" data-lang="en">
+        And let them be for lights in the firmament of the sky to give light upon the earth.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Jussive + purpose clause introduced by infinitive + prepositional phrase.
+      </div>
+    </div>
+    <!-- Genesis 1:16 -->
+    <div class="verse" id="gen1_16" data-audio="audio/gen1_16.mp3">
+      <h3>Genesis 1:16</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and made'">וַיַּעַשׂ</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object marker + noun phrase, 'the two great lights'">אֵת שְׁנֵי הַמְּאֹרֹת הַגְּדֹלִים</span>
+        <span class="word" data-info="Direct object + phrase, 'the greater light to rule the day'">אֶת הַמָּאוֹר הַגָּדֹל לְמֶמְשֶׁלֶת הַיּוֹם</span>
+        <span class="word" data-info="Conj. + direct object + phrase, 'the lesser light to rule the night'">וְאֶת הַמָּאוֹר הַקָּטֹן לְמֶמְשֶׁלֶת הַלַּיְלָה</span>
+        <span class="word" data-info="Conjunction + direct object, 'and the stars'">וְאֵת הַכּוֹכָבִים</span>
+      </p>
+      <p class="translit">
+        Vaya’as Elohim et shnei hame'orot hagedolim, et hama’or hagadol lememshelet hayom, ve’et hama’or hakaton lememshelet halayla, ve’et hakokhavim
+      </p>
+      <p class="translation" data-lang="en">
+        And God made the two great lights — the greater light to rule the day and the lesser light to rule the night — and the stars.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Series of coordinated objects with embedded functional expressions.
+      </div>
+    </div>
+
+    <!-- Genesis 1:17 -->
+    <div class="verse" id="gen1_17" data-audio="audio/gen1_17.mp3">
+      <h3>Genesis 1:17</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and God set them'">וַיִּתֵּן</span>
+        <span class="word" data-info="Pronoun, 'them'">אֹתָם</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Prepositional phrase, 'in the firmament of the heavens'">בִּרְקִיעַ הַשָּׁמַיִם</span>
+        <span class="word" data-info="Infinitive, 'to give light'">לְהָאִיר</span>
+        <span class="word" data-info="Preposition + noun, 'upon the earth'">עַל הָאָרֶץ</span>
+      </p>
+      <p class="translit">
+        Vayiten otam Elohim birki'a hashamayim leha'ir al haaretz
+      </p>
+      <p class="translation" data-lang="en">
+        And God set them in the firmament of the heavens to give light upon the earth.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Verb of placement + purpose clause with infinitive complement.
+      </div>
+    </div>
+
+    <!-- Genesis 1:18 -->
+    <div class="verse" id="gen1_18" data-audio="audio/gen1_18.mp3">
+      <h3>Genesis 1:18</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Infinitive construct, 'to rule'">לִמְשֹׁל</span>
+        <span class="word" data-info="Conjunction + infinitive, 'and to divide'">וּלְהַבְדִּיל</span>
+        <span class="word" data-info="Preposition + noun, 'between the light'">בֵּין הָאוֹר</span>
+        <span class="word" data-info="Conjunction + preposition + noun, 'and between the darkness'">וּבֵין הַחֹשֶׁךְ</span>
+        <span class="word" data-info="Verb (perfect, 3ms), 'and saw'">וַיַּרְא</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Conjunction + adjective, 'that it was good'">כִּי-טוֹב</span>
+      </p>
+      <p class="translit">
+        Limshol ulehavdil bein haor uvein hachoshekh; vayar Elohim ki tov
+      </p>
+      <p class="translation" data-lang="en">
+        To rule over the day and the night, and to divide the light from the darkness; and God saw that it was good.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Coordinated infinitives expressing function, followed by evaluative result clause.
+      </div>
+    </div>
+
+    <!-- Genesis 1:19 -->
+    <div class="verse" id="gen1_19" data-audio="audio/gen1_19.mp3">
+      <h3>Genesis 1:19</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and there was'">וַיְהִי</span>
+        <span class="word" data-info="Noun, 'evening'">עֶרֶב</span>
+        <span class="word" data-info="Conj. + verb (perfect, 3ms), 'and there was'">וַיְהִי</span>
+        <span class="word" data-info="Noun, 'morning'">בֹקֶר</span>
+        <span class="word" data-info="Noun phrase, 'fourth day'">יוֹם רְבִיעִי</span>
+      </p>
+      <p class="translit">
+        Vayehi erev vayehi voker, yom revi’i
+      </p>
+      <p class="translation" data-lang="en">
+        And there was evening, and there was morning — the fourth day.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Temporal closure formula with ordinal expression.
+      </div>
+    </div>
+    <!-- Genesis 1:20 -->
+    <div class="verse" id="gen1_20" data-audio="audio/gen1_20.mp3">
+      <h3>Genesis 1:20</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (jussive, 3mp), 'let swarm'">יִשְׁרְצוּ</span>
+        <span class="word" data-info="Noun (pl. masc.), 'waters'">הַמַּיִם</span>
+        <span class="word" data-info="Noun phrase, 'swarming living creature'">שֶׁרֶץ נֶפֶשׁ חַיָּה</span>
+        <span class="word" data-info="Conjunction + noun, 'and bird'">וְעוֹף</span>
+        <span class="word" data-info="Verb (jussive, 3ms), 'let fly'">יְעוֹפֵף</span>
+        <span class="word" data-info="Preposition + noun, 'above the earth'">עַל הָאָרֶץ</span>
+        <span class="word" data-info="Prepositional phrase, 'across the face of the firmament of the heavens'">עַל פְּנֵי רְקִיעַ הַשָּׁמָיִם</span>
+      </p>
+      <p class="translit">
+        Yishretzu hamayim sheretz nefesh chayah, ve’of ye’ofef al haaretz al penei raki’a hashamayim
+      </p>
+      <p class="translation" data-lang="en">
+        Let the waters swarm with living creatures, and let birds fly above the earth across the face of the firmament of the heavens.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Coordinated jussive clauses describing marine and aerial domains.
+      </div>
+    </div>
+
+    <!-- Genesis 1:21 -->
+    <div class="verse" id="gen1_21" data-audio="audio/gen1_21.mp3">
+      <h3>Genesis 1:21</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and created'">וַיִּבְרָא</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object, 'the great sea creatures'">אֵת הַתַּנִּינִם הַגְּדֹלִים</span>
+        <span class="word" data-info="Conjunction + phrase, 'and every living creature that moves'">וְאֵת כָּל נֶפֶשׁ הַחַיָּה הָרֹמֶשֶׂת</span>
+        <span class="word" data-info="Relative clause: 'that the waters swarmed'">אֲשֶׁר שָׁרְצוּ הַמַּיִם</span>
+        <span class="word" data-info="According to their kinds">לְמִינֵהֶם</span>
+        <span class="word" data-info="And every winged bird">וְאֵת כָּל עוֹף כָּנָף</span>
+        <span class="word" data-info="According to its kind">לְמִינוֹ</span>
+      </p>
+      <p class="translit">
+        Vayivra Elohim et hatanninim hagedolim, ve’et kol nefesh hachayah haromeset asher shar’tzu hamayim le’minehem, ve’et kol of kanaf lemino
+      </p>
+      <p class="translation" data-lang="en">
+        And God created the great sea creatures and every living creature that moves, which the waters swarmed with, according to their kinds, and every winged bird according to its kind.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Multi-object creation clause with internal relative and distributive modifiers.
+      </div>
+    </div>
+
+    <!-- Genesis 1:22 -->
+    <div class="verse" id="gen1_22" data-audio="audio/gen1_22.mp3">
+      <h3>Genesis 1:22</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and blessed'">וַיְבָרֶךְ</span>
+        <span class="word" data-info="Pronoun, 'them'">אֹתָם</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Infinitive, 'saying'">לֵאמֹר</span>
+        <span class="word" data-info="Imperative, 'be fruitful'">פְּרוּ</span>
+        <span class="word" data-info="Imperative, 'and multiply'">וּרְבוּ</span>
+        <span class="word" data-info="Conj. + imperative, 'and fill'">וּמִלְאוּ</span>
+        <span class="word" data-info="Definite article + noun, 'the waters'">אֶת הַמַּיִם</span>
+        <span class="word" data-info="Preposition + noun, 'in the seas'">בַּיַּמִּים</span>
+        <span class="word" data-info="Conj. + noun + jussive, 'and let the bird multiply'">וְהָעוֹף יִרֶב</span>
+        <span class="word" data-info="Preposition + noun, 'on the earth'">בָּאָרֶץ</span>
+      </p>
+      <p class="translit">
+        Vayevarekh otam Elohim lemor: pru u’rvu, umil’u et hamayim bayyamim, ve’ha’of yirev baaretz
+      </p>
+      <p class="translation" data-lang="en">
+        And God blessed them, saying: “Be fruitful and multiply, and fill the waters in the seas; and let the birds multiply on the earth.”
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Blessing formula with imperatives and jussive continuation.
+      </div>
+    </div>
+    <!-- Genesis 1:23 -->
+    <div class="verse" id="gen1_23" data-audio="audio/gen1_23.mp3">
+      <h3>Genesis 1:23</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and there was'">וַיְהִי</span>
+        <span class="word" data-info="Noun, 'evening'">עֶרֶב</span>
+        <span class="word" data-info="Conj. + verb, 'and there was'">וַיְהִי</span>
+        <span class="word" data-info="Noun, 'morning'">בֹקֶר</span>
+        <span class="word" data-info="Ordinal phrase, 'fifth day'">יוֹם חֲמִישִׁי</span>
+      </p>
+      <p class="translit">
+        Vayehi erev vayehi voker, yom chamishi
+      </p>
+      <p class="translation" data-lang="en">
+        And there was evening, and there was morning — the fifth day.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Temporal formula concluding the day, with ordinal marker.
+      </div>
+    </div>
+
+    <!-- Genesis 1:24 -->
+    <div class="verse" id="gen1_24" data-audio="audio/gen1_24.mp3">
+      <h3>Genesis 1:24</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Jussive verb, 'let bring forth'">תּוֹצֵא</span>
+        <span class="word" data-info="Noun (fem.), 'earth'">הָאָרֶץ</span>
+        <span class="word" data-info="Noun phrase, 'living creature'">נֶפֶשׁ חַיָּה</span>
+        <span class="word" data-info="Preposition + kind (fem. sg.), 'according to its kind'">לְמִינָהּ</span>
+        <span class="word" data-info="Noun, 'livestock'">בְּהֵמָה</span>
+        <span class="word" data-info="Conjunction + noun, 'and creeping thing'">וָרֶמֶשׂ</span>
+        <span class="word" data-info="Conjunction + noun phrase, 'and wild animal of the earth'">וְחַיַּת הָאָרֶץ</span>
+        <span class="word" data-info="Preposition + kind, 'according to its kind'">לְמִינָהּ</span>
+      </p>
+      <p class="translit">
+        Totze haaretz nefesh chayah leminah, behemah va’remes vechayat haaretz leminah
+      </p>
+      <p class="translation" data-lang="en">
+        Let the earth bring forth living creatures according to their kinds: livestock, creeping things, and wild animals, each according to its kind.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Jussive + coordinated objects with distributive modifiers.
+      </div>
+    </div>
+
+    <!-- Genesis 1:25 -->
+    <div class="verse" id="gen1_25" data-audio="audio/gen1_25.mp3">
+      <h3>Genesis 1:25</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and made'">וַיַּעַשׂ</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object marker">אֶת</span>
+        <span class="word" data-info="Noun phrase, 'wild animals of the earth'">חַיַּת הָאָרֶץ</span>
+        <span class="word" data-info="Conj. + direct object marker">וְאֶת</span>
+        <span class="word" data-info="Noun, 'livestock'">הַבְּהֵמָה</span>
+        <span class="word" data-info="Conj. + direct object marker">וְאֵת</span>
+        <span class="word" data-info="Noun phrase, 'every creeping thing'">כָּל רֶמֶשׂ</span>
+        <span class="word" data-info="Preposition + kind, 'according to their kinds'">לְמִינֵהֶם</span>
+      </p>
+      <p class="translit">
+        Vaya’as Elohim et chayat haaretz, ve’et habehemah ve’et kol remes le’minehem
+      </p>
+      <p class="translation" data-lang="en">
+        And God made the wild animals of the earth, the livestock, and all creeping things, each according to their kinds.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Narrative perfect + coordinated object chain with distribution.
+      </div>
+    </div>
+    <!-- Genesis 1:26 -->
+    <div class="verse" id="gen1_26" data-audio="audio/gen1_26.mp3">
+      <h3>Genesis 1:26</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (3mp jussive), 'Let us make'">נַעֲשֶׂה</span>
+        <span class="word" data-info="Noun, 'man/human'">אָדָם</span>
+        <span class="word" data-info="Preposition + noun, 'in our image'">בְּצַלְמֵנוּ</span>
+        <span class="word" data-info="Conj. + preposition + noun, 'according to our likeness'">כִּדְמוּתֵנוּ</span>
+        <span class="word" data-info="Verb, 'and let them rule'">וְיִרְדוּ</span>
+        <span class="word" data-info="Preposition + noun, 'over the fish'">בִּדְגַת</span>
+        <span class="word" data-info="Noun, 'the sea'">הַיָּם</span>
+        <span class="word" data-info="Conj. + noun, 'and the birds'">וּבְעוֹף</span>
+        <span class="word" data-info="Conj. + noun, 'and the livestock'">וּבַבְּהֵמָה</span>
+        <span class="word" data-info="Conj. + noun phrase, 'and all the earth'">וּבְכָל-הָאָרֶץ</span>
+        <span class="word" data-info="Conj. + noun phrase, 'and every creeping thing'">וּבְכָל-רֶמֶשׂ</span>
+        <span class="word" data-info="Verb (participle), 'that creeps'">הָרֹמֵשׂ</span>
+        <span class="word" data-info="Preposition, 'upon the earth'">עַל-הָאָרֶץ</span>
+      </p>
+      <p class="translit">
+        Na’aseh adam b’tzalmenu kid’mutenu, veyirdu bidgat hayam uve’of uva’behemah uvechol ha’aretz uvechol remes haromes al ha’aretz
+      </p>
+      <p class="translation" data-lang="en">
+        Let us make man in our image, after our likeness; and let them rule over the fish of the sea and the birds of the sky and the livestock, and all the earth, and every creeping thing that creeps on the earth.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Volitional plural + object + double prepositional clause + coordinated governance verbs.
+      </div>
+    </div>
+
+    <!-- Genesis 1:27 -->
+    <div class="verse" id="gen1_27" data-audio="audio/gen1_27.mp3">
+      <h3>Genesis 1:27</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'So God created'">וַיִּבְרָא</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object marker + noun, 'the man'">אֶת הָאָדָם</span>
+        <span class="word" data-info="Preposition + noun, 'in His image'">בְּצַלְמוֹ</span>
+        <span class="word" data-info="Repetition, 'in the image of God'">בְּצֶלֶם אֱלֹהִים</span>
+        <span class="word" data-info="Verb (perfect, 3ms), 'He created him'">בָּרָא אֹתוֹ</span>
+        <span class="word" data-info="Noun pair, 'male and female'">זָכָר וּנְקֵבָה</span>
+        <span class="word" data-info="Verb (perfect, 3ms), 'He created them'">בָּרָא אוֹתָם</span>
+      </p>
+      <p class="translit">
+        Vayivra Elohim et ha’adam b’tzalmo, b’tzelem Elohim bara oto; zachar u’nekevah bara otam
+      </p>
+      <p class="translation" data-lang="en">
+        So God created man in His own image; in the image of God He created him; male and female He created them.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Triple repetition of perfect verb with variation of object and gender pair.
+      </div>
+    </div>
+
+    <!-- Genesis 1:28 -->
+    <div class="verse" id="gen1_28" data-audio="audio/gen1_28.mp3">
+      <h3>Genesis 1:28</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and blessed them'">וַיְבָרֶךְ</span>
+        <span class="word" data-info="Pronoun, 'them'">אֹתָם</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Verb (infinitive), 'saying'">וַיֹּאמֶר</span>
+        <span class="word" data-info="Imperatives: be fruitful and multiply">פְּרוּ וּרְבוּ</span>
+        <span class="word" data-info="Imperative, 'and fill'">וּמִלְאוּ</span>
+        <span class="word" data-info="Noun, 'the earth'">אֶת-הָאָרֶץ</span>
+        <span class="word" data-info="Conjunction + verb, 'and subdue it'">וְכִבְשֻׁהָ</span>
+        <span class="word" data-info="Verb (imperative), 'and rule'">וּרְדוּ</span>
+        <span class="word" data-info="Preposition, 'over the fish of the sea'">בִּדְגַת הַיָּם</span>
+        <span class="word" data-info="Conjunction + phrase, 'and the birds of the heavens'">וּבְעוֹף הַשָּׁמַיִם</span>
+        <span class="word" data-info="Conjunction + phrase, 'and over every living thing'">וּבְכָל חַיָּה</span>
+        <span class="word" data-info="Participle, 'that creeps'">הָרֹמֶשֶׂת</span>
+        <span class="word" data-info="Prepositional phrase, 'on the earth'">עַל-הָאָרֶץ</span>
+      </p>
+      <p class="translit">
+        Vayevarekh otam Elohim, vayomer: pru u’rvu, umil’u et haaretz vechivshuha, urdu bidgat hayam uve’of hashamayim uvechol chayah haromeset al haaretz
+      </p>
+      <p class="translation" data-lang="en">
+        And God blessed them, and God said to them: Be fruitful, and multiply, and fill the earth and subdue it; and have dominion over the fish of the sea, the birds of the heavens, and every living thing that moves on the earth.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Blessing with imperatives; coordinated prepositional phrases governing the scope of dominion.
+      </div>
+    </div>
+    <!-- Genesis 1:29 -->
+    <div class="verse" id="gen1_29" data-audio="audio/gen1_29.mp3">
+      <h3>Genesis 1:29</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'and God said'">וַיֹּאמֶר</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Particle, 'behold'">הִנֵּה</span>
+        <span class="word" data-info="Verb (perfect, 1cs), 'I have given'">נָתַתִּי</span>
+        <span class="word" data-info="Preposition + pronoun, 'to you (pl.)'">לָכֶם</span>
+        <span class="word" data-info="Direct object phrase, 'every herb yielding seed'">אֶת כָּל עֵשֶׂב זֹרֵעַ זֶרַע</span>
+        <span class="word" data-info="Relative clause, 'which is upon the face of all the earth'">אֲשֶׁר עַל-פְּנֵי כָּל-הָאָרֶץ</span>
+        <span class="word" data-info="Conj. + direct object, 'and every tree'">וְאֶת כָּל-עֵץ</span>
+        <span class="word" data-info="Relative clause, 'in which is the fruit of a tree yielding seed'">אֲשֶׁר-בוֹ פְּרִי-עֵץ זֹרֵעַ זֶרַע</span>
+        <span class="word" data-info="Benefactive phrase, 'it shall be to you for food'">לָכֶם יִהְיֶה לְאָכְלָה</span>
+      </p>
+      <p class="translit">
+        Vayomer Elohim: hinneh natatti lachem et kol esev zore’a zera asher al penei kol haaretz, ve’et kol etz asher bo peri etz zore’a zera — lachem yihyeh le’ochlah
+      </p>
+      <p class="translation" data-lang="en">
+        And God said: Behold, I have given you every herb bearing seed that is upon the face of all the earth, and every tree that has in it the fruit of a tree yielding seed — to you it shall be for food.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Declarative announcement with compound relative clauses and distributive scope.
+      </div>
+    </div>
+
+    <!-- Genesis 1:30 -->
+    <div class="verse" id="gen1_30" data-audio="audio/gen1_30.mp3">
+      <h3>Genesis 1:30</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Conj. + preposition, 'and to every beast'">וּלְכָל-חַיַּת</span>
+        <span class="word" data-info="Noun, 'the earth'">הָאָרֶץ</span>
+        <span class="word" data-info="Conj. + preposition, 'and to every bird'">וּלְכָל-עוֹף</span>
+        <span class="word" data-info="Definite article, 'of the heavens'">הַשָּׁמַיִם</span>
+        <span class="word" data-info="Conj. + preposition, 'and to all creeping things'">וּלְכֹל רוֹמֵשׂ</span>
+        <span class="word" data-info="Preposition, 'upon the earth'">עַל-הָאָרֶץ</span>
+        <span class="word" data-info="Relative clause, 'in which there is life'">אֲשֶׁר-בּוֹ נֶפֶשׁ חַיָּה</span>
+        <span class="word" data-info="Verb (perfect, 1cs), 'I have given'">נָתַתִּי</span>
+        <span class="word" data-info="Direct object, 'every green herb for food'">אֶת-כָּל-יֶרֶק עֵשֶׂב לְאָכְלָה</span>
+        <span class="word" data-info="Concluding phrase, 'and it was so'">וַיְהִי-כֵן</span>
+      </p>
+      <p class="translit">
+        Ul’chol chayat haaretz, ul’chol of hashamayim, ul’chol romes al haaretz asher bo nefesh chayah, natatti et kol yerek esev le’ochlah — vayhi khen
+      </p>
+      <p class="translation" data-lang="en">
+        And to every beast of the earth, and to every bird of the heavens, and to all that creeps on the earth in which there is life — I have given every green herb for food. And it was so.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Dative constructions with relative clause + declarative perfect + final affirmation.
+      </div>
+    </div>
+
+    <!-- Genesis 1:31 -->
+    <div class="verse" id="gen1_31" data-audio="audio/gen1_31.mp3">
+      <h3>Genesis 1:31</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'And God saw'">וַיַּרְא</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object phrase, 'all that He had made'">אֶת-כָּל-אֲשֶׁר עָשָׂה</span>
+        <span class="word" data-info="Conjunction + adjective, 'and behold, it was very good'">וְהִנֵּה-טוֹב מְאֹד</span>
+        <span class="word" data-info="Temporal formula, 'And there was evening and there was morning'">וַיְהִי-עֶרֶב וַיְהִי-בֹקֶר</span>
+        <span class="word" data-info="Ordinal phrase, 'the sixth day'">יוֹם הַשִּׁשִּׁי</span>
+      </p>
+      <p class="translit">
+        Vayar Elohim et kol asher asah, vehinneh tov me’od. Vayehi erev vayehi voker — yom hashishi
+      </p>
+      <p class="translation" data-lang="en">
+        And God saw all that He had made — and behold, it was very good. And there was evening, and there was morning — the sixth day.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Evaluative statement with demonstrative affirmation, closing with temporal day formula.
+      </div>
+    </div>
+    <!-- Genesis 2 -->
+    <h2 id="gen2">Genesis 2</h2>
+
+    <!-- Genesis 2:1 -->
+    <div class="verse" id="gen2_1" data-audio="audio/gen2_1.mp3">
+      <h3>Genesis 2:1</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Conjunction, 'and'">וַיְכֻלּוּ</span>
+        <span class="word" data-info="Noun, 'the heavens'">הַשָּׁמַיִם</span>
+        <span class="word" data-info="Conjunction + noun, 'and the earth'">וְהָאָרֶץ</span>
+        <span class="word" data-info="Conjunction + noun, 'and all their host'">וְכָל-צְבָאָם</span>
+      </p>
+      <p class="translit">
+        Vayechullu hashamayim vehaaretz vekhol tzeva’am
+      </p>
+      <p class="translation" data-lang="en">
+        Thus were completed the heavens and the earth, and all their array.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Passive verbal form + coordinated nouns expressing totality and finality.
+      </div>
+    </div>
+
+    <!-- Genesis 2:2 -->
+    <div class="verse" id="gen2_2" data-audio="audio/gen2_2.mp3">
+      <h3>Genesis 2:2</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Conjunction + verb (imperfect, 3ms), 'And He finished'">וַיְכַל</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Preposition + noun phrase, 'on the seventh day'">בַּיּוֹם הַשְּׁבִיעִי</span>
+        <span class="word" data-info="Direct object phrase, 'His work which He had done'">מְלַאכְתּוֹ אֲשֶׁר עָשָׂה</span>
+        <span class="word" data-info="Conjunction + verb (imperfect, 3ms), 'and He rested'">וַיִּשְׁבֹּת</span>
+        <span class="word" data-info="Prepositional phrase, 'on the seventh day'">בַּיּוֹם הַשְּׁבִיעִי</span>
+        <span class="word" data-info="Prepositional phrase, 'from all His work which He had done'">מִכָּל-מְלַאכְתּוֹ אֲשֶׁר עָשָׂה</span>
+      </p>
+      <p class="translit">
+        Vayekhal Elohim bayom hashevi’i melakhto asher asah, vayishbot bayom hashevi’i mikol melakhto asher asah
+      </p>
+      <p class="translation" data-lang="en">
+        And God finished on the seventh day His work which He had done, and He rested on the seventh day from all His work which He had done.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Sequential verbal clauses with temporal emphasis and symmetry; chiastic repetition reinforces Sabbath motif.
+      </div>
+    </div>
+
+    <!-- Genesis 2:3 -->
+    <div class="verse" id="gen2_3" data-audio="audio/gen2_3.mp3">
+      <h3>Genesis 2:3</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'And God blessed'">וַיְבָרֶךְ</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Direct object, 'the seventh day'">אֶת-יוֹם הַשְּׁבִיעִי</span>
+        <span class="word" data-info="Conjunction + verb (perfect, 3ms), 'and sanctified it'">וַיְקַדֵּשׁ אֹתוֹ</span>
+        <span class="word" data-info="Conjunction + prepositional phrase, 'for in it'">כִּי בוֹ</span>
+        <span class="word" data-info="Verb (perfect, 3ms), 'He rested'">שָׁבַת</span>
+        <span class="word" data-info="Prepositional phrase, 'from all His work which'">מִכָּל-מְלַאכְתּוֹ אֲשֶׁר</span>
+        <span class="word" data-info="Verb (perfect, 3ms), 'created'">בָּרָא</span>
+        <span class="word" data-info="Noun, 'God'">אֱלֹהִים</span>
+        <span class="word" data-info="Infinitive, 'to do'">לַעֲשׂוֹת</span>
+      </p>
+      <p class="translit">
+        Vayevarekh Elohim et yom hashevi’i vayekadesh oto, ki vo shavat mikol melakhto asher bara Elohim la’asot
+      </p>
+      <p class="translation" data-lang="en">
+        And God blessed the seventh day and sanctified it, because in it He rested from all His work which God created to do.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Blessing and sanctification formula with causal clause; final temporal reflection closing the Sabbath triad.
+      </div>
+    </div>
+    <!-- Genesis 2:4 -->
+    <div class="verse" id="gen2_4" data-audio="audio/gen2_4.mp3">
+      <h3>Genesis 2:4</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Noun, 'These are the generations'">אֵלֶּה תוֹלְדוֹת</span>
+        <span class="word" data-info="Noun phrase, 'the heavens and the earth'">הַשָּׁמַיִם וְהָאָרֶץ</span>
+        <span class="word" data-info="Relative clause, 'when they were created'">בְּהִבָּרְאָם</span>
+        <span class="word" data-info="Temporal clause, 'on the day that the Lord God made earth and heavens'">בְּיוֹם עֲשׂוֹת יְהוָה אֱלֹהִים אֶרֶץ וְשָׁמָיִם</span>
+      </p>
+      <p class="translit">
+        Elleh toledot hashamayim vehaaretz behibbare’am, beyom asot Adonai Elohim eretz v’shamayim
+      </p>
+      <p class="translation" data-lang="en">
+        These are the generations of the heavens and the earth when they were created, in the day that the Lord God made earth and heavens.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Superscription formula with relative clause and temporal phrase; literary hinge between accounts.
+      </div>
+    </div>
+
+    <!-- Genesis 2:5 -->
+    <div class="verse" id="gen2_5" data-audio="audio/gen2_5.mp3">
+      <h3>Genesis 2:5</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Conj. + negative clause, 'and no shrub of the field was yet on the earth'">וְכֹל שִׂיחַ הַשָּׂדֶה טֶרֶם יִהְיֶה בָאָרֶץ</span>
+        <span class="word" data-info="Conjunction + clause, 'and no herb of the field had sprung up'">וְכָל-עֵשֶׂב הַשָּׂדֶה טֶרֶם יִצְמָח</span>
+        <span class="word" data-info="Causal clause, 'for the Lord God had not caused it to rain'">כִּי לֹא הִמְטִיר יְהוָה אֱלֹהִים עַל-הָאָרֶץ</span>
+        <span class="word" data-info="Conjunction + clause, 'and there was no man to work the ground'">וְאָדָם אַיִן לַעֲבֹד אֶת-הָאֲדָמָה</span>
+      </p>
+      <p class="translit">
+        Vekhol siach hasadeh terem yihyeh vaaretz, vechol esev hasadeh terem yitzmach — ki lo himtir Adonai Elohim al haaretz, ve’adam ayin la’avod et ha’adamah
+      </p>
+      <p class="translation" data-lang="en">
+        And no shrub of the field was yet on the earth, and no herb of the field had yet sprung up — for the Lord God had not caused it to rain on the earth, and there was no man to work the ground.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Complex clause structure with twin temporal-negatives + causal clauses establishing context.
+      </div>
+    </div>
+
+    <!-- Genesis 2:6 -->
+    <div class="verse" id="gen2_6" data-audio="audio/gen2_6.mp3">
+      <h3>Genesis 2:6</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (imperfect, 3ms), 'but a mist used to rise'">וְאֵד יַעֲלֶה</span>
+        <span class="word" data-info="Preposition + noun, 'from the earth'">מִן-הָאָרֶץ</span>
+        <span class="word" data-info="Verb (imperfect, 3ms), 'and water the whole face of the ground'">וְהִשְׁקָה אֶת-כָּל-פְּנֵי הָאֲדָמָה</span>
+      </p>
+      <p class="translit">
+        Ve’ed ya’aleh min haaretz, vehishkah et kol penei ha’adamah
+      </p>
+      <p class="translation" data-lang="en">
+        But a mist used to rise from the earth and water the whole surface of the ground.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Contrasting narrative clause with habitual imperfects providing pre-human setting.
+      </div>
+    </div>
+    <!-- Genesis 2:7 -->
+    <div class="verse" id="gen2_7" data-audio="audio/gen2_7.mp3">
+      <h3>Genesis 2:7</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'And the Lord God formed'">וַיִּיצֶר יְהוָה אֱלֹהִים</span>
+        <span class="word" data-info="Direct object, 'the man'">אֶת-הָאָדָם</span>
+        <span class="word" data-info="Preposition phrase, 'from the dust of the ground'">עָפָר מִן-הָאֲדָמָה</span>
+        <span class="word" data-info="Conj. + verb (imperfect, 3ms), 'and breathed into his nostrils'">וַיִּפַּח בְּאַפָּיו</span>
+        <span class="word" data-info="Direct object, 'the breath of life'">נִשְׁמַת חַיִּים</span>
+        <span class="word" data-info="Conj. + verb (imperfect, 3ms), 'and the man became'">וַיְהִי הָאָדָם</span>
+        <span class="word" data-info="Predicate, 'a living soul'">לְנֶפֶשׁ חַיָּה</span>
+      </p>
+      <p class="translit">
+        Vayyitzer Adonai Elohim et ha’adam afar min ha’adamah; vayipach b’appav nishmat chayyim, vayehi ha’adam lenefesh chayyah
+      </p>
+      <p class="translation" data-lang="en">
+        Then the Lord God formed the man from the dust of the ground and breathed into his nostrils the breath of life; and the man became a living soul.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Dual action verbs with instrumental and result clauses; anthropological transition from matter to life.
+      </div>
+    </div>
+
+    <!-- Genesis 2:8 -->
+    <div class="verse" id="gen2_8" data-audio="audio/gen2_8.mp3">
+      <h3>Genesis 2:8</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (imperfect, 3ms), 'And the Lord God planted'">וַיִּטַּע יְהוָה אֱלֹהִים</span>
+        <span class="word" data-info="Direct object, 'a garden in Eden'">גַּן-בְּעֵדֶן</span>
+        <span class="word" data-info="Prepositional phrase, 'in the east'">מִקֶּדֶם</span>
+        <span class="word" data-info="Conj. + verb (perfect, 3ms), 'and He placed there'">וַיָּשֶׂם שָׁם</span>
+        <span class="word" data-info="Direct object, 'the man whom He had formed'">אֶת-הָאָדָם אֲשֶׁר יָצָר</span>
+      </p>
+      <p class="translit">
+        Vayyita Adonai Elohim gan be’Eden miqqedem, vayasem sham et ha’adam asher yatzar
+      </p>
+      <p class="translation" data-lang="en">
+        And the Lord God planted a garden in Eden, in the east; and there He placed the man whom He had formed.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Sequential narrative verbs with spatial direction and relative clause for identity.
+      </div>
+    </div>
+
+    <!-- Genesis 2:9 -->
+    <div class="verse" id="gen2_9" data-audio="audio/gen2_9.mp3">
+      <h3>Genesis 2:9</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'And the Lord God caused to grow'">וַיַּצְמַח יְהוָה אֱלֹהִים</span>
+        <span class="word" data-info="Prepositional phrase, 'from the ground'">מִן-הָאֲדָמָה</span>
+        <span class="word" data-info="Direct object, 'every tree that is pleasant to the sight and good for food'">כָּל-עֵץ נֶחְמָד לְמַרְאֶה וְטוֹב לְמַאֲכָל</span>
+        <span class="word" data-info="Appositional phrase, 'also the tree of life in the midst of the garden'">וְעֵץ הַחַיִּים בְּתוֹךְ הַגָּן</span>
+        <span class="word" data-info="Conj. + appositional phrase, 'and the tree of the knowledge of good and evil'">וְעֵץ הַדַּעַת טוֹב וָרָע</span>
+      </p>
+      <p class="translit">
+        Vayyatzmach Adonai Elohim min ha’adamah kol etz nechmad le’mar’eh vetov le’ma’akhal; ve’etz hachayyim betokh hagan, ve’etz hadda’at tov vara
+      </p>
+      <p class="translation" data-lang="en">
+        And the Lord God caused to grow from the ground every tree that is pleasant to the sight and good for food — and the tree of life in the midst of the garden, and the tree of the knowledge of good and evil.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Triple appositional phrase framing both general and specific flora; sets dramatic contrast.
+      </div>
+    </div>
+    <!-- Genesis 2:10 -->
+    <div class="verse" id="gen2_10" data-audio="audio/gen2_10.mp3">
+      <h3>Genesis 2:10</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (imperfect, 3ms), 'A river flowed out'">וְנָהָר יֹצֵא</span>
+        <span class="word" data-info="Preposition + proper noun, 'from Eden'">מֵעֵדֶן</span>
+        <span class="word" data-info="Infinitive phrase, 'to water the garden'">לְהַשְׁקוֹת אֶת-הַגָּן</span>
+        <span class="word" data-info="Conjunction + verb (imperf, 3ms), 'and from there it divided'">וּמִשָּׁם יִפָּרֵד</span>
+        <span class="word" data-info="Conjunction + verb (imperfect, 3mp), 'and became four heads'">וְהָיָה לְאַרְבָּעָה רָאשִׁים</span>
+      </p>
+      <p class="translit">
+        V’nahar yotze me’Eden lehashkot et hagan, u’misham yippared vehayah l’arba’ah rashim
+      </p>
+      <p class="translation" data-lang="en">
+        And a river flowed out of Eden to water the garden, and from there it divided and became four headwaters.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Purpose clause with sequential verb pair; narrative marks transition from enclosed garden to outward geography.
+      </div>
+    </div>
+
+    <!-- Genesis 2:11 -->
+    <div class="verse" id="gen2_11" data-audio="audio/gen2_11.mp3">
+      <h3>Genesis 2:11</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Phrase, 'The name of the first'">שֵׁם הָאֶחָד</span>
+        <span class="word" data-info="Proper noun, 'Pishon'">פִּישׁוֹן</span>
+        <span class="word" data-info="Relative clause, 'it encircles'">הוּא הַסֹּבֵב</span>
+        <span class="word" data-info="Definite phrase, 'all the land of Havilah'">אֵת כָּל-אֶרֶץ הַחֲוִילָה</span>
+        <span class="word" data-info="Relative clause, 'where there is gold'">אֲשֶׁר-שָׁם הַזָּהָב</span>
+      </p>
+      <p class="translit">
+        Shem ha’echad Pishon — hu ha’sovev et kol eretz ha’Chavilah asher sham hazahav
+      </p>
+      <p class="translation" data-lang="en">
+        The name of the first is Pishon; it is the one that encircles all the land of Havilah, where there is gold.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Nominal sentence with relative clauses identifying geography and value.
+      </div>
+    </div>
+
+    <!-- Genesis 2:12 -->
+    <div class="verse" id="gen2_12" data-audio="audio/gen2_12.mp3">
+      <h3>Genesis 2:12</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Conj. + adjective, 'and the gold of that land is good'">וּזְהַב הָאָרֶץ הַהִוא טוֹב</span>
+        <span class="word" data-info="Conjunction + noun, 'there is bdellium'">שָׁם הַבְּדֹלַח</span>
+        <span class="word" data-info="Conjunction + noun, 'and the onyx stone'">וְאֶבֶן הַשֹּׁהַם</span>
+      </p>
+      <p class="translit">
+        U’zehav ha’aretz hahi tov; sham ha’bdolach ve’even ha’shoham
+      </p>
+      <p class="translation" data-lang="en">
+        And the gold of that land is good; there is bdellium and the onyx stone.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Descriptive nominal clause with list of precious elements; underscores Eden’s abundance.
+      </div>
+    </div>
+    <!-- Genesis 2:13 -->
+    <div class="verse" id="gen2_13" data-audio="audio/gen2_13.mp3">
+      <h3>Genesis 2:13</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Phrase, 'And the name of the second river is Gihon'">וְשֵׁם-הַנָּהָר הַשֵּׁנִי גִּיחוֹן</span>
+        <span class="word" data-info="Relative clause, 'it encircles the whole land of Cush'">הוּא הַסֹּבֵב אֵת כָּל-אֶרֶץ כּוּשׁ</span>
+      </p>
+      <p class="translit">
+        Veshem hanahar hasheni Gichon — hu hasovev et kol eretz Kush
+      </p>
+      <p class="translation" data-lang="en">
+        And the name of the second river is Gihon; it is the one that encircles the whole land of Cush.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Appositive naming formula with relative clause describing territorial flow.
+      </div>
+    </div>
+
+    <!-- Genesis 2:14 -->
+    <div class="verse" id="gen2_14" data-audio="audio/gen2_14.mp3">
+      <h3>Genesis 2:14</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Phrase, 'And the name of the third river is Hiddekel'">וְשֵׁם הַנָּהָר הַשְּׁלִישִׁי חִדֶּקֶל</span>
+        <span class="word" data-info="Relative clause, 'it flows east of Assyria'">הוּא הַהֹלֵךְ קִדְמַת אַשּׁוּר</span>
+        <span class="word" data-info="Phrase, 'And the fourth river is Euphrates'">וְהַנָּהָר הָרְבִיעִי הוּא פְרָת</span>
+      </p>
+      <p class="translit">
+        Veshem hanahar hashlishi Chiddekel — hu ha’holekh kidmat Ashur; ve’hanahar harevi’i hu Perat
+      </p>
+      <p class="translation" data-lang="en">
+        And the name of the third river is Hiddekel; it flows east of Assyria. And the fourth river is the Euphrates.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Sequential identification with spatial orientation; compact geographic notation.
+      </div>
+    </div>
+
+    <!-- Genesis 2:15 -->
+    <div class="verse" id="gen2_15" data-audio="audio/gen2_15.mp3">
+      <h3>Genesis 2:15</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (imperfect, 3ms), 'And the Lord God took'">וַיִּקַּח יְהוָה אֱלֹהִים</span>
+        <span class="word" data-info="Direct object, 'the man'">אֶת-הָאָדָם</span>
+        <span class="word" data-info="Conjunction + verb, 'and placed him'">וַיַּנִּחֵהוּ</span>
+        <span class="word" data-info="Preposition + noun phrase, 'in the garden of Eden'">בְּגַן-עֵדֶן</span>
+        <span class="word" data-info="Infinitive pair, 'to work it and to guard it'">לְעָבְדָהּ וּלְשָׁמְרָהּ</span>
+      </p>
+      <p class="translit">
+        Vayikkach Adonai Elohim et ha’adam, vayyannihehu b’gan Eden le’ovdah uleshomrah
+      </p>
+      <p class="translation" data-lang="en">
+        And the Lord God took the man and placed him in the garden of Eden to work it and to keep it.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Narrative coordination with purpose infinitives; divine placement + human vocation.
+      </div>
+    </div>
+    <!-- Genesis 2:16 -->
+    <div class="verse" id="gen2_16" data-audio="audio/gen2_16.mp3">
+      <h3>Genesis 2:16</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (imperfect, 3ms), 'And the Lord God commanded'">וַיְצַו יְהוָה אֱלֹהִים</span>
+        <span class="word" data-info="Direct object, 'the man'">עַל-הָאָדָם</span>
+        <span class="word" data-info="Infinitive, 'saying'">לֵאמֹר</span>
+        <span class="word" data-info="Infinitive absolute + imperfect: 'From every tree you may freely eat'">מִכֹּל עֵץ הַגָּן אָכֹל תֹּאכֵל</span>
+      </p>
+      <p class="translit">
+        Vayetzav Adonai Elohim al ha’adam lemor: mikol etz hagan akhol to’khel
+      </p>
+      <p class="translation" data-lang="en">
+        And the Lord God commanded the man, saying: “From every tree of the garden you may surely eat.”
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Imperfect direct speech with infinitive absolute for emphasis; divine permission formula.
+      </div>
+    </div>
+
+    <!-- Genesis 2:17 -->
+    <div class="verse" id="gen2_17" data-audio="audio/gen2_17.mp3">
+      <h3>Genesis 2:17</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Conjunction + negative + direct object: 'but from the tree of the knowledge'">וּמֵעֵץ הַדַּעַת</span>
+        <span class="word" data-info="Noun phrase: 'of good and evil'">טוֹב וָרָע</span>
+        <span class="word" data-info="Verb (imperfect), 'you shall not eat from it'">לֹא תֹאכַל מִמֶּנּוּ</span>
+        <span class="word" data-info="Conjunction + clause, 'for in the day you eat from it'">כִּי בְּיוֹם אֲכָלְךָ מִמֶּנּוּ</span>
+        <span class="word" data-info="Infinitive absolute + imperfect: 'you shall surely die'">מוֹת תָּמוּת</span>
+      </p>
+      <p class="translit">
+        Ume’etz hadda’at tov vara lo to’khal mimennu — ki v’yom akholkha mimennu mot tamut
+      </p>
+      <p class="translation" data-lang="en">
+        But from the tree of the knowledge of good and evil you shall not eat — for in the day that you eat from it, you shall surely die.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Prohibition with infinitive absolute for emphasis; conditional consequence with temporal marker.
+      </div>
+    </div>
+    <!-- Genesis 2:18 -->
+    <div class="verse" id="gen2_18" data-audio="audio/gen2_18.mp3">
+      <h3>Genesis 2:18</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (imperfect, 3ms), 'And the Lord God said'">וַיֹּאמֶר יְהוָה אֱלֹהִים</span>
+        <span class="word" data-info="Negative clause, 'It is not good'">לֹא-טוֹב</span>
+        <span class="word" data-info="Infinitive + preposition, 'for the man to be alone'">הֱיוֹת הָאָדָם לְבַדּוֹ</span>
+        <span class="word" data-info="Verb (imperfect, 1cs), 'I will make for him'">אֶעֱשֶׂה-לוֹ</span>
+        <span class="word" data-info="Noun phrase, 'a helper suitable for him'">עֵזֶר כְּנֶגְדּוֹ</span>
+      </p>
+      <p class="translit">
+        Vayomer Adonai Elohim: lo-tov heyot ha’adam levado; e’eseh-lo ezer kenegdo
+      </p>
+      <p class="translation" data-lang="en">
+        And the Lord God said, “It is not good for the man to be alone; I will make him a helper corresponding to him.”
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Divine soliloquy with evaluative clause and purpose-infinitive followed by volitional future.
+      </div>
+    </div>
+
+    <!-- Genesis 2:19 -->
+    <div class="verse" id="gen2_19" data-audio="audio/gen2_19.mp3">
+      <h3>Genesis 2:19</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'And the Lord God formed'">וַיִּצֶר יְהוָה אֱלֹהִים</span>
+        <span class="word" data-info="Prepositional phrase, 'from the ground'">מִן הָאֲדָמָה</span>
+        <span class="word" data-info="Direct object phrase, 'every beast of the field and every bird of the heavens'">כָּל-חַיַּת הַשָּׂדֶה וְאֵת כָּל-עוֹף הַשָּׁמַיִם</span>
+        <span class="word" data-info="Verb (imperfect, 3ms), 'and brought them'">וַיָּבֵא</span>
+        <span class="word" data-info="Preposition + noun, 'to the man'">אֶל-הָאָדָם</span>
+        <span class="word" data-info="Infinitive construct, 'to see what he would call them'">לִרְאוֹת מַה-יִּקְרָא-לוֹ</span>
+        <span class="word" data-info="Clause, 'and whatever the man called it'">וְכֹל אֲשֶׁר-יִקְרָא-לוֹ</span>
+        <span class="word" data-info="Appositive, 'living soul, that was its name'">נֶפֶשׁ חַיָּה הוּא שְׁמוֹ</span>
+      </p>
+      <p class="translit">
+        Vayyitzer Adonai Elohim min ha’adamah kol chayat hasadeh ve’et kol of hashamayim, vayave oto el ha’adam lirot mah yikra-lo; vekhol asher yikra-lo nefesh chayyah — hu shmo
+      </p>
+      <p class="translation" data-lang="en">
+        And the Lord God formed from the ground every beast of the field and every bird of the heavens, and brought them to the man to see what he would call them; and whatever the man called a living creature, that was its name.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Purpose and result clauses nested in narrative; emphasis on human naming as authoritative act.
+      </div>
+    </div>
+
+    <!-- Genesis 2:20 -->
+    <div class="verse" id="gen2_20" data-audio="audio/gen2_20.mp3">
+      <h3>Genesis 2:20</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'And the man gave names'">וַיִּקְרָא הָאָדָם שֵׁמוֹת</span>
+        <span class="word" data-info="Prepositional phrase, 'to all the livestock and the birds of the heavens and every beast of the field'">לְכָל-הַבְּהֵמָה וּלְעוֹף הַשָּׁמַיִם וּלְכֹל חַיַּת הַשָּׂדֶה</span>
+        <span class="word" data-info="Conj. + negative clause, 'but for Adam there was not found a helper corresponding to him'">וּלְאָדָם לֹא-נִמְצָא עֵזֶר כְּנֶגְדּוֹ</span>
+      </p>
+      <p class="translit">
+        Vayikra ha’adam shemot lechol habehemah, u’le’of hashamayim, u’le’chol chayat hasadeh; u’le’adam lo nimtza ezer kenegdo
+      </p>
+      <p class="translation" data-lang="en">
+        And the man gave names to all the livestock and to the birds of the heavens and to every beast of the field; but for the man there was not found a helper suitable for him.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Coordinated indirect objects and adversative clause; narrative tension established through absence.
+      </div>
+    </div>
+    <!-- Genesis 2:21 -->
+    <div class="verse" id="gen2_21" data-audio="audio/gen2_21.mp3">
+      <h3>Genesis 2:21</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (imperfect, 3ms), 'And the Lord God caused to fall'">וַיַּפֵּל יְהוָה אֱלֹהִים</span>
+        <span class="word" data-info="Direct object, 'a deep sleep upon the man'">תַּרְדֵּמָה עַל-הָאָדָם</span>
+        <span class="word" data-info="Conjunction + verb, 'and he slept'">וַיִּישָׁן</span>
+        <span class="word" data-info="Conjunction + verb, 'and He took'">וַיִּקַּח</span>
+        <span class="word" data-info="Direct object, 'one of his ribs'">אַחַת מִצַּלְעֹתָיו</span>
+        <span class="word" data-info="Conj. + verb, 'and He closed up'">וַיִּסְגֹּר</span>
+        <span class="word" data-info="Object, 'flesh in its place'">בָּשָׂר תַּחְתֶּנָּה</span>
+      </p>
+      <p class="translit">
+        Vayyapel Adonai Elohim tardemah al ha’adam vayishan, vayikkach achat mitzaltotav vayyisgor basar tah'tenah
+      </p>
+      <p class="translation" data-lang="en">
+        And the Lord God caused a deep sleep to fall upon the man, and he slept; and He took one of his ribs and closed up the flesh in its place.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Sequential verbs marking divine surgical act; circumstantial narrative structure with compound object.
+      </div>
+    </div>
+
+    <!-- Genesis 2:22 -->
+    <div class="verse" id="gen2_22" data-audio="audio/gen2_22.mp3">
+      <h3>Genesis 2:22</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (perfect, 3ms), 'And the rib... He built'">וַיִּבֶן יְהוָה אֱלֹהִים אֶת-הַצֵּלָע</span>
+        <span class="word" data-info="Relative clause, 'which He had taken from the man'">אֲשֶׁר-לָקַח מִן-הָאָדָם</span>
+        <span class="word" data-info="Verb, 'into a woman'">לְאִשָּׁה</span>
+        <span class="word" data-info="Conj. + verb, 'and brought her to the man'">וַיְבִאֶהָ אֶל-הָאָדָם</span>
+      </p>
+      <p class="translit">
+        Vayyiven Adonai Elohim et hatzela asher lakach min ha’adam le’ishah, vayevieha el ha’adam
+      </p>
+      <p class="translation" data-lang="en">
+        And the Lord God built the rib that He had taken from the man into a woman, and He brought her to the man.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Construct clause with object-relativizer; movement from divine shaping to relational presentation.
+      </div>
+    </div>
+
+    <!-- Genesis 2:23 -->
+    <div class="verse" id="gen2_23" data-audio="audio/gen2_23.mp3">
+      <h3>Genesis 2:23</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Verb (imperfect, 3ms), 'And the man said'">וַיֹּאמֶר הָאָדָם</span>
+        <span class="word" data-info="Demonstrative, 'this time'">זֹאת הַפַּעַם</span>
+        <span class="word" data-info="Predicate phrase, 'bone of my bones, flesh of my flesh'">עֶצֶם מֵעֲצָמַי וּבָשָׂר מִבְּשָׂרִי</span>
+        <span class="word" data-info="Verb (imperfect), 'she shall be called Woman'">לְזֹאת יִקָּרֵא אִשָּׁה</span>
+        <span class="word" data-info="Relative clause, 'for from man she was taken'">כִּי מֵאִישׁ לֻקְחָה-זֹּאת</span>
+      </p>
+      <p class="translit">
+        Vayomer ha’adam: zot hapa’am, etzem me’atzamai uvasar mib’sari; le’zot yikarei ishah, ki me’ish luk’chah zot
+      </p>
+      <p class="translation" data-lang="en">
+        And the man said, “This time, she is bone of my bones and flesh of my flesh. She shall be called Woman, because from man she was taken.”
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Poetic exclamation with parallel construct phrases and causal clause; initiates gendered naming in Hebrew.
+      </div>
+    </div>
+    <!-- Genesis 2:24 -->
+    <div class="verse" id="gen2_24" data-audio="audio/gen2_24.mp3">
+      <h3>Genesis 2:24</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Conjunction, 'Therefore'">עַל-כֵּן</span>
+        <span class="word" data-info="Verb (imperfect, 3ms), 'shall leave'">יַעֲזָב</span>
+        <span class="word" data-info="Noun, 'a man'">אִישׁ</span>
+        <span class="word" data-info="Direct object phrase, 'his father and his mother'">אֶת-אָבִיו וְאֶת-אִמּוֹ</span>
+        <span class="word" data-info="Conjunction + verb, 'and shall cling'">וְדָבַק</span>
+        <span class="word" data-info="Preposition + noun, 'to his wife'">בְּאִשְׁתּוֹ</span>
+        <span class="word" data-info="Conjunction + verb phrase, 'and they shall become one flesh'">וְהָיוּ לְבָשָׂר אֶחָד</span>
+      </p>
+      <p class="translit">
+        Al-ken ya’azov ish et aviv ve’et imo, vedavak be’ishto vehayu le’vasar echad
+      </p>
+      <p class="translation" data-lang="en">
+        Therefore a man shall leave his father and his mother, and cling to his wife, and they shall become one flesh.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Causal inference clause with future verbs and coordinated predicates; foundational marriage formula.
+      </div>
+    </div>
+
+    <!-- Genesis 2:25 -->
+    <div class="verse" id="gen2_25" data-audio="audio/gen2_25.mp3">
+      <h3>Genesis 2:25</h3>
+      <p class="hebrew">
+        <span class="word" data-info="Conjunction, 'and'">וַיִּהְיוּ</span>
+        <span class="word" data-info="Subject phrase, 'the man and his wife'">שְׁנֵיהֶם עָרוּמִים</span>
+        <span class="word" data-info="Conj. + negative phrase, 'and they were not ashamed'">וְלֹא יִתְבֹּשָׁשׁוּ</span>
+      </p>
+      <p class="translit">
+        Vayyihyu sheneihem arumim, velo yitboshashu
+      </p>
+      <p class="translation" data-lang="en">
+        And the man and his wife were both naked, and they were not ashamed.
+      </p>
+      <div class="syntax">
+        🧠 <strong>Syntax:</strong> Coordinated nominal subject with negated emotion verb; prelapsarian intimacy and innocence.
+      </div>
+    </div>
+  </div> <!-- End of content -->
+  <div id="interface-bar" style="text-align:right; padding: 0.5em 1em; display: flex; justify-content: flex-end; gap: 2em; align-items: center; font-size: 0.95em;">
+  <label style="white-space: nowrap;">
+    <input type="checkbox" id="toggle-list-mode" />
+    📄 Morphology list
+  </label>
+
+  <label for="language-select" style="white-space: nowrap;">
+    🌐 Interface:
+    <select id="language-select">
+      <option value="en" selected>English</option>
+      <option value="he">עברית</option>
+      <option value="la">Latin</option>
+      <option value="grc">Ancient Greek</option>
+    </select>
+  </label>
+</div>
+
+
+   <script>
+window.onload = function() {
+  const listModeToggle = document.getElementById('toggle-list-mode');
+  const languageSelect = document.getElementById('language-select');
+
+  // Restore saved interface language
+  const savedLang = localStorage.getItem('interfaceLang');
+  if (savedLang) {
+    languageSelect.value = savedLang;
+  }
+
+  // Save language selection on change
+  languageSelect.addEventListener('change', () => {
+    localStorage.setItem('interfaceLang', languageSelect.value);
+    // Future: updateMorphologyLanguage(languageSelect.value);
+  });
+
+  // Restore saved morphology mode
+  const savedMode = localStorage.getItem('morphMode');
+  if (savedMode === 'list') {
+    listModeToggle.checked = true;
+  }
+
+  // Update display mode: tooltip or list
+  function updateMorphologyDisplay() {
+    const inListMode = listModeToggle.checked;
+    document.querySelectorAll('.verse').forEach(verse => {
+      verse.querySelectorAll('.tooltip-list').forEach(list => {
+        list.style.display = inListMode ? 'block' : 'none';
+      });
+      verse.querySelectorAll('.word').forEach(word => {
+        word.style.cursor = inListMode ? 'default' : 'pointer';
+      });
+    });
+  }
+
+  // Save mode toggle and apply change
+  listModeToggle.addEventListener('change', () => {
+    localStorage.setItem('morphMode', listModeToggle.checked ? 'list' : 'tooltip');
+    updateMorphologyDisplay();
+  });
+
+  // Tooltip behavior when in popup mode
+  document.querySelectorAll('.word').forEach(word => {
+    word.addEventListener('click', () => {
+      if (!listModeToggle.checked) {
+  const infoBar = document.getElementById('info-bar');
+  infoBar.textContent = word.getAttribute('data-info');
+  infoBar.style.display = 'block';
+
+  clearTimeout(infoBar._hideTimer);
+  infoBar._hideTimer = setTimeout(() => {
+    infoBar.style.display = 'none';
+  }, 3500);
+}
+
+    });
+  });
+
+  // Setup audio playback and build morphology list for each verse
+  document.querySelectorAll('.verse').forEach(verse => {
+    // Handle audio playback on verse click
+    verse.addEventListener('click', () => {
+      const audioSrc = verse.getAttribute('data-audio');
+      if (audioSrc) {
+        new Audio(audioSrc).play();
+      }
+    });
+
+    // Build morphology list block
+    const words = verse.querySelectorAll('.word');
+    const ul = document.createElement('ul');
+    ul.className = 'tooltip-list';
+    ul.style.display = 'none';
+    ul.style.marginTop = '0.5em';
+    ul.style.paddingLeft = '1em';
+    ul.style.fontSize = '0.9em';
+    ul.style.lineHeight = '1.4';
+
+    words.forEach(word => {
+      const info = word.getAttribute('data-info');
+      const text = word.textContent;
+      const li = document.createElement('li');
+      li.textContent = `${text}: ${info}`;
+      ul.appendChild(li);
+    });
+
+    verse.appendChild(ul);
+  });
+
+  // Initial UI state
+  updateMorphologyDisplay();
+};
+</script>
+<div id="info-bar" style="display: none; position: fixed; bottom: 0; left: 0; width: 100%; background: #f4f4f4; color: #000; padding: 0.6em 1em; border-top: 1px solid #ccc; font-size: 0.9em; font-family: 'Assistant', sans-serif; z-index: 1000;"></div>
+
+
+</body>
+</html>
+
