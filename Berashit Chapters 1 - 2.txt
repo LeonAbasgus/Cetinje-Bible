@@ -1,0 +1,5675 @@
+
+
+Chapter 1
+
+Verse 1
+
+Original
+בְּרֵאשִׁית בָּרָא אֱלֹהִים; אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ
+
+Transliteration
+
+b'reishit bara Elohim; et hashamayim v'et haaretz
+
+Translation
+In the beginning, God created the heavens and the earth.
+
+Morphological Analysis
+
+בְּרֵאשִׁית
+Lemma: רֵאשִׁית
+Part of Speech: Noun, feminine singular, construct state.
+Translation: in beginning
+Analysis: Temporal noun. In construct relationship with the following verb "bara."
+
+בָּרָא
+Lemma: בָּרָא
+Part of Speech: Verb, perfect, 3rd person singular, qal.
+Translation: created
+Analysis: Qal verb, transitive, singular subject (God).
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: Plural form used with singular verb, indicating the majestic or singular use of the divine name.
+
+אֵת
+Lemma: אֵת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: Indicates direct object of the following words.
+
+הַשָּׁמַיִם
+Lemma: שָׁמַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the heavens
+Analysis: Plural noun, marking the celestial bodies or sky.
+
+וְאֵת
+Lemma: וְאֵת
+Part of Speech: Conjunction + direct object marker.
+Translation: and
+Analysis: Coordinating conjunction followed by the direct object marker.
+
+הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: the earth
+Analysis: Refers to the physical land or planet.
+
+Syntactic Overview
+The verse has a basic VSO (Verb-Subject-Object) structure. The clause "In the beginning, God created the heavens and the earth" serves as the opening statement, establishing the universe's creation. The verb "bara" (created) is used with the plural noun "Elohim" to refer to God in the singular. The conjunction "and" links the two direct objects, "the heavens" and "the earth," showing the totality of creation.
+
+Verse 2
+
+Original
+וְהָאָרֶץ, הָיְתָה תֹהוּ וָבֹהוּ, וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם; וְרוּחַ אֱלֹהִים, מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם
+
+Transliteration
+
+v'haaretz, hayetah tohu vavohu, v'choshech al-penei tehom; v'ruach Elohim, merachefet al-penei hamayim
+
+Translation
+And the earth was without form and void, and darkness was upon the face of the deep; and the spirit of God moved upon the face of the waters.
+
+Morphological Analysis
+
+וְהָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: and the earth
+Analysis: Subject of the sentence, linking with the verb "hayetah."
+
+הָיְתָה
+Lemma: הָיָה
+Part of Speech: Verb, imperfect, 3rd person singular, qal.
+Translation: was
+Analysis: In the imperfect, functioning as a copula in the past tense.
+
+תֹהוּ
+Lemma: תֹהוּ
+Part of Speech: Noun, masculine singular.
+Translation: without form
+Analysis: Noun that describes the state of chaos or void.
+
+וָבֹהוּ
+Lemma: בֹהוּ
+Part of Speech: Noun, masculine singular.
+Translation: and void
+Analysis: Noun in a construct state with the preceding "tohu" to intensify the sense of desolation.
+
+וְחֹשֶׁךְ
+Lemma: חֹשֶׁךְ
+Part of Speech: Noun, masculine singular.
+Translation: and darkness
+Analysis: Represents the absence of light.
+
+עַל־פְּנֵי
+Lemma: פְּנֵי
+Part of Speech: Noun, masculine plural.
+Translation: upon the face of
+Analysis: Describes the surface or face of something, here used metaphorically for the "deep."
+
+תְהוֹם
+Lemma: תְהוֹם
+Part of Speech: Noun, masculine singular.
+Translation: the deep
+Analysis: Represents the primeval ocean or abyss.
+
+וְרוּחַ
+Lemma: רוּחַ
+Part of Speech: Noun, feminine singular.
+Translation: and the spirit
+Analysis: Can refer to breath, wind, or spirit, here referring to the divine presence.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: of God
+Analysis: Plural form used with singular context, indicating majesty.
+
+מְרַחֶפֶת
+Lemma: רָחַף
+Part of Speech: Verb, participle, feminine singular, piel.
+Translation: moved
+Analysis: Describes the divine activity, here in the piel form, indicating an intensive or continuous action.
+
+עַל־פְּנֵי
+Lemma: פְּנֵי
+Part of Speech: Noun, masculine plural.
+Translation: upon the face of
+Analysis: Prepositional phrase describing the surface or face of the waters.
+
+הַמָּיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the waters
+Analysis: Refers to the primordial waters over which the Spirit of God moves.
+
+Syntactic Overview
+The sentence is a description of the chaotic state of the earth, characterized by a VSO (Verb-Subject-Object) structure. "Hayetah" (was) connects the subject "the earth" to its state of being, followed by two nouns describing the condition—"tohu" and "vohu" (without form and void). Darkness and the abyss are also described with prepositional phrases "al-penei" (upon the face). The verse then shifts to the action of the Spirit of God, who "moves" (merachefet) upon the waters, signifying the divine presence in the chaotic state.
+
+
+Verse 3
+
+Original
+וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר; וַיְהִי־אוֹר
+
+Transliteration
+
+vayomer Elohim yehi or; vayehi-or
+
+Translation
+And God said, "Let there be light"; and there was light.
+
+Morphological Analysis
+
+וַיֹּאמֶר
+Lemma: אמר
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and said
+Analysis: The verb in the past tense, used to introduce the divine command. Waw-consecutive marks narrative continuation.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: A plural form, used here as a singular subject, indicating divine majesty.
+
+יְהִי
+Lemma: היה
+Part of Speech: Verb, imperfect, 3rd person singular, jussive.
+Translation: let there be
+Analysis: A jussive verb expressing a command, meaning "let there be."
+
+אוֹר
+Lemma: אוֹר
+Part of Speech: Noun, masculine singular.
+Translation: light
+Analysis: Refers to the creation of physical or symbolic light.
+
+וַיְהִי
+Lemma: היה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and there was
+Analysis: The verb used in narrative to mark the realization of the divine command.
+
+אוֹר
+Lemma: אוֹר
+Part of Speech: Noun, masculine singular.
+Translation: light
+Analysis: Repetition of the earlier noun "light," marking the fulfillment of the command.
+
+Syntactic Overview
+The verse follows a typical VSO structure. The subject "God" (Elohim) issues a command ("let there be light") using the imperfect jussive form "yehi." The immediate result of the command is expressed with the perfect verb "vayehi" ("and there was"), marking the fulfillment of God's spoken word. The repetition of the noun "light" emphasizes its creation as the central act.
+
+Verse 4
+
+Original
+וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב; וַיַּבְדֵּל אֱלֹהִים, בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ
+
+Transliteration
+
+vayare Elohim et-haor ki-tov; vayavdel Elohim, bein haor uvein hachoshech
+
+Translation
+And God saw that the light was good; and God divided the light from the darkness.
+
+Morphological Analysis
+
+וַיַּרְא
+Lemma: רָאָה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and saw
+Analysis: The verb "saw" denotes God's observation of the created light.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: Refers to the singular deity using the plural form.
+
+אֶת
+Lemma: אֶת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: The object marker signaling the direct object.
+
+הָאוֹר
+Lemma: אוֹר
+Part of Speech: Noun, masculine singular.
+Translation: the light
+Analysis: Refers to the created light.
+
+כִּי
+Lemma: כִּי
+Part of Speech: Conjunction.
+Translation: that
+Analysis: Used to introduce a causal clause explaining the reason.
+
+טוֹב
+Lemma: טוֹב
+Part of Speech: Adjective.
+Translation: good
+Analysis: Describes the nature of the light, indicating its quality.
+
+וַיַּבְדֵּל
+Lemma: בָּדַל
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and divided
+Analysis: Denotes the act of separation or distinction.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+בֵּין
+Lemma: בֵּין
+Part of Speech: Preposition.
+Translation: between
+Analysis: Marks the division or separation of two things.
+
+הָאוֹר
+Lemma: אוֹר
+Part of Speech: Noun, masculine singular.
+Translation: the light
+Analysis: Repeated, marking the object of the division.
+
+וּבֵין
+Lemma: בֵּין
+Part of Speech: Preposition.
+Translation: and between
+Analysis: Continues the marking of separation.
+
+הַחֹשֶׁךְ
+Lemma: חֹשֶׁךְ
+Part of Speech: Noun, masculine singular.
+Translation: the darkness
+Analysis: The second object in the division.
+
+Syntactic Overview
+This verse continues the VSO pattern. After the divine observation ("saw that the light was good"), God performs an action—"dividing" the light from the darkness. The sentence is balanced with parallel prepositional phrases marking the division. The use of "ki-tov" links the goodness of the light with the divine action of separation.
+
+Verse 5
+
+Original
+וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם, וְלַחֹשֶׁךְ קָרָא לָיְלָה; וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם אֶחָד
+
+Transliteration
+
+vayikra Elohim laor yom, velachoshech kara laylah; vayehi-erev vayehi-boker yom echad
+
+Translation
+And God called the light Day, and the darkness He called Night. And there was evening, and there was morning, one day.
+
+Morphological Analysis
+
+וַיִּקְרָא
+Lemma: קָרָא
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and called
+Analysis: God's act of naming the light and the darkness.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject of the action, plural form used for the singular God.
+
+לָאוֹר
+Lemma: אוֹר
+Part of Speech: Noun, masculine singular.
+Translation: the light
+Analysis: The first object being named "Day."
+
+יוֹם
+Lemma: יוֹם
+Part of Speech: Noun, masculine singular.
+Translation: Day
+Analysis: The light is named "Day."
+
+וְלַחֹשֶׁךְ
+Lemma: חֹשֶׁךְ
+Part of Speech: Noun, masculine singular.
+Translation: and the darkness
+Analysis: The second object being named "Night."
+
+קָרָא
+Lemma: קָרָא
+Part of Speech: Verb, perfect, 3rd person singular, qal.
+Translation: He called
+Analysis: The same verb repeated for the second naming act.
+
+לָיְלָה
+Lemma: לַיְלָה
+Part of Speech: Noun, masculine singular.
+Translation: Night
+Analysis: The darkness is named "Night."
+
+וַיְהִי־עֶרֶב
+Lemma: ערב
+Part of Speech: Noun, masculine singular.
+Translation: and there was evening
+Analysis: Marks the beginning of the cycle.
+
+וַיְהִי־בֹקֶר
+Lemma: בֹּקֶר
+Part of Speech: Noun, masculine singular.
+Translation: and there was morning
+Analysis: Marks the completion of the cycle.
+
+יוֹם
+Lemma: יוֹם
+Part of Speech: Noun, masculine singular.
+Translation: day
+Analysis: A reference to the completed unit of time.
+
+אֶחָד
+Lemma: אֶחָד
+Part of Speech: Adjective.
+Translation: one
+Analysis: Refers to the first day.
+
+Syntactic Overview
+This verse presents the naming of the two opposing elements—light and darkness. The sentence structure is parallel, with two "calls" by God. The final phrase introduces the time cycle, marking the first day with the evening and morning formula. The use of "echad" (one) emphasizes the completion of the first day.
+
+
+Verse 6
+
+Original
+וַיֹּאמֶר אֱלֹהִים, יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם; וִיהִי מַבְדִּיל, בֵּין מַיִם לָמָיִם
+
+Transliteration
+
+vayomer Elohim, yehi raki'a betoch hamayim; vihi mavdil, bein mayim lamayim
+
+Translation
+And God said, "Let there be a firmament in the midst of the waters, and let it divide the waters from the waters."
+
+Morphological Analysis
+
+וַיֹּאמֶר
+Lemma: אמר
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and said
+Analysis: Introduces the divine command, continuing the narrative.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject of the divine action.
+
+יְהִי
+Lemma: היה
+Part of Speech: Verb, imperfect, 3rd person singular, jussive.
+Translation: let there be
+Analysis: The jussive verb expressing a command.
+
+רָקִיעַ
+Lemma: רָקִיעַ
+Part of Speech: Noun, masculine singular.
+Translation: firmament
+Analysis: The creation of the sky or firmament as a dividing element.
+
+בְּתוֹךְ
+Lemma: בְּתוֹךְ
+Part of Speech: Preposition.
+Translation: in the midst of
+Analysis: Indicates the spatial position of the firmament relative to the waters.
+
+הַמָּיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the waters
+Analysis: Refers to the primordial waters.
+
+וִיהִי
+Lemma: היה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and let it be
+Analysis: The realization of the divine command, forming the second part of the verb phrase.
+
+מַבְדִּיל
+Lemma: בָּדַל
+Part of Speech: Verb, participle, masculine singular, piel.
+Translation: dividing
+Analysis: Describes the action of dividing the waters.
+
+בֵּין
+Lemma: בֵּין
+Part of Speech: Preposition.
+Translation: between
+Analysis: Introduces the division between two objects.
+
+מַיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: waters
+Analysis: The first group of waters in the division.
+
+לָמָיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: waters
+Analysis: The second group of waters, marked by the preposition "to."
+
+Syntactic Overview
+The verse follows a VSO pattern. The divine command is given with "yehi" ("let there be"), followed by a description of the firmament and its action of division. The verse uses a parallel construction to show the separation of two types of waters. The participle "mavdil" emphasizes the action of dividing, which is executed by the firmament.
+
+Verse 7
+
+Original
+וַיַּעַשׂ אֱלֹהִים אֶת־הָרָקִיעַ, וַיַּבְדֵּל, בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ, וּבֵין הַמַּיִם, אֲשֶׁר מֵעַל לָרָקִיעַ; וַיְהִי־כֵן
+
+Transliteration
+
+vayase Elohim et-haraki'a, vayavdel, bein hamayim asher mitachat laraki'a, uvein hamayim, asher me'al laraki'a; vayehi-ken
+
+Translation
+And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament; and it was so.
+
+Morphological Analysis
+
+וַיַּעַשׂ
+Lemma: עָשָׂה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and made
+Analysis: The creation of the firmament, marked by the verb "made."
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject of the creation.
+
+אֶת־הָרָקִיעַ
+Lemma: רָקִיעַ
+Part of Speech: Noun, masculine singular.
+Translation: the firmament
+Analysis: The object created by God.
+
+וַיַּבְדֵּל
+Lemma: בָּדַל
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and divided
+Analysis: The action of separating the waters.
+
+בֵּין
+Lemma: בֵּין
+Part of Speech: Preposition.
+Translation: between
+Analysis: Introduces the division of the waters.
+
+הַמַּיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the waters
+Analysis: The waters below the firmament.
+
+אֲשֶׁר
+Lemma: אֲשֶׁר
+Part of Speech: Relative pronoun.
+Translation: which
+Analysis: Introduces a relative clause describing the waters.
+
+מִתַּחַת
+Lemma: תַּחַת
+Part of Speech: Preposition.
+Translation: under
+Analysis: Indicates the position of the waters below the firmament.
+
+לָרָקִיעַ
+Lemma: רָקִיעַ
+Part of Speech: Noun, masculine singular.
+Translation: the firmament
+Analysis: The object of the preposition "under."
+
+וּבֵין
+Lemma: בֵּין
+Part of Speech: Preposition.
+Translation: and between
+Analysis: Marks the second division of waters.
+
+הַמַּיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the waters
+Analysis: The second group of waters.
+
+אֲשֶׁר
+Lemma: אֲשֶׁר
+Part of Speech: Relative pronoun.
+Translation: which
+Analysis: Introduces the relative clause describing the upper waters.
+
+מֵעַל
+Lemma: מָעַל
+Part of Speech: Preposition.
+Translation: above
+Analysis: Indicates the position of the waters above the firmament.
+
+לָרָקִיעַ
+Lemma: רָקִיעַ
+Part of Speech: Noun, masculine singular.
+Translation: the firmament
+Analysis: The object of the preposition "above."
+
+וַיְהִי־כֵן
+Lemma: היה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and it was so
+Analysis: Marks the completion of the divine act.
+
+Syntactic Overview
+This verse continues the VSO pattern, describing the creation and separation of the waters. It shows two distinct actions: making the firmament and dividing the waters. The verse concludes with "vayehi-ken," confirming the fulfillment of God's command.
+
+Verse 8
+
+Original
+וַיִּקְרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם; וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם שֵׁנִי
+
+Transliteration
+
+vayikra Elohim laraki'a shamayim; vayehi-erev vayehi-boker yom sheni
+
+Translation
+And God called the firmament Heaven. And there was evening, and there was morning, the second day.
+
+Morphological Analysis
+
+וַיִּקְרָא
+Lemma: קָרָא
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and called
+Analysis: God names the firmament.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject of the action.
+
+לָרָקִיעַ
+Lemma: רָקִיעַ
+Part of Speech: Noun, masculine singular.
+Translation: the firmament
+Analysis: The object being named.
+
+שָׁמָיִם
+Lemma: שָׁמַיִם
+Part of Speech: Noun, masculine plural.
+Translation: Heaven
+Analysis: The firmament is named "Heaven."
+
+וַיְהִי־עֶרֶב
+Lemma: ערב
+Part of Speech: Noun, masculine singular.
+Translation: and there was evening
+Analysis: The first part of the daily cycle.
+
+וַיְהִי־בֹקֶר
+Lemma: בֹּקֶר
+Part of Speech: Noun, masculine singular.
+Translation: and there was morning
+Analysis: The second part of the daily cycle.
+
+יוֹם
+Lemma: יוֹם
+Part of Speech: Noun, masculine singular.
+Translation: day
+Analysis: A reference to the completed unit of time.
+
+שֵׁנִי
+Lemma: שֵׁנִי
+Part of Speech: Adjective.
+Translation: second
+Analysis: Marks the second day of creation.
+
+Syntactic Overview
+The verse contains a simple VSO construction. The divine naming act ("vayikra") is followed by the announcement of the second day. The evening-morning cycle is introduced here, marking the completion of the second creation day
+
+
+Verse 9
+
+Original
+וַיֹּאמֶר אֱלֹהִים, יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל־מָקוֹם אֶחָד, וְתֵרָאֶה הַיַּבָּשָׁה; וַיְהִי־כֵן
+
+Transliteration
+
+vayomer Elohim, yikavu hamayim mitachat hashamayim el-makom echad, v'tera'eh hayabashah; vayehi-ken
+
+Translation
+And God said, "Let the waters under the heaven be gathered together into one place, and let the dry land appear"; and it was so.
+
+Morphological Analysis
+
+וַיֹּאמֶר
+Lemma: אמר
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and said
+Analysis: The verb "said" introduces the divine command.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+יִקָּווּ
+Lemma: קָוָה
+Part of Speech: Verb, imperfect, 3rd person plural, nifal.
+Translation: let be gathered
+Analysis: The verb in the nifal form expresses the action of gathering together the waters.
+
+הַמַּיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the waters
+Analysis: The object being gathered.
+
+מִתַּחַת
+Lemma: תַּחַת
+Part of Speech: Preposition.
+Translation: under
+Analysis: Indicates the position of the waters relative to the heavens.
+
+הַשָּׁמַיִם
+Lemma: שָׁמַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the heaven
+Analysis: The object under which the waters are gathered.
+
+אֶל־
+Lemma: אֶל
+Part of Speech: Preposition.
+Translation: into
+Analysis: Introduces the destination for the waters to be gathered.
+
+מָקוֹם
+Lemma: מָקוֹם
+Part of Speech: Noun, masculine singular.
+Translation: place
+Analysis: The location to which the waters are gathered.
+
+אֶחָד
+Lemma: אֶחָד
+Part of Speech: Adjective.
+Translation: one
+Analysis: Specifies the singularity of the place.
+
+וְתֵרָאֶה
+Lemma: רָאָה
+Part of Speech: Verb, imperfect, 3rd person singular, nifal.
+Translation: and let appear
+Analysis: The verb in the nifal expresses the appearance of the dry land.
+
+הַיַּבָּשָׁה
+Lemma: יַבָּשָׁה
+Part of Speech: Noun, feminine singular.
+Translation: the dry land
+Analysis: The object that will appear.
+
+וַיְהִי־כֵן
+Lemma: היה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and it was so
+Analysis: Marks the fulfillment of the divine command.
+
+Syntactic Overview
+This verse has a VSO structure, with a command given by God ("Let the waters be gathered"), followed by the expected outcome: the appearance of dry land. The prepositional phrases "under the heaven" and "into one place" describe the action spatially, marking the divine separation of waters and land.
+
+Verse 10
+
+Original
+וַיִּקְרָא אֱלֹהִים לַיַּבָּשָׁה, אֶרֶץ; וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים; וַיַּרְא אֱלֹהִים כִּי־טוֹב
+
+Transliteration
+
+vayikra Elohim layabashah, eretz; ul'mikveh hamayim kara yamim; vayare Elohim ki-tov
+
+Translation
+And God called the dry land Earth, and the gathering together of the waters He called Seas; and God saw that it was good.
+
+Morphological Analysis
+
+וַיִּקְרָא
+Lemma: קָרָא
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and called
+Analysis: The act of naming the dry land.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+לַיַּבָּשָׁה
+Lemma: יַבָּשָׁה
+Part of Speech: Noun, feminine singular.
+Translation: the dry land
+Analysis: The object being named "Earth."
+
+אֶרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: Earth
+Analysis: The name given to the dry land.
+
+וּלְמִקְוֵה
+Lemma: מִקְוֶה
+Part of Speech: Noun, masculine singular.
+Translation: and the gathering together
+Analysis: Refers to the gathering of waters, the seas.
+
+הַמַּיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the waters
+Analysis: The waters that are gathered together.
+
+קָרָא
+Lemma: קָרָא
+Part of Speech: Verb, perfect, 3rd person singular, qal.
+Translation: He called
+Analysis: The verb indicating God's action of naming the seas.
+
+יַמִּים
+Lemma: יָם
+Part of Speech: Noun, masculine plural.
+Translation: Seas
+Analysis: The name given to the gathered waters.
+
+וַיַּרְא
+Lemma: רָאָה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and saw
+Analysis: Marks God's observation of the created world.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+כִּי־טוֹב
+Lemma: טוב
+Part of Speech: Adjective.
+Translation: that it was good
+Analysis: Describes God's judgment of the creation as good.
+
+Syntactic Overview
+The verse follows a VSO structure. After naming the dry land "Earth" and the waters "Seas," God observes that the creation is good. The parallel naming of "Earth" and "Seas" emphasizes the completion of the spatial division between land and water.
+
+Verse 11
+
+Original
+וַיֹּאמֶר אֱלֹהִים, תַּדְשֵׁא הָאָרֶץ דֶּשֶׁא, עֵשֶׂב מַזְרִיעַ זֶרַע, עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ, אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ; וַיְהִי־כֵן
+
+Transliteration
+
+vayomer Elohim, tad'sheh haaretz deshe, esev mazri'a zera, etz peri oseh peri lemino, asher zar'o-bo al-haaretz; vayehi-ken
+
+Translation
+And God said, "Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after its kind, whose seed is in itself, upon the earth"; and it was so.
+
+Morphological Analysis
+
+וַיֹּאמֶר
+Lemma: אמר
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and said
+Analysis: The divine command continues.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject of the action.
+
+תַּדְשֵׁא
+Lemma: דָּשָׁא
+Part of Speech: Verb, imperfect, 3rd person singular, hifil.
+Translation: let bring forth
+Analysis: The hifil verb expresses causation, allowing the earth to produce vegetation.
+
+הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: the earth
+Analysis: The object causing the vegetation to grow.
+
+דֶּשֶׁא
+Lemma: דֶּשֶׁא
+Part of Speech: Noun, masculine singular.
+Translation: grass
+Analysis: Refers to the plant life to be produced by the earth.
+
+עֵשֶׂב
+Lemma: עֵשֶׂב
+Part of Speech: Noun, masculine singular.
+Translation: herb
+Analysis: Refers to plants or herbs yielding seed.
+
+מַזְרִיעַ
+Lemma: זָרַע
+Part of Speech: Verb, active participle, masculine singular, piel.
+Translation: yielding
+Analysis: Describes the herb's action of producing seed.
+
+זֶרַע
+Lemma: זֶרַע
+Part of Speech: Noun, masculine singular.
+Translation: seed
+Analysis: Refers to the reproductive component of the herb.
+
+עֵץ
+Lemma: עֵץ
+Part of Speech: Noun, masculine singular.
+Translation: tree
+Analysis: Refers to the fruit tree.
+
+פְּרִי
+Lemma: פְּרִי
+Part of Speech: Noun, masculine singular.
+Translation: fruit
+Analysis: Refers to the product of the tree.
+
+עֹשֶׂה
+Lemma: עָשָׂה
+Part of Speech: Verb, active participle, masculine singular, qal.
+Translation: yielding
+Analysis: Describes the tree's action of producing fruit.
+
+פְּרִי
+Lemma: פְּרִי
+Part of Speech: Noun, masculine singular.
+Translation: fruit
+Analysis: The object produced by the tree.
+
+לְמִינוֹ
+Lemma: מִין
+Part of Speech: Noun, masculine singular.
+Translation: after its kind
+Analysis: Describes the type of fruit being produced.
+
+אֲשֶׁר
+Lemma: אֲשֶׁר
+Part of Speech: Relative pronoun.
+Translation: whose
+Analysis: Introduces a relative clause about the seed.
+
+זַרְעוֹ־בוֹ
+Lemma: זָרַע
+Part of Speech: Verb, perfect, 3rd person singular, qal.
+Translation: its seed in itself
+Analysis: Describes the self-contained nature of the seed.
+
+עַל־הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: upon the earth
+Analysis: Describes the location where the plants and trees grow.
+
+וַיְהִי־כֵן
+Lemma: היה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and it was so
+Analysis: Marks the fulfillment of the divine command.
+
+Syntactic Overview
+This verse follows a VSO structure. God commands the earth to bring forth vegetation: grass, herbs, and fruit trees. The verse emphasizes the self-reproductive nature of the plants through the phrase "whose seed is in itself." The use of the adjective "after its kind" indicates the orderly nature of creation, ensuring that each plant produces according to its species.
+
+Verse 12
+
+Original
+וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא, עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ, וְעֵץ עֹשֶׂה־פְּרִי אֲשֶׁר זַרְעוֹ־בוֹ לְמִינֵהוּ; וַיַּרְא אֱלֹהִים כִּי־טוֹב
+
+Transliteration
+
+vatotze haaretz deshe, esev mazri'a zera lemino, ve'etz oseh-peri asher zar'o-bo lemino; vayare Elohim ki-tov
+
+Translation
+And the earth brought forth grass, the herb yielding seed after its kind, and the tree yielding fruit, whose seed was in itself, after its kind; and God saw that it was good.
+
+Morphological Analysis
+
+וַתּוֹצֵא
+Lemma: יָצָא
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and brought forth
+Analysis: The earth produces the vegetation as commanded.
+
+הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: the earth
+Analysis: The subject of the verb "brought forth."
+
+דֶּשֶׁא
+Lemma: דֶּשֶׁא
+Part of Speech: Noun, masculine singular.
+Translation: grass
+Analysis: The first plant life produced by the earth.
+
+עֵשֶׂב
+Lemma: עֵשֶׂב
+Part of Speech: Noun, masculine singular.
+Translation: herb
+Analysis: The second type of plant life produced.
+
+מַזְרִיעַ
+Lemma: זָרַע
+Part of Speech: Verb, active participle, masculine singular, piel.
+Translation: yielding
+Analysis: Describes the action of the herb producing seed.
+
+זֶרַע
+Lemma: זֶרַע
+Part of Speech: Noun, masculine singular.
+Translation: seed
+Analysis: The reproductive part of the herb.
+
+לְמִינֵהוּ
+Lemma: מִין
+Part of Speech: Noun, masculine singular.
+Translation: after its kind
+Analysis: Describes the type of seed produced.
+
+וְעֵץ
+Lemma: עֵץ
+Part of Speech: Noun, masculine singular.
+Translation: and the tree
+Analysis: The third plant life produced.
+
+עֹשֶׂה־פְּרִי
+Lemma: עָשָׂה
+Part of Speech: Verb, active participle, masculine singular, qal.
+Translation: yielding fruit
+Analysis: The tree’s action of producing fruit.
+
+אֲשֶׁר
+Lemma: אֲשֶׁר
+Part of Speech: Relative pronoun.
+Translation: whose
+Analysis: Introduces a relative clause describing the tree’s fruit.
+
+זַרְעוֹ־בוֹ
+Lemma: זָרַע
+Part of Speech: Verb, perfect, 3rd person singular, qal.
+Translation: its seed in itself
+Analysis: Describes the self-contained nature of the seed in the fruit.
+
+לְמִינֵהוּ
+Lemma: מִין
+Part of Speech: Noun, masculine singular.
+Translation: after its kind
+Analysis: Describes the type of fruit produced.
+
+וַיַּרְא
+Lemma: רָאָה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and saw
+Analysis: Marks God’s observation of creation.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+כִּי־טוֹב
+Lemma: טוב
+Part of Speech: Adjective.
+Translation: that it was good
+Analysis: God's evaluation of the creation.
+
+Syntactic Overview
+This verse follows the same VSO pattern. It describes the earth producing grass, herbs, and fruit trees, all according to their kind. The phrase "after its kind" indicates that each type of plant reproduces according to its species, emphasizing order in creation. The verse concludes with God observing that it was good.
+
+
+Verse 13
+
+Original
+וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם שְׁלִישִׁי
+
+Transliteration
+
+vayehi-erev vayehi-boker yom shlishi
+
+Translation
+And there was evening, and there was morning, the third day.
+
+Morphological Analysis
+
+וַיְהִי־עֶרֶב
+Lemma: ערב
+Part of Speech: Noun, masculine singular.
+Translation: and there was evening
+Analysis: Marks the beginning of the day cycle.
+
+וַיְהִי־בֹקֶר
+Lemma: בֹּקֶר
+Part of Speech: Noun, masculine singular.
+Translation: and there was morning
+Analysis: Marks the end of the day cycle.
+
+יוֹם
+Lemma: יוֹם
+Part of Speech: Noun, masculine singular.
+Translation: day
+Analysis: The unit of time being described.
+
+שְׁלִישִׁי
+Lemma: שָׁלִישׁ
+Part of Speech: Adjective.
+Translation: third
+Analysis: Marks the specific day in the creation narrative.
+
+Syntactic Overview
+This verse follows a simple VSO structure. The evening and morning are presented as the completion of the third day, marking the rhythm of creation with the familiar phrase "and there was evening, and there was morning."
+
+Verse 14
+
+Original
+וַיֹּאמֶר אֱלֹהִים, יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם, לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה; וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים, וּלְיָמִים וְשָׁנִים
+
+Transliteration
+
+vayomer Elohim, yehi me'orot birki'a hashamayim, lehabdel bein hayom uvein halailah; v'hayu le'otot ulemoadim, uleyamim v'shanim
+
+Translation
+And God said, "Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs and for seasons, and for days and years."
+
+Morphological Analysis
+
+וַיֹּאמֶר
+Lemma: אמר
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and said
+Analysis: Introduces the divine command.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+יְהִי
+Lemma: היה
+Part of Speech: Verb, imperfect, 3rd person singular, jussive.
+Translation: let there be
+Analysis: The jussive verb expressing a command.
+
+מְאֹרֹת
+Lemma: מָאוֹר
+Part of Speech: Noun, masculine plural.
+Translation: lights
+Analysis: Refers to celestial bodies, specifically the sun, moon, and stars.
+
+בִּרְקִיעַ
+Lemma: רָקִיעַ
+Part of Speech: Noun, masculine singular.
+Translation: in the firmament
+Analysis: The firmament is the space where the lights will be placed.
+
+הַשָּׁמַיִם
+Lemma: שָׁמַיִם
+Part of Speech: Noun, masculine plural.
+Translation: of the heaven
+Analysis: The location of the lights.
+
+לְהַבְדִּיל
+Lemma: בָּדַל
+Part of Speech: Verb, infinitive, piel.
+Translation: to divide
+Analysis: Describes the purpose of the lights, which is to separate.
+
+בֵּין
+Lemma: בֵּין
+Part of Speech: Preposition.
+Translation: between
+Analysis: Introduces the division between day and night.
+
+הַיּוֹם
+Lemma: יוֹם
+Part of Speech: Noun, masculine singular.
+Translation: the day
+Analysis: The first of the two divisions, day.
+
+וּבֵין
+Lemma: בֵּין
+Part of Speech: Preposition.
+Translation: and between
+Analysis: Continues the division.
+
+הַלָּיְלָה
+Lemma: לַיְלָה
+Part of Speech: Noun, masculine singular.
+Translation: the night
+Analysis: The second of the two divisions, night.
+
+וְהָיוּ
+Lemma: היה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person plural, qal.
+Translation: and they shall be
+Analysis: Indicates the purpose of the lights—ongoing presence and function.
+
+לְאֹתֹת
+Lemma: אוֹת
+Part of Speech: Noun, masculine plural.
+Translation: for signs
+Analysis: The lights serve as markers or signs for various purposes.
+
+וּלְמוֹעֲדִים
+Lemma: מוֹעֵד
+Part of Speech: Noun, masculine plural.
+Translation: and for seasons
+Analysis: Refers to the times or appointed seasons.
+
+וּלְיָמִים
+Lemma: יָם
+Part of Speech: Noun, masculine plural.
+Translation: and for days
+Analysis: Refers to the cycle of days.
+
+וְשָׁנִים
+Lemma: שָׁנָה
+Part of Speech: Noun, feminine plural.
+Translation: and years
+Analysis: Refers to the cycle of years.
+
+Syntactic Overview
+The verse contains a command structure where God instructs that lights be created in the firmament for the purpose of dividing day from night. The lights are also to serve as markers for signs, seasons, days, and years. The syntactic structure follows a typical VSO pattern, with a series of linked purposes following the initial command.
+
+Verse 15
+
+Original
+וְהָיוּ לִמְאוֹרֹת בִּרְקִיעַ הַשָּׁמַיִם, לְהָאִיר עַל־הָאָרֶץ; וַיְהִי־כֵן
+
+Transliteration
+
+v'hayu lim'orot birki'a hashamayim, leha'ir al-haaretz; vayehi-ken
+
+Translation
+And let them be for lights in the firmament of the heaven to give light upon the earth; and it was so.
+
+Morphological Analysis
+
+וְהָיוּ
+Lemma: היה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person plural, qal.
+Translation: and they shall be
+Analysis: Marks the purpose of the lights created in the firmament.
+
+לִמְאוֹרֹת
+Lemma: מָאוֹר
+Part of Speech: Noun, masculine plural.
+Translation: for lights
+Analysis: The function of the celestial bodies is to serve as lights.
+
+בִּרְקִיעַ
+Lemma: רָקִיעַ
+Part of Speech: Noun, masculine singular.
+Translation: in the firmament
+Analysis: The location where the lights will be positioned.
+
+הַשָּׁמַיִם
+Lemma: שָׁמַיִם
+Part of Speech: Noun, masculine plural.
+Translation: of the heaven
+Analysis: The context for the lights.
+
+לְהָאִיר
+Lemma: אור
+Part of Speech: Verb, infinitive, piel.
+Translation: to give light
+Analysis: The purpose of the lights is to illuminate.
+
+עַל־הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: upon the earth
+Analysis: The lights' intended effect, to shine upon the earth.
+
+וַיְהִי־כֵן
+Lemma: היה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and it was so
+Analysis: Marks the fulfillment of God's command.
+
+Syntactic Overview
+This verse continues the VSO pattern, describing the purpose of the lights in the firmament. Their primary function is to provide illumination upon the earth, marking the celestial bodies' role in the creation process. The final clause "and it was so" confirms the completion of God's command.
+
+Verse 16
+
+Original
+וַיַּעַשׂ אֱלֹהִים, אֶת־שְׁנֵי הַמְּאֹרֹת הַגְּדֹלִים; אֶת־הַמָּאוֹר הַגָּדֹל לְמֶמְשֶׁלֶת הַיּוֹם, וְאֶת־הַמָּאוֹר הַקָּטֹן לְמֶמְשֶׁלֶת הַלַּיְלָה, וְאֵת הַכּוֹכָבִים
+
+Transliteration
+
+vayase Elohim, et-shenei hame'orot hag'dolim; et-hama'or hagadol lemamshelet hayom, ve'et-hama'or hakatan lemamshelet halailah, ve'et hakochavim
+
+Translation
+And God made two great lights; the greater light to rule the day, and the lesser light to rule the night, and the stars.
+
+Morphological Analysis
+
+וַיַּעַשׂ
+Lemma: עָשָׂה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and made
+Analysis: The creation of the two great lights.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+אֶת־שְׁנֵי
+Lemma: שְׁנֵי
+Part of Speech: Adjective.
+Translation: two
+Analysis: Specifies the number of lights created.
+
+הַמְּאֹרֹת
+Lemma: מָאוֹר
+Part of Speech: Noun, masculine plural.
+Translation: great lights
+Analysis: Refers to the sun and moon.
+
+הַגְּדֹלִים
+Lemma: גָּדוֹל
+Part of Speech: Adjective.
+Translation: great
+Analysis: Describes the size of the lights.
+
+אֶת־הַמָּאוֹר
+Lemma: מָאוֹר
+Part of Speech: Noun, masculine singular.
+Translation: the greater light
+Analysis: Refers to the sun.
+
+הַגָּדֹל
+Lemma: גָּדוֹל
+Part of Speech: Adjective.
+Translation: the greater
+Analysis: Describes the sun as the larger of the two lights.
+
+לְמֶמְשֶׁלֶת
+Lemma: מָשַׁל
+Part of Speech: Verb, infinitive, piel.
+Translation: to rule
+Analysis: The purpose of the greater light (to rule the day).
+
+הַיּוֹם
+Lemma: יוֹם
+Part of Speech: Noun, masculine singular.
+Translation: the day
+Analysis: The time period ruled by the greater light (the sun).
+
+וְאֶת־הַמָּאוֹר
+Lemma: מָאוֹר
+Part of Speech: Noun, masculine singular.
+Translation: and the lesser light
+Analysis: Refers to the moon.
+
+הַקָּטֹן
+Lemma: קָטַן
+Part of Speech: Adjective.
+Translation: the lesser
+Analysis: Describes the moon as the smaller light.
+
+לְמֶמְשֶׁלֶת
+Lemma: מָשַׁל
+Part of Speech: Verb, infinitive, piel.
+Translation: to rule
+Analysis: The purpose of the lesser light (to rule the night).
+
+הַלַּיְלָה
+Lemma: לַיְלָה
+Part of Speech: Noun, masculine singular.
+Translation: the night
+Analysis: The time period ruled by the lesser light (the moon).
+
+וְאֵת
+Lemma: אֵת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: The object marker for the following noun.
+
+הַכּוֹכָבִים
+Lemma: כּוֹכָב
+Part of Speech: Noun, masculine plural.
+Translation: the stars
+Analysis: The stars are created as additional lights in the firmament.
+
+Syntactic Overview
+The verse follows a VSO structure. God creates two great lights, the sun and the moon, for the purpose of ruling the day and the night, respectively. The stars are also created, marking their role as additional lights in the sky. The verb "lemamshelet" (to rule) highlights the dominion the lights have over the time periods they govern.
+
+Verse 17
+
+Original
+וַיִּתֵּן אֹתָם אֱלֹהִים בִּרְקִיעַ הַשָּׁמָיִם; לְהָאִיר עַל־הָאָרֶץ
+
+Transliteration
+
+vayiten otam Elohim birki'a hashamayim; leha'ir al-haaretz
+
+Translation
+And God set them in the firmament of the heaven to give light upon the earth.
+
+Morphological Analysis
+
+וַיִּתֵּן
+Lemma: נָתַן
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and set
+Analysis: Marks the action of positioning the lights in the firmament.
+
+אֹתָם
+Lemma: אֶת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: The object marker for the lights.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+בִּרְקִיעַ
+Lemma: רָקִיעַ
+Part of Speech: Noun, masculine singular.
+Translation: in the firmament
+Analysis: The location where the lights are set.
+
+הַשָּׁמַיִם
+Lemma: שָׁמַיִם
+Part of Speech: Noun, masculine plural.
+Translation: of the heaven
+Analysis: The firmament in the heavens.
+
+לְהָאִיר
+Lemma: אור
+Part of Speech: Verb, infinitive, piel.
+Translation: to give light
+Analysis: The function of the lights in the firmament.
+
+עַל־הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: upon the earth
+Analysis: The lights' intended effect is to shine upon the earth.
+
+Syntactic Overview
+This verse describes the placement of the lights in the firmament to fulfill their role of illuminating the earth. The VSO structure continues with God positioning the lights as the central act, followed by their intended function.
+
+Verse 18
+
+Original
+וּלִמְשֹׁל בַּיּוֹם וּבַלַּיְלָה, וּלֲהַבְדִּיל, בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ; וַיַּרְא אֱלֹהִים כִּי־טוֹב
+
+Transliteration
+
+ulimshel bayom uvalaylah, ulahavdil, bein haor uvein hachoshech; vayare Elohim ki-tov
+
+Translation
+And to rule over the day and over the night, and to divide the light from the darkness; and God saw that it was good.
+
+Morphological Analysis
+
+וּלִמְשֹׁל
+Lemma: מָשַׁל
+Part of Speech: Verb, infinitive, piel.
+Translation: and to rule
+Analysis: Describes the purpose of the lights to govern the day and night.
+
+בַּיּוֹם
+Lemma: יוֹם
+Part of Speech: Noun, masculine singular.
+Translation: the day
+Analysis: Refers to the time period to be ruled.
+
+וּבַלַּיְלָה
+Lemma: לַיְלָה
+Part of Speech: Noun, masculine singular.
+Translation: and the night
+Analysis: Refers to the time period to be ruled.
+
+וּלֲהַבְדִּיל
+Lemma: בָּדַל
+Part of Speech: Verb, infinitive, piel.
+Translation: and to divide
+Analysis: Describes the lights' secondary function of separating light and darkness.
+
+בֵּין
+Lemma: בֵּין
+Part of Speech: Preposition.
+Translation: between
+Analysis: Marks the division between two objects.
+
+הָאוֹר
+Lemma: אוֹר
+Part of Speech: Noun, masculine singular.
+Translation: the light
+Analysis: The first element in the division.
+
+וּבֵין
+Lemma: בֵּין
+Part of Speech: Preposition.
+Translation: and between
+Analysis: Continues the division.
+
+הַחֹשֶׁךְ
+Lemma: חֹשֶׁךְ
+Part of Speech: Noun, masculine singular.
+Translation: the darkness
+Analysis: The second element in the division.
+
+וַיַּרְא
+Lemma: רָאָה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and saw
+Analysis: Marks God's observation of creation.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+כִּי־טוֹב
+Lemma: טוב
+Part of Speech: Adjective.
+Translation: that it was good
+Analysis: God's judgment of the creation.
+
+Syntactic Overview
+This verse continues the VSO structure. The lights are described as ruling over day and night and dividing light from darkness. The final clause "and God saw that it was good" marks the completion of the divine act.
+
+Verse 19
+
+Original
+וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם רְבִיעִי
+
+Transliteration
+
+vayehi-erev vayehi-boker yom revi'i
+
+Translation
+And there was evening, and there was morning, the fourth day.
+
+Morphological Analysis
+
+וַיְהִי־עֶרֶב
+Lemma: ערב
+Part of Speech: Noun, masculine singular.
+Translation: and there was evening
+Analysis: Marks the beginning of the fourth day.
+
+וַיְהִי־בֹקֶר
+Lemma: בֹּקֶר
+Part of Speech: Noun, masculine singular.
+Translation: and there was morning
+Analysis: Marks the end of the fourth day.
+
+יוֹם
+Lemma: יוֹם
+Part of Speech: Noun, masculine singular.
+Translation: day
+Analysis: The unit of time being described.
+
+רְבִיעִי
+Lemma: רְבִיעִי
+Part of Speech: Adjective.
+Translation: fourth
+Analysis: Marks the specific day in the creation narrative.
+
+Syntactic Overview
+This verse follows the familiar pattern of the evening-morning cycle, marking the fourth day of creation. The structure is simple, highlighting the passage of time.
+
+
+Verse 20
+
+Original
+וַיֹּאמֶר אֱלֹהִים, יִשְׁרְצוּ הַמַּיִם, שֶׁרֶץ נֶפֶשׁ חַיָּה; וְעוֹף יְעוֹפֵף עַל־הָאָרֶץ, עַל־פְּנֵי רְקִיעַ הַשָּׁמָיִם
+
+Transliteration
+
+vayomer Elohim, yishretzu hamayim, sheretz nefesh chayah; ve'of ye'ofef al-haaretz, al-penei rekia hashamayim
+
+Translation
+And God said, "Let the waters bring forth swarms of living creatures, and let birds fly above the earth across the face of the firmament of the heavens."
+
+Morphological Analysis
+
+וַיֹּאמֶר
+Lemma: אמר
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and said
+Analysis: Introduces the divine command to create living creatures in the waters and sky.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+יִשְׁרְצוּ
+Lemma: שָׁרַץ
+Part of Speech: Verb, imperfect, 3rd person plural, piel.
+Translation: let swarm
+Analysis: The verb in piel emphasizes the action of swarming or teeming.
+
+הַמַּיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the waters
+Analysis: The element from which the creatures will emerge.
+
+שֶׁרֶץ
+Lemma: שֶׁרֶץ
+Part of Speech: Noun, masculine singular.
+Translation: swarms of creatures
+Analysis: Refers to various types of creatures that swarm in the water.
+
+נֶפֶשׁ
+Lemma: נֶפֶשׁ
+Part of Speech: Noun, feminine singular.
+Translation: living creature
+Analysis: Refers to the creatures with life.
+
+חַיָּה
+Lemma: חַיָּה
+Part of Speech: Adjective.
+Translation: living
+Analysis: Describes the creatures as alive.
+
+וְעוֹף
+Lemma: עוֹף
+Part of Speech: Noun, masculine singular.
+Translation: and birds
+Analysis: Refers to birds or flying creatures.
+
+יְעוֹפֵף
+Lemma: עָפַף
+Part of Speech: Verb, imperfect, 3rd person singular, piel.
+Translation: let fly
+Analysis: The verb in piel expresses the action of flying.
+
+עַל־הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: upon the earth
+Analysis: Marks the location of the birds' flight.
+
+עַל־פְּנֵי
+Lemma: פְּנֵי
+Part of Speech: Noun, masculine plural.
+Translation: across the face of
+Analysis: Describes the area across which the birds fly.
+
+רְקִיעַ
+Lemma: רָקִיעַ
+Part of Speech: Noun, masculine singular.
+Translation: firmament
+Analysis: Refers to the sky or heaven in this context.
+
+הַשָּׁמַיִם
+Lemma: שָׁמַיִם
+Part of Speech: Noun, masculine plural.
+Translation: of the heavens
+Analysis: Refers to the heavens as the location for the birds' flight.
+
+Syntactic Overview
+The verse has a VSO structure, with the divine command followed by the actions that take place. God commands the waters to bring forth living creatures and the birds to fly across the firmament. The phrase "across the face of the firmament" indicates the sky as the domain for the birds, while the waters are teeming with creatures.
+
+Verse 21
+
+Original
+וַיִּבְרָא אֱלֹהִים, אֶת־הַתַּנִּינִם הַגְּדֹלִים; וְאֵת כָּל־נֶפֶשׁ הַחַיָּה הָרֹמֶשֶׂת אֲשֶׁר שָׁרְצוּ הַמַּיִם לְמִינֵהֶם, וְאֵת כָּל־עוֹף כָּנָף לְמִינֵהוּ, וַיַּרְא אֱלֹהִים כִּי־טוֹב
+
+Transliteration
+
+vayivra Elohim, et-hattaninim hag'dolim; ve'et kol nefesh hachayah haromesset asher shartzu hamayim lemino, ve'et kol-of kanaph lemino, vayare Elohim ki-tov
+
+Translation
+And God created the great sea creatures, and every living creature that moves, which the waters brought forth abundantly, after their kind, and every winged bird after its kind; and God saw that it was good.
+
+Morphological Analysis
+
+וַיִּבְרָא
+Lemma: בָּרָא
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and created
+Analysis: Describes God's act of creating the great creatures.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+אֶת־הַתַּנִּינִם
+Lemma: תַּנִּין
+Part of Speech: Noun, masculine plural.
+Translation: the great sea creatures
+Analysis: The object created by God, often interpreted as sea monsters or large sea creatures.
+
+הַגְּדֹלִים
+Lemma: גָּדוֹל
+Part of Speech: Adjective.
+Translation: great
+Analysis: Describes the size of the sea creatures.
+
+וְאֵת
+Lemma: אֵת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: Marks the object of the verb.
+
+כָּל־נֶפֶשׁ
+Lemma: נֶפֶשׁ
+Part of Speech: Noun, feminine singular.
+Translation: every living creature
+Analysis: Refers to all creatures that have life.
+
+הַחַיָּה
+Lemma: חַיָּה
+Part of Speech: Adjective.
+Translation: living
+Analysis: Describes the creatures as alive.
+
+הָרֹמֶשֶׂת
+Lemma: רָמַשׂ
+Part of Speech: Verb, active participle, feminine singular, qal.
+Translation: that moves
+Analysis: Describes the action of the living creatures in the waters.
+
+אֲשֶׁר
+Lemma: אֲשֶׁר
+Part of Speech: Relative pronoun.
+Translation: which
+Analysis: Introduces a relative clause describing the creatures.
+
+שָׁרְצוּ
+Lemma: שָׁרַץ
+Part of Speech: Verb, perfect, 3rd person plural, qal.
+Translation: which swarmed
+Analysis: Describes the action of the creatures in the waters.
+
+הַמַּיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the waters
+Analysis: The medium in which the creatures were created.
+
+לְמִינֵהֶם
+Lemma: מִין
+Part of Speech: Noun, masculine singular.
+Translation: after their kind
+Analysis: Describes the creatures as reproducing according to their species.
+
+וְאֵת
+Lemma: אֵת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: Marks the object of the verb.
+
+כָּל־עוֹף
+Lemma: עוֹף
+Part of Speech: Noun, masculine singular.
+Translation: every bird
+Analysis: Refers to the flying creatures.
+
+כָּנָף
+Lemma: כָּנָף
+Part of Speech: Noun, feminine singular.
+Translation: winged
+Analysis: Describes the birds as having wings.
+
+לְמִינֵהוּ
+Lemma: מִין
+Part of Speech: Noun, masculine singular.
+Translation: after its kind
+Analysis: Describes the birds as reproducing according to their species.
+
+וַיַּרְא
+Lemma: רָאָה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and saw
+Analysis: Marks God's observation of the creation.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+כִּי־טוֹב
+Lemma: טוב
+Part of Speech: Adjective.
+Translation: that it was good
+Analysis: God's judgment on the goodness of His creation.
+
+Syntactic Overview
+This verse describes the creation of all living creatures in the water and air, including the great sea creatures and birds. The phrase "after their kind" emphasizes the orderliness of the creation, ensuring each species reproduces according to its type. God's observation at the end reinforces the goodness of His work.
+
+Verse 22
+
+Original
+וַיְבָרֶךְ אֹתָם אֱלֹהִים לֵאמֹר; פְּרוּ וּרְבוּ, וּמִלְאוּ אֶת־הַמַּיִם בַּיַּמִּים, וְהָעוֹף יִרֶב בָּאָרֶץ
+
+Transliteration
+
+vayevarech otam Elohim le'emar; peru u'ruvu, u'milu et-hamayim bayamim, veha'of yirev baaretz
+
+Translation
+And God blessed them, saying, "Be fruitful and multiply, and fill the waters in the seas, and let birds multiply on the earth."
+
+Morphological Analysis
+
+וַיְבָרֶךְ
+Lemma: בָּרַךְ
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and blessed
+Analysis: Marks God's blessing upon the creatures.
+
+אֹתָם
+Lemma: אֵת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: The object marker for the creatures.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject of the action.
+
+לֵאמֹר
+Lemma: אמר
+Part of Speech: Verb, infinitive.
+Translation: saying
+Analysis: Introduces the divine command.
+
+פְּרוּ
+Lemma: פָּרָה
+Part of Speech: Verb, imperative, 2nd person plural, qal.
+Translation: be fruitful
+Analysis: The imperative verb expressing the command to multiply.
+
+וּרְבוּ
+Lemma: רָבָה
+Part of Speech: Verb, imperative, 2nd person plural, qal.
+Translation: and multiply
+Analysis: Another imperative to multiply.
+
+וּמִלְאוּ
+Lemma: מָלֵא
+Part of Speech: Verb, imperative, 2nd person plural, qal.
+Translation: and fill
+Analysis: Command to fill the waters.
+
+אֶת־הַמַּיִם
+Lemma: מַיִם
+Part of Speech: Noun, masculine plural.
+Translation: the waters
+Analysis: The object of the verb "fill."
+
+בַּיַּמִּים
+Lemma: יָם
+Part of Speech: Noun, masculine plural.
+Translation: in the seas
+Analysis: Specifies where the creatures should fill.
+
+וְהָעוֹף
+Lemma: עוֹף
+Part of Speech: Noun, masculine singular.
+Translation: and the birds
+Analysis: The second subject of the blessing.
+
+יִרֶב
+Lemma: רָבָה
+Part of Speech: Verb, imperfect, 3rd person singular, qal.
+Translation: let it multiply
+Analysis: Describes the multiplication of birds on the earth.
+
+בָּאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: on the earth
+Analysis: Describes the location of the birds' multiplication.
+
+Syntactic Overview
+This verse marks the divine blessing for the creatures, giving them the command to multiply and fill their respective domains—water for the sea creatures and earth for the birds. The structure follows a series of imperatives, emphasizing the abundance of life that should fill the earth and seas.
+
+Verse 23
+
+Original
+וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם חֲמִישִׁי
+
+Transliteration
+
+vayehi-erev vayehi-boker yom chamishi
+
+Translation
+And there was evening, and there was morning, the fifth day.
+
+Morphological Analysis
+
+וַיְהִי־עֶרֶב
+Lemma: ערב
+Part of Speech: Noun, masculine singular.
+Translation: and there was evening
+Analysis: Marks the beginning of the fifth day.
+
+וַיְהִי־בֹקֶר
+Lemma: בֹּקֶר
+Part of Speech: Noun, masculine singular.
+Translation: and there was morning
+Analysis: Marks the end of the fifth day.
+
+יוֹם
+Lemma: יוֹם
+Part of Speech: Noun, masculine singular.
+Translation: day
+Analysis: The unit of time being described.
+
+חֲמִישִׁי
+Lemma: חָמֵשׁ
+Part of Speech: Adjective.
+Translation: fifth
+Analysis: Marks the specific day in the creation narrative.
+
+Syntactic Overview
+This verse follows the usual evening-morning cycle, marking the completion of the fifth day.
+
+Verse 24
+
+Original
+וַיֹּאמֶר אֱלֹהִים, תּוֹצֵא הָאָרֶץ נֶפֶשׁ חַיָּה לְמִינָהּ, בְּהֵמָה וָרֶמֶשׂ וְחַיְתוֹ־אֶרֶץ לְמִינָהּ; וַיְהִי־כֵן
+
+Transliteration
+
+vayomer Elohim, totze haaretz nefesh chayah leminah, behemah v'remes v'chayato-eretz leminah; vayehi-ken
+
+Translation
+And God said, "Let the earth bring forth living creatures according to their kinds: livestock and creeping things and beasts of the earth according to their kinds"; and it was so.
+
+Morphological Analysis
+
+וַיֹּאמֶר
+Lemma: אמר
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and said
+Analysis: Introduces God's command for the earth to bring forth living creatures.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject of the divine command.
+
+תּוֹצֵא
+Lemma: יָצָא
+Part of Speech: Verb, imperfect, 3rd person singular, hifil.
+Translation: let bring forth
+Analysis: The hifil verb expresses causation, allowing the earth to produce creatures.
+
+הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: the earth
+Analysis: The object from which the living creatures are to emerge.
+
+נֶפֶשׁ
+Lemma: נֶפֶשׁ
+Part of Speech: Noun, feminine singular.
+Translation: living creature
+Analysis: Refers to the animals or living beings to be created.
+
+חַיָּה
+Lemma: חַיָּה
+Part of Speech: Adjective.
+Translation: living
+Analysis: Describes the nature of the creatures as alive.
+
+לְמִינָהּ
+Lemma: מִין
+Part of Speech: Noun, masculine singular.
+Translation: according to their kinds
+Analysis: Describes the categorization of the creatures by species.
+
+בְּהֵמָה
+Lemma: בְּהֵמָה
+Part of Speech: Noun, feminine singular.
+Translation: livestock
+Analysis: Refers to domesticated animals like cattle.
+
+וָרֶמֶשׂ
+Lemma: רֶמֶשׂ
+Part of Speech: Noun, masculine singular.
+Translation: creeping things
+Analysis: Refers to creatures that move along the ground, such as insects.
+
+וְחַיְתוֹ־אֶרֶץ
+Lemma: חַיָּה
+Part of Speech: Noun, feminine singular.
+Translation: beasts of the earth
+Analysis: Refers to the wild animals or beasts that roam the earth.
+
+לְמִינָהּ
+Lemma: מִין
+Part of Speech: Noun, masculine singular.
+Translation: according to their kinds
+Analysis: Reiterates that the creatures are created according to their species.
+
+וַיְהִי־כֵן
+Lemma: היה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and it was so
+Analysis: Marks the fulfillment of the divine command.
+
+Syntactic Overview
+This verse follows the VSO structure and continues the divine creation narrative. God commands the earth to bring forth creatures of different types: livestock, creeping things, and beasts of the earth. The phrase "according to their kinds" emphasizes the orderliness of creation. The final phrase "and it was so" confirms the fulfillment of the command.
+
+Verse 25
+
+Original
+וַיַּעַשׂ אֱלֹהִים אֶת־חַיַּת הָאָרֶץ לְמִינָהּ, וְאֶת־הַבְּהֵמָה לְמִינָהּ, וְאֵת כָּל־רֶמֶשׂ הָאֲדָמָה לְמִינֵהוּ; וַיַּרְא אֱלֹהִים כִּי־טוֹב
+
+Transliteration
+
+vayase Elohim et-chayat haaretz leminah, ve'et-habehemah leminah, ve'et kol remes haadamah lemino; vayare Elohim ki-tov
+
+Translation
+And God made the beasts of the earth according to their kinds, and the livestock according to their kinds, and everything that creeps upon the earth according to its kind; and God saw that it was good.
+
+Morphological Analysis
+
+וַיַּעַשׂ
+Lemma: עָשָׂה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and made
+Analysis: Describes God's action of creating the creatures.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject of the creation.
+
+אֶת־חַיַּת
+Lemma: חַיָּה
+Part of Speech: Noun, feminine singular.
+Translation: the beasts
+Analysis: Refers to wild animals.
+
+הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: of the earth
+Analysis: Specifies the location for the creation of the beasts.
+
+לְמִינָהּ
+Lemma: מִין
+Part of Speech: Noun, masculine singular.
+Translation: according to their kinds
+Analysis: Specifies that the creatures are created by species.
+
+וְאֶת־הַבְּהֵמָה
+Lemma: בְּהֵמָה
+Part of Speech: Noun, feminine singular.
+Translation: and the livestock
+Analysis: Refers to domesticated animals like cattle.
+
+לְמִינָהּ
+Lemma: מִין
+Part of Speech: Noun, masculine singular.
+Translation: according to their kinds
+Analysis: Again emphasizes that each species is created in its own kind.
+
+וְאֵת
+Lemma: אֵת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: Marks the object for the following action.
+
+כָּל־רֶמֶשׂ
+Lemma: רֶמֶשׂ
+Part of Speech: Noun, masculine singular.
+Translation: all creeping things
+Analysis: Refers to creatures that crawl on the earth, such as insects.
+
+הָאֲדָמָה
+Lemma: אֲדָמָה
+Part of Speech: Noun, feminine singular.
+Translation: the earth
+Analysis: Specifies the domain of the creeping creatures.
+
+לְמִינֵהוּ
+Lemma: מִין
+Part of Speech: Noun, masculine singular.
+Translation: according to its kind
+Analysis: Specifies the species of the creatures.
+
+וַיַּרְא
+Lemma: רָאָה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and saw
+Analysis: Marks God's observation of the creation.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject of the observation.
+
+כִּי־טוֹב
+Lemma: טוב
+Part of Speech: Adjective.
+Translation: that it was good
+Analysis: God's judgment of the goodness of the creation.
+
+Syntactic Overview
+This verse continues the VSO structure and describes the creation of various types of animals. It emphasizes the orderly nature of creation by specifying that each type of creature is made "according to its kind." The verse concludes with God's affirmation that the creation was good.
+
+Verse 26
+
+Original
+וַיֹּאמֶר אֱלֹהִים, נַעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ; וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם, וּבַבְּהֵמָה וּבְכָל־הָאָרֶץ, וּבְכָל־הָרֶמֶשׂ הָרֹמֵשׂ עַל־הָאָרֶץ
+
+Transliteration
+
+vayomer Elohim, na'aseh adam betsalmenu kid'mutenu; veyirdu bidgat hayam uveof hashamayim, uve'behemah uvechol haaretz, uvechol haremes haromesh al-haaretz
+
+Translation
+And God said, "Let us make man in our image, after our likeness; and let them have dominion over the fish of the sea and over the birds of the heavens, and over the livestock and over all the earth, and over every creeping thing that creeps on the earth."
+
+Morphological Analysis
+
+וַיֹּאמֶר
+Lemma: אמר
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and said
+Analysis: Introduces the divine command to create man.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+נַעֲשֶׂה
+Lemma: עָשָׂה
+Part of Speech: Verb, imperfect, 1st person plural, qal.
+Translation: let us make
+Analysis: The first person plural indicates a divine consultation, often interpreted as a conversation within the divine nature.
+
+אָדָם
+Lemma: אָדָם
+Part of Speech: Noun, masculine singular.
+Translation: man
+Analysis: Refers to humankind, created in God's image.
+
+בְּצַלְמֵנוּ
+Lemma: צֶלֶם
+Part of Speech: Noun, masculine singular.
+Translation: in our image
+Analysis: Describes the manner in which man is created.
+
+כִּדְמוּתֵנוּ
+Lemma: דְּמוּת
+Part of Speech: Noun, feminine singular.
+Translation: after our likeness
+Analysis: Describes the pattern or model after which man is created.
+
+וְיִרְדּוּ
+Lemma: רָדָה
+Part of Speech: Verb, imperfect, 3rd person plural, qal.
+Translation: and let them have dominion
+Analysis: Describes the role of humanity in relation to the earth and its creatures.
+
+בִדְגַת
+Lemma: דָּג
+Part of Speech: Noun, masculine singular.
+Translation: over the fish
+Analysis: Refers to the dominion over the fish in the sea.
+
+הַיָּם
+Lemma: יָם
+Part of Speech: Noun, masculine singular.
+Translation: of the sea
+Analysis: Specifies the domain for the fish.
+
+וּבְעוֹף
+Lemma: עוֹף
+Part of Speech: Noun, masculine singular.
+Translation: and over the birds
+Analysis: Refers to the dominion over birds.
+
+הַשָּׁמַיִם
+Lemma: שָׁמַיִם
+Part of Speech: Noun, masculine plural.
+Translation: of the heavens
+Analysis: Specifies the domain for the birds.
+
+וּבַבְּהֵמָה
+Lemma: בְּהֵמָה
+Part of Speech: Noun, feminine singular.
+Translation: and over the livestock
+Analysis: Refers to the dominion over domesticated animals.
+
+וּבְכָל־הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: and over all the earth
+Analysis: Refers to the dominion over the entire earth.
+
+וּבְכָל־הָרֶמֶשׂ
+Lemma: רֶמֶשׂ
+Part of Speech: Noun, masculine singular.
+Translation: and over every creeping thing
+Analysis: Refers to the dominion over all creatures that creep on the earth.
+
+הָרֹמֵשׂ
+Lemma: רָמַשׂ
+Part of Speech: Verb, active participle, masculine singular, qal.
+Translation: that creeps
+Analysis: Describes the action of crawling creatures.
+
+עַל־הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: upon the earth
+Analysis: Specifies the domain for the creeping things.
+
+Syntactic Overview
+This verse follows the VSO pattern. God commands the creation of man in His image and likeness, with the purpose of giving humanity dominion over all creatures on the earth, sea, and sky. The structure emphasizes the unique position of humankind in God's creation, with dominion over the rest of the creatures.
+
+Verse 27
+
+Original
+וַיִּבְרָא אֱלֹהִים אֶת־הָאָדָם בְּצַלְמוֹ, בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ; זָכָר וּנְקֵבָה בָּרָא אֹתָם
+
+Transliteration
+
+vayivra Elohim et-haadam betsalmo, betselem Elohim bara oto; zakhar un'kevah bara otam
+
+Translation
+So God created man in His own image, in the image of God He created him; male and female He created them.
+
+Morphological Analysis
+
+וַיִּבְרָא
+Lemma: בָּרָא
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and created
+Analysis: Describes God's action in creating man.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the creation.
+
+אֶת־הָאָדָם
+Lemma: אָדָם
+Part of Speech: Noun, masculine singular.
+Translation: man
+Analysis: Refers to humanity, the creature to be created.
+
+בְּצַלְמוֹ
+Lemma: צֶלֶם
+Part of Speech: Noun, masculine singular.
+Translation: in His image
+Analysis: Refers to the divine likeness in which humanity is created.
+
+בְּצֶלֶם
+Lemma: צֶלֶם
+Part of Speech: Noun, masculine singular.
+Translation: in the image
+Analysis: Reiteration of the concept of humanity being made in God's image.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: Reaffirms that man is created in the image of God.
+
+בָּרָא
+Lemma: בָּרָא
+Part of Speech: Verb, perfect, 3rd person singular, qal.
+Translation: created
+Analysis: Marks the creative act.
+
+אֹתוֹ
+Lemma: אֶת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: Marks the object of the verb.
+
+זָכָר
+Lemma: זָכָר
+Part of Speech: Noun, masculine singular.
+Translation: male
+Analysis: Refers to the male of the species.
+
+וּנְקֵבָה
+Lemma: נְקֵבָה
+Part of Speech: Noun, feminine singular.
+Translation: female
+Analysis: Refers to the female of the species.
+
+בָּרָא
+Lemma: בָּרָא
+Part of Speech: Verb, perfect, 3rd person singular, qal.
+Translation: created
+Analysis: Describes God's action of creating male and female.
+
+אֹתָם
+Lemma: אֵת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: Marks the object of the verb.
+
+Syntactic Overview
+This verse highlights the creation of humankind in God's image. The verse emphasizes the equality and distinction between male and female as both are created in God's likeness, underscoring the unity and complementary nature of humanity.
+
+Verse 28
+
+Original
+וַיְבָרֶךְ אֹתָם אֱלֹהִים, וַיֹּאמֶר לָהֶם אֱלֹהִים, פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הָאָרֶץ וְכִבְשֻׁהָ; וּרְדוּ בִּדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם, וּבְכָל־חַיָּה הָרֹמֶשֶׂת עַל־הָאָרֶץ
+
+Transliteration
+
+vayevarech otam Elohim, vayomer lahem Elohim, peru u'ruvu u'milu et-haaretz ve'kibshuha; u'redu bidgat hayam uveof hashamayim, uvechol chayah haromeshes al-haaretz
+
+Translation
+And God blessed them, and God said to them, "Be fruitful and multiply and fill the earth and subdue it; and have dominion over the fish of the sea and over the birds of the heavens, and over every living thing that moves on the earth."
+
+Morphological Analysis
+
+וַיְבָרֶךְ
+Lemma: בָּרַךְ
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and blessed
+Analysis: Marks God's blessing upon mankind.
+
+אֹתָם
+Lemma: אֵת
+Part of Speech: Direct object marker (no translation).
+Translation: (no translation)
+Analysis: Marks the object of the blessing.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the blessing.
+
+וַיֹּאמֶר
+Lemma: אמר
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and said
+Analysis: Introduces the divine command.
+
+לָהֶם
+Lemma: לְ
+Part of Speech: Preposition, 3rd person plural.
+Translation: to them
+Analysis: The recipients of the command.
+
+פְּרוּ
+Lemma: פָּרָה
+Part of Speech: Verb, imperative, 2nd person plural, qal.
+Translation: be fruitful
+Analysis: The first command to humanity.
+
+וּרְבוּ
+Lemma: רָבָה
+Part of Speech: Verb, imperative, 2nd person plural, qal.
+Translation: and multiply
+Analysis: The second command to humanity.
+
+וּמִלְאוּ
+Lemma: מָלֵא
+Part of Speech: Verb, imperative, 2nd person plural, qal.
+Translation: and fill
+Analysis: The third command to humanity.
+
+אֶת־הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: the earth
+Analysis: The object of the verb "fill."
+
+וְכִבְשֻׁהָ
+Lemma: כָּבַשׁ
+Part of Speech: Verb, imperfect, 3rd person singular, piel.
+Translation: and subdue it
+Analysis: The command to humanity to exert control over the earth.
+
+וּרְדוּ
+Lemma: רָדָה
+Part of Speech: Verb, imperative, 2nd person plural, qal.
+Translation: and have dominion
+Analysis: Describes humanity's dominion over the creatures.
+
+בִּדְגַת
+Lemma: דָּג
+Part of Speech: Noun, masculine singular.
+Translation: over the fish
+Analysis: The first group over which dominion is given.
+
+הַיָּם
+Lemma: יָם
+Part of Speech: Noun, masculine singular.
+Translation: of the sea
+Analysis: The domain of the fish.
+
+וּבְעוֹף
+Lemma: עוֹף
+Part of Speech: Noun, masculine singular.
+Translation: and over the birds
+Analysis: The second group over which dominion is given.
+
+הַשָּׁמַיִם
+Lemma: שָׁמַיִם
+Part of Speech: Noun, masculine plural.
+Translation: of the heavens
+Analysis: The domain of the birds.
+
+וּבְכָל־חַיָּה
+Lemma: חַיָּה
+Part of Speech: Noun, feminine singular.
+Translation: and over every living thing
+Analysis: Refers to all other living creatures.
+
+הָרֹמֶשֶׂת
+Lemma: רָמַשׂ
+Part of Speech: Verb, active participle, feminine singular, qal.
+Translation: that moves
+Analysis: Describes the creatures that move on the earth.
+
+עַל־הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: upon the earth
+Analysis: Specifies the domain of these creatures.
+
+Syntactic Overview
+This verse continues the pattern of divine command with a series of imperatives: "be fruitful," "multiply," "fill," and "subdue." Humanity is given dominion over all living creatures, both in the waters and on the earth, emphasizing the unique role of humankind in the created order. The verse concludes with a statement of humanity's responsibility for the earth and its creatures.
+
+Verse 29
+
+Original
+וַיֹּאמֶר אֱלֹהִים, הִנֵּה נָתַתִּי לָכֶם אֶת־כָּל־עֵשֶׂב זֹרֵעַ זֶרַע, אֲשֶׁר עַל־פְּנֵי כָל־הָאָרֶץ, וְאֶת־כָּל־הָעֵץ אֲשֶׁר־בּוֹ פְרִי־עֵץ זֹרֵעַ זָרַע; לָכֶם יִהְיֶה לְאָכְלָה
+
+Transliteration
+
+vayomer Elohim, hineh natati lakhem et-kol-esev zore'a zera, asher al-penei kol-haaretz, ve'et-kol-ha'etz asher-bo peri-etz zore'a zara; lakhem yihyeh le'akhla
+
+Translation
+And God said, "Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in which is the fruit of a tree bearing seed; to you it shall be for food."
+
+Morphological Analysis
+
+וַיֹּאמֶר
+Lemma: אמר
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and said
+Analysis: Introduces God's statement regarding the provision for humanity.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the action.
+
+הִנֵּה
+Lemma: הִנֵּה
+Part of Speech: Interjection.
+Translation: behold
+Analysis: Used to draw attention to God's provision.
+
+נָתַתִּי
+Lemma: נָתַן
+Part of Speech: Verb, perfect, 1st person singular, qal.
+Translation: I have given
+Analysis: God declares that He has provided for humanity.
+
+לָכֶם
+Lemma: לְ
+Part of Speech: Preposition, 2nd person plural.
+Translation: to you
+Analysis: Indicates the recipients of God's provision.
+
+אֶת־כָּל־עֵשֶׂב
+Lemma: עֵשֶׂב
+Part of Speech: Noun, masculine singular.
+Translation: every herb
+Analysis: Refers to the plants that bear seed.
+
+זֹרֵעַ
+Lemma: זָרַע
+Part of Speech: Verb, active participle, masculine singular, qal.
+Translation: bearing
+Analysis: Describes the herb as producing seed.
+
+זֶרַע
+Lemma: זֶרַע
+Part of Speech: Noun, masculine singular.
+Translation: seed
+Analysis: Refers to the reproductive part of the herb.
+
+אֲשֶׁר
+Lemma: אֲשֶׁר
+Part of Speech: Relative pronoun.
+Translation: which
+Analysis: Introduces the relative clause describing the herb.
+
+עַל־פְּנֵי
+Lemma: פְּנֵי
+Part of Speech: Noun, masculine plural.
+Translation: upon the face of
+Analysis: Marks the area covered by the herb.
+
+כָל־הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: all the earth
+Analysis: Specifies the extent of the herb's coverage.
+
+וְאֶת־כָּל־הָעֵץ
+Lemma: עֵץ
+Part of Speech: Noun, masculine singular.
+Translation: and every tree
+Analysis: Refers to the trees that bear fruit.
+
+אֲשֶׁר־בּוֹ
+Lemma: בָּאָה
+Part of Speech: Verb, perfect, 3rd person singular, qal.
+Translation: in which is
+Analysis: Indicates the presence of fruit in the tree.
+
+פְרִי־עֵץ
+Lemma: פְּרִי
+Part of Speech: Noun, masculine singular.
+Translation: fruit of a tree
+Analysis: Refers to the product of the tree.
+
+זֹרֵעַ
+Lemma: זָרַע
+Part of Speech: Verb, active participle, masculine singular, qal.
+Translation: bearing
+Analysis: Describes the tree as producing seed.
+
+זָרַע
+Lemma: זָרַע
+Part of Speech: Noun, masculine singular.
+Translation: seed
+Analysis: Refers to the seed contained in the fruit.
+
+לָכֶם
+Lemma: לְ
+Part of Speech: Preposition, 2nd person plural.
+Translation: to you
+Analysis: Indicates the recipient of the provision.
+
+יִהְיֶה
+Lemma: היה
+Part of Speech: Verb, imperfect, 3rd person singular, qal.
+Translation: it shall be
+Analysis: The verb indicating the intended purpose of the provision.
+
+לְאָכְלָה
+Lemma: אָכַל
+Part of Speech: Noun, feminine singular.
+Translation: for food
+Analysis: Specifies that the plants and trees are provided for human consumption.
+
+Syntactic Overview
+In this verse, God declares His provision for humanity, providing every herb and tree for food. The phrase "bearing seed" emphasizes the reproductive function of the plants and trees, ensuring an ongoing supply for humanity. The structure is declarative, emphasizing God's care and provision for His creation.
+
+Verse 30
+
+Original
+וּלְכָל־חַיַּת הָאָרֶץ וּלְכָל־עוֹף הַשָּׁמַיִם וּלְכֹל רוֹמֵשׂ עַל־הָאָרֶץ, אֲשֶׁר־בּוֹ נֶפֶשׁ חַיָּה, אֶת־כָּל־יֶרֶק עֵשֶׂב לְאָכְלָה; וַיְהִי־כֵן
+
+Transliteration
+
+ulechal-chayat haaretz ulechal-of hashamayim ulechol romesh al-haaretz, asher-bo nefesh chayah, et-chal-yerak esev le'akhla; vayehi-ken
+
+Translation
+And to every beast of the earth and to every bird of the heavens and to everything that creeps upon the earth, in which there is the breath of life, I have given every green plant for food; and it was so.
+
+Morphological Analysis
+
+וּלְכָל־חַיַּת
+Lemma: חַיָּה
+Part of Speech: Noun, feminine singular.
+Translation: and to every beast
+Analysis: Refers to the creatures of the earth.
+
+הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: of the earth
+Analysis: Specifies the domain of the creatures.
+
+וּלְכָל־עוֹף
+Lemma: עוֹף
+Part of Speech: Noun, masculine singular.
+Translation: and to every bird
+Analysis: Refers to the birds of the sky.
+
+הַשָּׁמַיִם
+Lemma: שָׁמַיִם
+Part of Speech: Noun, masculine plural.
+Translation: of the heavens
+Analysis: Specifies the domain of the birds.
+
+וּלְכֹל רוֹמֵשׂ
+Lemma: רֶמֶשׂ
+Part of Speech: Noun, masculine singular.
+Translation: and to everything that creeps
+Analysis: Refers to all creeping creatures.
+
+עַל־הָאָרֶץ
+Lemma: אֶרֶץ
+Part of Speech: Noun, feminine singular.
+Translation: upon the earth
+Analysis: The location of the creeping creatures.
+
+אֲשֶׁר־בּוֹ
+Lemma: בָּאָה
+Part of Speech: Verb, perfect, 3rd person singular, qal.
+Translation: in which there is
+Analysis: Describes the presence of life in the creatures.
+
+נֶפֶשׁ
+Lemma: נֶפֶשׁ
+Part of Speech: Noun, feminine singular.
+Translation: the breath of life
+Analysis: Refers to the animating force or life-giving breath.
+
+חַיָּה
+Lemma: חַיָּה
+Part of Speech: Adjective.
+Translation: living
+Analysis: Describes the creatures as having life.
+
+אֶת־כָּל־יֶרֶק
+Lemma: יֶרֶק
+Part of Speech: Noun, masculine singular.
+Translation: every green plant
+Analysis: Refers to the vegetation provided as food.
+
+עֵשֶׂב
+Lemma: עֵשֶׂב
+Part of Speech: Noun, masculine singular.
+Translation: herb
+Analysis: Specifies the type of plant life.
+
+לְאָכְלָה
+Lemma: אָכַל
+Part of Speech: Noun, feminine singular.
+Translation: for food
+Analysis: Specifies the purpose of the plants and herbs.
+
+וַיְהִי־כֵן
+Lemma: היה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and it was so
+Analysis: Marks the fulfillment of God's command.
+
+Syntactic Overview
+This verse describes God's provision for all living creatures, granting them green plants for food. The structure emphasizes that the provision is for every kind of creature on the earth, from beasts to birds and creeping things. God's provision is described as complete and purposeful, as the earth is provided with everything necessary for sustaining life.
+
+Verse 31
+
+Original
+
+וַיַּרְא אֱלֹהִים אֶת־כָּל־אֲשֶׁר עָשָׂה, וְהִנֵּה־טוֹב מְאֹד; וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם הַשִּׁשִּׁי
+
+Transliteration
+
+vayare Elohim et-chal-asher asa, vehineh-tov meod; vayehi-erev vayehi-boker yom hashishi
+
+Translation
+And God saw everything that He had made, and behold, it was very good. And there was evening, and there was morning, the sixth day.
+
+Morphological Analysis
+
+וַיַּרְא
+Lemma: רָאָה
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal.
+Translation: and saw
+Analysis: Marks God's observation of His creation.
+
+אֱלֹהִים
+Lemma: אֱלֹהִים
+Part of Speech: Noun, masculine plural.
+Translation: God
+Analysis: The subject performing the observation.
+
+אֶת־כָּל־אֲשֶׁר
+Lemma: אֲשֶׁר
+Part of Speech: Relative pronoun.
+Translation: everything that
+Analysis: Introduces the relative clause for what God observed.
+
+עָשָׂה
+Lemma: עָשָׂה
+Part of Speech: Verb, perfect, 3rd person singular, qal.
+Translation: He had made
+Analysis: Describes the creation of the world.
+
+וְהִנֵּה
+Lemma: הִנֵּה
+Part of Speech: Interjection.
+Translation: behold
+Analysis: Used to emphasize the goodness of creation.
+
+טוֹב
+Lemma: טוב
+Part of Speech: Adjective.
+Translation: good
+Analysis: God's judgment on the creation.
+
+מְאֹד
+Lemma: מְאֹד
+Part of Speech: Adverb.
+Translation: very
+Analysis: Intensifies the quality of goodness.
+
+וַיְהִי־עֶרֶב
+Lemma: ערב
+Part of Speech: Noun, masculine singular.
+Translation: and there was evening
+Analysis: Marks the transition into the evening of the sixth day.
+
+וַיְהִי־בֹקֶר
+Lemma: בֹּקֶר
+Part of Speech: Noun, masculine singular.
+Translation: and there was morning
+Analysis: Marks the completion of the sixth day.
+
+יוֹם
+Lemma: יוֹם
+Part of Speech: Noun, masculine singular.
+Translation: day
+Analysis: The unit of time being described.
+
+הַשִּׁשִּׁי
+Lemma: שִׁשִּׁי
+Part of Speech: Adjective.
+Translation: sixth
+Analysis: Marks the specific day in the creation narrative.
+
+Syntactic Overview
+The verse summarizes the creation of all things and God's evaluation of it as "very good." The phrase "and it was very good" concludes the creation narrative and signifies the completion of God's work. The usual evening-morning cycle marks the completion of the sixth day.
+
+
+Chapter 2
+
+
+
+Verse 1
+
+Original
+
+וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל־צְבָאָם׃
+
+Transliteration
+vay'khullu hashamayim v'haaretz v'kol-tz'va'am
+
+Translation
+Thus the heavens and the earth were finished, and all their host.
+
+Morphological Analysis
+
+וַיְכֻלּוּ
+
+Lemma: כָּלָה
+
+Part of Speech: Verb, perfect, 3rd person plural, niph'al
+
+Translation: were finished
+
+Analysis: Passive form indicating the completion of the creation process.
+
+הַשָּׁמַיִם
+
+Lemma: שָׁמַיִם
+
+Part of Speech: Noun, masculine plural
+
+Translation: the heavens
+
+Analysis: Plural noun indicating the celestial bodies or sky.
+
+וְהָאָרֶץ
+
+Lemma: אֶרֶץ
+
+Part of Speech: Noun, feminine singular
+
+Translation: and the earth
+
+Analysis: Refers to the physical planet or land.
+
+וְכָל־צְבָאָם
+
+Lemma: צָבָא
+
+Part of Speech: Noun, masculine singular
+
+Translation: and all their host
+
+Analysis: Refers to all the heavenly hosts, armies or creatures.
+
+Syntactic Overview
+The verse follows a VSO structure. The verb "finished" (vay'khullu) describes the completion of creation, with the heavens and the earth being the subject. The phrase "and all their host" extends this idea to include all created beings and entities.
+
+Verse 2
+
+Original
+
+וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי, מְלַאכְתּוֹ אֲשֶׁר עָשָׂה; וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי, מִכָּל־מְלַאכְתּוֹ אֲשֶׁר עָשָׂה׃
+
+Transliteration
+vay'chal Elohim bayom hashevi'i, melakhto asher asah; vayishbot bayom hashevi'i, mikol melakhto asher asah
+
+Translation
+And God finished His work which He had done, and He rested on the seventh day from all His work which He had done.
+
+Morphological Analysis
+
+וַיְכַל
+
+Lemma: כָּלָה
+
+Part of Speech: Verb, perfect, 3rd person singular, qal
+
+Translation: He finished
+
+Analysis: Describes the completion of God’s creative work.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: Plural form used in singular context to indicate the majesty of God.
+
+בַּיּוֹם הַשְּׁבִיעִי
+
+Lemma: יוֹם
+
+Part of Speech: Noun, masculine singular
+
+Translation: on the seventh day
+
+Analysis: Refers to the specific day after six days of creation.
+
+מְלַאכְתּוֹ
+
+Lemma: מְלַאכָה
+
+Part of Speech: Noun, feminine singular
+
+Translation: His work
+
+Analysis: Refers to God’s creative acts.
+
+אֲשֶׁר
+
+Lemma: אֲשֶׁר
+
+Part of Speech: Relative pronoun
+
+Translation: which
+
+Analysis: Introduces the relative clause.
+
+עָשָׂה
+
+Lemma: עָשָׂה
+
+Part of Speech: Verb, perfect, 3rd person singular, qal
+
+Translation: He had done
+
+Analysis: Indicates the action of creating.
+
+וַיִּשְׁבֹּת
+
+Lemma: שָׁבַת
+
+Part of Speech: Verb, perfect, 3rd person singular, qal
+
+Translation: and He rested
+
+Analysis: Describes God’s cessation from work.
+
+Syntactic Overview
+The verse follows a VSO structure. God finishes His work and then rests on the seventh day, marking the end of the creation process. The relative clauses "which He had done" provide more context to the completed actions.
+
+Verse 3
+
+Original
+
+וַיְבָרֶךְ אֱלֹהִים אֶת־יוֹם הַשְּׁבִיעִי, וַיְקַדֵּשׁ אֹתוֹ; כִּי בוֹ שָׁבַת מִכָּל־מְלַאכְתּוֹ, אֲשֶׁר־בָּרָא אֱלֹהִים לַעֲשׂוֹת׃
+
+Transliteration
+vayevarech Elohim et-yom hashevi'i, vayikadesh oto; ki bo shavat mikol melakhto, asher-bara Elohim la'asot
+
+Translation
+And God blessed the seventh day and sanctified it, because in it He rested from all His work which God created and made.
+
+Morphological Analysis
+
+וַיְבָרֶךְ
+
+Lemma: בָּרַךְ
+
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, qal
+
+Translation: And He blessed
+
+Analysis: Denotes the act of conferring a special blessing upon the seventh day.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: Refers to the singular God with a plural form for majesty.
+
+אֶת־יוֹם הַשְּׁבִיעִי
+
+Lemma: יוֹם
+
+Part of Speech: Noun, masculine singular
+
+Translation: the seventh day
+
+Analysis: Refers to the day after the completion of creation.
+
+וַיְקַדֵּשׁ
+
+Lemma: קָדַשׁ
+
+Part of Speech: Verb, waw-consecutive, perfect, 3rd person singular, piel
+
+Translation: and sanctified
+
+Analysis: Describes the act of making the day holy.
+
+אֹתוֹ
+
+Lemma: אֵת
+
+Part of Speech: Direct object marker
+
+Translation: (no translation)
+
+Analysis: Marks the direct object.
+
+כִּי
+
+Lemma: כִּי
+
+Part of Speech: Conjunction
+
+Translation: because
+
+Analysis: Introduces the reason for the sanctification.
+
+בוֹ
+
+Lemma: בּוֹ
+
+Part of Speech: Pronoun, masculine singular
+
+Translation: in it
+
+Analysis: Refers to the seventh day.
+
+שָׁבַת
+
+Lemma: שָׁבַת
+
+Part of Speech: Verb, perfect, 3rd person singular, qal
+
+Translation: He rested
+
+Analysis: Describes God’s cessation from work.
+
+מִכָּל־מְלַאכְתּוֹ
+
+Lemma: מְלַאכָה
+
+Part of Speech: Noun, feminine singular
+
+Translation: from all His work
+
+Analysis: Refers to all the work God had completed.
+
+Syntactic Overview
+This verse is a continuation of the divine actions on the seventh day. After completing the creation, God blesses and sanctifies the seventh day, marking it as holy. The clause "because in it He rested" provides the reason for this special status.
+
+
+Verse 4
+
+Original
+
+אֵלֶּה תוֹלְדוֹת הַשָּׁמַיִם וְהָאָרֶץ בְּהִבָּרְאָם; בְּיוֹם, עֲשׂוֹת יְהוָה אֱלֹהִים אֶרֶץ וְשָׁמָיִם׃
+
+Transliteration
+Eleh toledot hashamayim v'haaretz b'hibb'ram; b'yom, asot Adonai Elohim eretz v'shamayim
+
+Translation
+These are the generations of the heavens and the earth when they were created. In the day that the Lord God made the earth and the heavens.
+
+Morphological Analysis
+
+אֵלֶּה
+
+Lemma: אֵלֶּה
+
+Part of Speech: Demonstrative pronoun
+
+Translation: These
+
+Analysis: Introduces the following statement as the beginning of a new section.
+
+תוֹלְדוֹת
+
+Lemma: תּוֹלְדוֹת
+
+Part of Speech: Noun, feminine plural
+
+Translation: generations
+
+Analysis: Refers to the subsequent developments or accounts of creation.
+
+הַשָּׁמַיִם
+
+Lemma: שָׁמַיִם
+
+Part of Speech: Noun, masculine plural
+
+Translation: the heavens
+
+Analysis: Refers to the celestial bodies or the sky.
+
+וְהָאָרֶץ
+
+Lemma: אֶרֶץ
+
+Part of Speech: Noun, feminine singular
+
+Translation: and the earth
+
+Analysis: Refers to the physical earth or land.
+
+בְּהִבָּרְאָם
+
+Lemma: בָּרָא
+
+Part of Speech: Verb, passive, perfect, 3rd person plural
+
+Translation: when they were created
+
+Analysis: Passive form indicating that the heavens and earth were created by God.
+
+בְּיוֹם
+
+Lemma: יוֹם
+
+Part of Speech: Noun, masculine singular
+
+Translation: in the day
+
+Analysis: Refers to the specific time when the creation occurred.
+
+עֲשׂוֹת
+
+Lemma: עָשָׂה
+
+Part of Speech: Verb, infinitive construct
+
+Translation: made
+
+Analysis: Refers to the act of creation by God.
+
+יְהוָה
+
+Lemma: יְהוָה
+
+Part of Speech: Proper noun
+
+Translation: Lord
+
+Analysis: The personal name of God, used to emphasize His covenant relationship with Israel.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: The plural form for majesty or greatness of God.
+
+אֶרֶץ
+
+Lemma: אֶרֶץ
+
+Part of Speech: Noun, feminine singular
+
+Translation: earth
+
+Analysis: Refers to the physical world or land.
+
+וְשָׁמָיִם
+
+Lemma: שָׁמַיִם
+
+Part of Speech: Noun, masculine plural
+
+Translation: and the heavens
+
+Analysis: Refers to the sky or celestial bodies.
+
+Syntactic Overview
+This verse introduces the "generations" or "accounts" of the heavens and earth. The structure connects the act of creation with the specific day it took place, and the emphasis is on God's active role in creating both the earth and the heavens.
+
+Verse 5
+
+Original
+
+וְכֹל שִׂיחַ הַשָּׂדֶה, טֶרֶם יִהְיֶה בָאָרֶץ, וְכָל־עֵשֶׂב הַשָּׂדֶה טֶרֶם יִצְמָח; כִּי לֹא הִמְטִיר יְהוָה אֱלֹהִים עַל־הָאָרֶץ, וְאָדָם אַיִן, לַעֲבֹד אֶת־הָאֲדָמָה׃
+
+Transliteration
+V'chol si'ach hasadeh, terem yiheyeh baaretz, v'kol-eisev hasadeh terem yitzmach; ki lo himtir Adonai Elohim al-haaretz, v'adam ayin, laavod et-haadamah
+
+Translation
+And every plant of the field before it was in the earth, and every herb of the field before it grew; for the Lord God had not caused it to rain upon the earth, and there was no man to till the ground.
+
+Morphological Analysis
+
+וְכֹל
+
+Lemma: כָּל
+
+Part of Speech: Adjective
+
+Translation: And every
+
+Analysis: Introduces a totality of elements, such as plants and herbs.
+
+שִׂיחַ
+
+Lemma: שִׂיחַ
+
+Part of Speech: Noun, masculine singular
+
+Translation: plant
+
+Analysis: Refers to vegetation, specifically shrubs or plants of the field.
+
+הַשָּׂדֶה
+
+Lemma: שָׂדֶה
+
+Part of Speech: Noun, masculine singular
+
+Translation: the field
+
+Analysis: Refers to the land or field where crops grow.
+
+טֶרֶם
+
+Lemma: טֶרֶם
+
+Part of Speech: Adverb
+
+Translation: before
+
+Analysis: Indicates a time prior to something happening.
+
+יִהְיֶה
+
+Lemma: הָיָה
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: it was
+
+Analysis: Refers to the state of being or existence of the plants.
+
+בָּאָרֶץ
+
+Lemma: אֶרֶץ
+
+Part of Speech: Noun, feminine singular
+
+Translation: on the earth
+
+Analysis: Refers to the physical planet or land.
+
+וְכָל־עֵשֶׂב
+
+Lemma: עֵשֶׂב
+
+Part of Speech: Noun, masculine singular
+
+Translation: and every herb
+
+Analysis: Refers to herbs or grass.
+
+הַשָּׂדֶה
+
+Lemma: שָׂדֶה
+
+Part of Speech: Noun, masculine singular
+
+Translation: of the field
+
+Analysis: Refers again to the field or land where plants and herbs grow.
+
+טֶרֶם
+
+Lemma: טֶרֶם
+
+Part of Speech: Adverb
+
+Translation: before
+
+Analysis: Indicates that this action occurred before the plants grew.
+
+יִצְמָח
+
+Lemma: צָמַח
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: it grew
+
+Analysis: Describes the process of the plant’s growth.
+
+כִּי
+
+Lemma: כִּי
+
+Part of Speech: Conjunction
+
+Translation: for
+
+Analysis: Introduces the reason for the previous statement.
+
+לֹא
+
+Lemma: לֹא
+
+Part of Speech: Adverb
+
+Translation: not
+
+Analysis: Negates the following verb.
+
+הִמְטִיר
+
+Lemma: מָטַר
+
+Part of Speech: Verb, perfect, 3rd person singular
+
+Translation: had caused it to rain
+
+Analysis: Indicates that rain had not yet been sent upon the earth.
+
+Syntactic Overview
+The verse contrasts the state of the earth and vegetation before God's intervention. It introduces the absence of rain and the lack of man to till the earth as reasons for the plants' non-growth.
+
+Verse 6
+Original
+וְאֵד יַעֲלֶה מִן־הָאָרֶץ; וְהִשְׁקָה אֶת־כָּל־פְּנֵי־הָאֲדָמָה׃
+
+Transliteration
+V'ead ya'aleh min-haaretz; v'hishkeh et-kol-p'nei-haadamah
+
+Translation
+But a mist went up from the earth, and watered the whole face of the ground.
+
+Morphological Analysis
+
+וְאֵד
+
+Lemma: אֵד
+
+Part of Speech: Noun, masculine singular
+
+Translation: a mist
+
+Analysis: Refers to the mist or vapor that rises from the earth.
+
+יַעֲלֶה
+
+Lemma: עָלָה
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: went up
+
+Analysis: Describes the action of the mist rising from the earth.
+
+מִן־הָאָרֶץ
+
+Lemma: אֶרֶץ
+
+Part of Speech: Noun, feminine singular
+
+Translation: from the earth
+
+Analysis: Describes the origin of the mist.
+
+וְהִשְׁקָה
+
+Lemma: שָׁקָה
+
+Part of Speech: Verb, imperfect, 3rd person singular, hif'il
+
+Translation: and watered
+
+Analysis: Describes the action of watering or irrigating.
+
+אֶת־כָּל־פְּנֵי
+
+Lemma: פָּנִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: the face of
+
+Analysis: Refers to the surface or the face of the ground.
+
+הָאֲדָמָה
+
+Lemma: אֲדָמָה
+
+Part of Speech: Noun, feminine singular
+
+Translation: the ground
+
+Analysis: Refers to the physical earth or land.
+
+Syntactic Overview
+This verse introduces the mist that rises from the earth to water the ground, acting as a natural irrigation system before rain was introduced.
+
+
+Verse 7
+Original
+וַיִּיצֶר יְהוָה אֱלֹהִים אֶת־הָאָדָם, עָפָר מִן־הָאֲדָמָה, וַיִּפַּח בְּאַפָּיו נִשְׁמַת חַיִּים; וַיְהִי הָאָדָם לְנֶפֶשׁ חַיָּה׃
+
+Transliteration
+Vayitzer Adonai Elohim et-ha'adam, afar min-haadamah, vayipach b'apav nishmat chayim; vayehi ha'adam le'nefesh chayah
+
+Translation
+And the Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.
+
+Morphological Analysis
+
+וַיִּיצֶר
+
+Lemma: יָצַר
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And He formed
+
+Analysis: Describes God's action of shaping man from dust.
+
+יְהוָה
+
+Lemma: יְהוָה
+
+Part of Speech: Proper noun
+
+Translation: The Lord
+
+Analysis: The personal name of God, signifying His covenant relationship with Israel.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: The plural form of God used to denote His greatness and majesty.
+
+אֶת־הָאָדָם
+
+Lemma: אֶת־הָאָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: man
+
+Analysis: Refers to human beings as created by God.
+
+עָפָר
+
+Lemma: עָפָר
+
+Part of Speech: Noun, masculine singular
+
+Translation: dust
+
+Analysis: Refers to the substance from which man was formed.
+
+מִן־הָאֲדָמָה
+
+Lemma: אֲדָמָה
+
+Part of Speech: Noun, feminine singular
+
+Translation: from the ground
+
+Analysis: Specifies the source of the dust.
+
+וַיִּפַּח
+
+Lemma: נָפַח
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: and He breathed
+
+Analysis: Describes God's action of breathing the breath of life into man.
+
+בְּאַפָּיו
+
+Lemma: אַף
+
+Part of Speech: Noun, masculine singular
+
+Translation: into his nostrils
+
+Analysis: Refers to the place where God breathed into man.
+
+נִשְׁמַת
+
+Lemma: נִשְׁמַת
+
+Part of Speech: Noun, feminine singular
+
+Translation: the breath of
+
+Analysis: Refers to the breath or spirit of life.
+
+חַיִּים
+
+Lemma: חַיִּים
+
+Part of Speech: Noun, masculine plural
+
+Translation: life
+
+Analysis: Indicates the life-giving spirit that was imparted.
+
+וַיְהִי
+
+Lemma: הָיָה
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: and He became
+
+Analysis: Describes the transformation of man into a living soul.
+
+הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: man
+
+Analysis: Refers to humanity as the created being.
+
+לְנֶפֶשׁ
+
+Lemma: נֶפֶשׁ
+
+Part of Speech: Noun, feminine singular
+
+Translation: a soul
+
+Analysis: Describes the inner being of man, which is animated by the spirit.
+
+חַיָּה
+
+Lemma: חַיָּה
+
+Part of Speech: Adjective
+
+Translation: living
+
+Analysis: Qualifies the soul as one that has life.
+
+Syntactic Overview
+This verse details the creation of man. The use of "dust" emphasizes humanity's humble origin, while God's act of breathing into him highlights the divine impartation of life.
+
+Verse 8
+Original
+וַיִּטַּע יְהוָה אֱלֹהִים גַּן־בְּעֵדֶן מִקֶּדֶם; וַיָּשֶׂם שָׁם, אֶת־הָאָדָם אֲשֶׁר יָצָר׃
+
+Transliteration
+Vayita Adonai Elohim gan-b'eden miqqedem; vayasem sham, et-ha'adam asher yatzar
+
+Translation
+And the Lord God planted a garden eastward in Eden; and there He put the man whom He had formed.
+
+Morphological Analysis
+
+וַיִּטַּע
+
+Lemma: נָטַע
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And He planted
+
+Analysis: Describes God's action of planting a garden.
+
+יְהוָה
+
+Lemma: יְהוָה
+
+Part of Speech: Proper noun
+
+Translation: The Lord
+
+Analysis: The personal name of God.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: The divine title used to express God's omnipotence.
+
+גַּן־בְּעֵדֶן
+
+Lemma: גַּן, עֵדֶן
+
+Part of Speech: Noun, masculine singular
+
+Translation: garden of Eden
+
+Analysis: Refers to the divine garden located in Eden, the paradise.
+
+מִקֶּדֶם
+
+Lemma: קֶדֶם
+
+Part of Speech: Noun, masculine singular
+
+Translation: eastward
+
+Analysis: Describes the direction where the garden was planted.
+
+וַיָּשֶׂם
+
+Lemma: שָׂם
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: and He placed
+
+Analysis: Describes God's action of putting the man in the garden.
+
+שָׁם
+
+Lemma: שָׁם
+
+Part of Speech: Adverb
+
+Translation: there
+
+Analysis: Indicates the location where the man was placed.
+
+אֶת־הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: the man
+
+Analysis: Refers to the human being created by God.
+
+אֲשֶׁר
+
+Lemma: אֲשֶׁר
+
+Part of Speech: Relative pronoun
+
+Translation: whom
+
+Analysis: Introduces the relative clause indicating the man God had formed.
+
+יָצָר
+
+Lemma: יָצַר
+
+Part of Speech: Verb, perfect, 3rd person singular
+
+Translation: He had formed
+
+Analysis: Refers to the formation of man, a continuation of the previous verse.
+
+Syntactic Overview
+In this verse, the creation of the Garden of Eden is described, followed by the placement of man within it. The focus is on God's intention for the man to be placed in a divinely prepared environment.
+
+Verse 9
+Original
+וַיַּצְמַח יְהוָה אֱלֹהִים מִן־הָאֲדָמָה, כָּל־עֵץ נֶחְמָד לְמַרְאֶה וְטוֹב לְמַאֲכָל; וְעֵץ הַחַיִּים בְּתוֹךְ הַגָּן, וְעֵץ הַדַּעַת טוֹב וָרָע׃
+
+Transliteration
+Vayatzmach Adonai Elohim min-haadamah, kol-etz nehmad lemareh v'tov lemakhal; v'etz hachayim b'tokh hagan, v'etz hada'at tov vara
+
+Translation
+And the Lord God made to grow every tree that is pleasant to the sight and good for food; the tree of life also in the midst of the garden, and the tree of the knowledge of good and evil.
+
+Morphological Analysis
+
+וַיַּצְמַח
+
+Lemma: צָמַח
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And He caused to grow
+
+Analysis: Describes God's action of making the trees grow.
+
+יְהוָה
+
+Lemma: יְהוָה
+
+Part of Speech: Proper noun
+
+Translation: The Lord
+
+Analysis: Refers to the personal name of God.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: Used here to emphasize God's power and authority.
+
+מִן־הָאֲדָמָה
+
+Lemma: אֲדָמָה
+
+Part of Speech: Noun, feminine singular
+
+Translation: from the ground
+
+Analysis: Specifies the source of the trees.
+
+כָּל־עֵץ
+
+Lemma: עֵץ
+
+Part of Speech: Noun, masculine singular
+
+Translation: every tree
+
+Analysis: Refers to all the trees created by God.
+
+נֶחְמָד
+
+Lemma: נָחַם
+
+Part of Speech: Adjective
+
+Translation: pleasant
+
+Analysis: Refers to the visual appeal of the tree.
+
+לְמַרְאֶה
+
+Lemma: מַרְאֶה
+
+Part of Speech: Noun, masculine singular
+
+Translation: to the sight
+
+Analysis: Indicates the purpose of the tree's visual appeal.
+
+Syntactic Overview
+This verse describes the creation of various trees, both for their beauty and for their nutritional value. It highlights the inclusion of two specific trees: the Tree of Life and the Tree of Knowledge.
+
+
+Verse 10
+Original
+וְנָהָר יֹצֵא מֵעֵדֶן, לְהַשְׁקוֹת אֶת־הַגָּן; וּמִשָּׁם יִפָּרֵד, וְהָיָה לְאַרְבָּעָה רָאשִׁים׃
+
+Transliteration
+V'nahar yotzei me'eden, lehashkot et-hagan; u'misham yipareid, v'hayah le'arba'ah rashim
+
+Translation
+And a river went out of Eden to water the garden; and from thence it was parted, and became into four heads.
+
+Morphological Analysis
+
+וְנָהָר
+
+Lemma: נַהַר
+
+Part of Speech: Noun, masculine singular
+
+Translation: And a river
+
+Analysis: Refers to the river flowing from Eden.
+
+יֹצֵא
+
+Lemma: יָצָא
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: went out
+
+Analysis: Describes the river's movement from Eden.
+
+מֵעֵדֶן
+
+Lemma: עֵדֶן
+
+Part of Speech: Noun, masculine singular
+
+Translation: from Eden
+
+Analysis: Refers to the origin of the river.
+
+לְהַשְׁקוֹת
+
+Lemma: שָׁקָה
+
+Part of Speech: Verb, infinitive
+
+Translation: to water
+
+Analysis: Describes the purpose of the river in nourishing the garden.
+
+אֶת־הַגָּן
+
+Lemma: גָּן
+
+Part of Speech: Noun, masculine singular
+
+Translation: the garden
+
+Analysis: Refers to the Garden of Eden.
+
+וּמִשָּׁם
+
+Lemma: שָׁם
+
+Part of Speech: Adverb
+
+Translation: and from thence
+
+Analysis: Indicates the location where the river is divided.
+
+יִפָּרֵד
+
+Lemma: פָּרַד
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: it was parted
+
+Analysis: Describes the splitting of the river into four branches.
+
+וְהָיָה
+
+Lemma: הָיָה
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: and it became
+
+Analysis: Describes the transformation of the river into four heads.
+
+לְאַרְבָּעָה
+
+Lemma: אַרְבָּעָה
+
+Part of Speech: Noun, masculine plural
+
+Translation: into four
+
+Analysis: Refers to the division of the river into four parts.
+
+רָאשִׁים
+
+Lemma: רֹאשׁ
+
+Part of Speech: Noun, masculine plural
+
+Translation: heads
+
+Analysis: Refers to the four branches or sources of the river.
+
+Syntactic Overview
+This verse describes the river from Eden, which serves the purpose of watering the garden. The river splits into four separate heads, marking the geographical significance of Eden's river system.
+
+Verse 11
+Original
+שֵׁם הָאֶחָד פִּישׁוֹן; הוּא הַסֹּבֵב, אֵת כָּל־אֶרֶץ הַחֲוִילָה, אֲשֶׁר־שָׁם הַזָּהָב׃
+
+Transliteration
+Shem ha'echad Pishon; hu hasovev, et kol-erets hachavilah, asher-sham hazahav
+
+Translation
+The name of the first is Pishon: that is it which compasseth the whole land of Havilah, where there is gold.
+
+Morphological Analysis
+
+שֵׁם
+
+Lemma: שֵׁם
+
+Part of Speech: Noun, masculine singular
+
+Translation: The name
+
+Analysis: Indicates the name of the first river.
+
+הָאֶחָד
+
+Lemma: אֶחָד
+
+Part of Speech: Adjective
+
+Translation: the first
+
+Analysis: Refers to the first of the four rivers.
+
+פִּישׁוֹן
+
+Lemma: פִּישׁוֹן
+
+Part of Speech: Proper noun
+
+Translation: Pishon
+
+Analysis: The name of the first river.
+
+הוּא
+
+Lemma: הוּא
+
+Part of Speech: Pronoun, masculine singular
+
+Translation: it is
+
+Analysis: Refers back to Pishon.
+
+הַסֹּבֵב
+
+Lemma: סָבַב
+
+Part of Speech: Verb, participle
+
+Translation: that compasseth
+
+Analysis: Describes the action of the river surrounding the land.
+
+אֵת
+
+Lemma: אֵת
+
+Part of Speech: Preposition
+
+Translation: the
+
+Analysis: A direct object marker.
+
+כָּל־אֶרֶץ
+
+Lemma: אֶרֶץ
+
+Part of Speech: Noun, feminine singular
+
+Translation: the whole land
+
+Analysis: Refers to the land that the river encompasses.
+
+הַחֲוִילָה
+
+Lemma: חֲוִילָה
+
+Part of Speech: Noun, feminine singular
+
+Translation: of Havilah
+
+Analysis: The name of a region mentioned here.
+
+אֲשֶׁר־שָׁם
+
+Lemma: אֲשֶׁר
+
+Part of Speech: Relative pronoun
+
+Translation: where
+
+Analysis: Introduces a relative clause explaining what is found in Havilah.
+
+הַזָּהָב
+
+Lemma: זָהָב
+
+Part of Speech: Noun, masculine singular
+
+Translation: gold
+
+Analysis: Refers to the precious metal found in the region.
+
+Syntactic Overview
+This verse provides the name of the first river, Pishon, and describes the land it encompasses, which is rich in gold. This establishes a connection between the geography and the wealth of the land.
+
+Verse 12
+Original
+וּזֲהַב הָאָרֶץ הַהִוא טוֹב; שָׁם הַבְּדֹלַח וְאֶבֶן הַשֹּׁהַם׃
+
+Transliteration
+Uzahav haaretz hahi tov; sham habedolach v'even hashoham
+
+Translation
+And the gold of that land is good: there is bdellium and the onyx stone.
+
+Morphological Analysis
+
+וּזֲהַב
+
+Lemma: זָהָב
+
+Part of Speech: Noun, masculine singular
+
+Translation: And gold
+
+Analysis: Introduces the precious gold found in the land.
+
+הָאָרֶץ
+
+Lemma: אֶרֶץ
+
+Part of Speech: Noun, feminine singular
+
+Translation: the land
+
+Analysis: Refers to the land of Havilah.
+
+הַהִוא
+
+Lemma: הִוא
+
+Part of Speech: Pronoun, feminine singular
+
+Translation: that
+
+Analysis: Refers to the land being described.
+
+טוֹב
+
+Lemma: טוֹב
+
+Part of Speech: Adjective
+
+Translation: good
+
+Analysis: Describes the quality of the gold.
+
+שָׁם
+
+Lemma: שָׁם
+
+Part of Speech: Adverb
+
+Translation: there
+
+Analysis: Indicates the location of the bdellium and onyx.
+
+הַבְּדֹלַח
+
+Lemma: בְּדֹלַח
+
+Part of Speech: Noun, masculine singular
+
+Translation: bdellium
+
+Analysis: A precious resin or gum found in the land.
+
+וְאֶבֶן
+
+Lemma: אֶבֶן
+
+Part of Speech: Noun, feminine singular
+
+Translation: and stone
+
+Analysis: Refers to a type of stone found in the region.
+
+הַשֹּׁהַם
+
+Lemma: שֹׁהַם
+
+Part of Speech: Noun, masculine singular
+
+Translation: onyx
+
+Analysis: A valuable gemstone.
+
+Syntactic Overview
+This verse continues to describe the precious materials found in Havilah, highlighting the quality of the gold and listing other valuable substances like bdellium and onyx.
+
+
+Verse 13
+Original
+וְשֵׁם־הַנָּהָר הַשֵּׁנִי גִּיחוֹן; הוּא הַסּוֹבֵב, אֵת כָּל־אֶרֶץ כּוּשׁ׃
+
+Transliteration
+V'shem-hanahar hasheni Gichon; hu hasovev, et kol-erets Kush
+
+Translation
+And the name of the second river is Gihon: the same is it that compasseth the whole land of Cush.
+
+Morphological Analysis
+
+וְשֵׁם־
+
+Lemma: שֵׁם
+
+Part of Speech: Noun, masculine singular
+
+Translation: And the name
+
+Analysis: Introduces the name of the second river.
+
+הַנָּהָר
+
+Lemma: נַהַר
+
+Part of Speech: Noun, masculine singular
+
+Translation: of the river
+
+Analysis: Refers to the second river, Gihon.
+
+הַשֵּׁנִי
+
+Lemma: שֵׁנִי
+
+Part of Speech: Adjective
+
+Translation: second
+
+Analysis: Refers to the second river.
+
+גִּיחוֹן
+
+Lemma: גִּיחוֹן
+
+Part of Speech: Proper noun
+
+Translation: Gihon
+
+Analysis: The name of the second river.
+
+הוּא
+
+Lemma: הוּא
+
+Part of Speech: Pronoun, masculine singular
+
+Translation: it is
+
+Analysis: Refers back to the river Gihon.
+
+הַסּוֹבֵב
+
+Lemma: סָבַב
+
+Part of Speech: Verb, participle
+
+Translation: that compasseth
+
+Analysis: Describes the action of the river surrounding the land.
+
+אֵת
+
+Lemma: אֵת
+
+Part of Speech: Preposition
+
+Translation: the
+
+Analysis: A direct object marker.
+
+כָּל־אֶרֶץ
+
+Lemma: אֶרֶץ
+
+Part of Speech: Noun, feminine singular
+
+Translation: the whole land
+
+Analysis: Refers to the land that the river encompasses.
+
+כּוּשׁ
+
+Lemma: כּוּשׁ
+
+Part of Speech: Noun, masculine singular
+
+Translation: of Cush
+
+Analysis: Refers to the land of Cush.
+
+Syntactic Overview
+This verse provides the name of the second river, Gihon, and describes the land of Cush that it surrounds. This expands the geographical and cultural significance of the rivers of Eden.
+
+Verse 14
+Original
+וְשֵׁם הַנָּהָר הַשְּׁלִישִׁי חִדֶּקֶל, הוּא הַהֹלֵךְ קִדְמַת אַשּׁוּר; וְהַנָּהָר הָרְבִיעִי הוּא פְרָת׃
+
+Transliteration
+V'shem hanahar hashelishi Chidekel; hu holeh kidmat Asshur; v'hanahar harevi'i hu Perat
+
+Translation
+And the name of the third river is Hiddekel: that is it which goeth toward the east of Assyria. And the fourth river is Euphrates.
+
+Morphological Analysis
+
+וְשֵׁם
+
+Lemma: שֵׁם
+
+Part of Speech: Noun, masculine singular
+
+Translation: And the name
+
+Analysis: Continues the naming pattern for the rivers.
+
+הַנָּהָר
+
+Lemma: נַהַר
+
+Part of Speech: Noun, masculine singular
+
+Translation: of the river
+
+Analysis: Refers to the third river, Hiddekel.
+
+הַשְּׁלִישִׁי
+
+Lemma: שְׁלִישִׁי
+
+Part of Speech: Adjective
+
+Translation: third
+
+Analysis: Refers to the third river.
+
+חִדֶּקֶל
+
+Lemma: חִדֶּקֶל
+
+Part of Speech: Proper noun
+
+Translation: Hiddekel
+
+Analysis: The name of the third river.
+
+הוּא
+
+Lemma: הוּא
+
+Part of Speech: Pronoun, masculine singular
+
+Translation: it is
+
+Analysis: Refers back to the river Hiddekel.
+
+הַהֹלֵךְ
+
+Lemma: הָלַךְ
+
+Part of Speech: Verb, participle
+
+Translation: that goeth
+
+Analysis: Describes the movement of the river.
+
+קִדְמַת
+
+Lemma: קִדְמַה
+
+Part of Speech: Preposition
+
+Translation: toward the east of
+
+Analysis: Describes the direction of the river's flow.
+
+אַשּׁוּר
+
+Lemma: אַשּׁוּר
+
+Part of Speech: Proper noun
+
+Translation: Assyria
+
+Analysis: Refers to the region of Assyria, in the north.
+
+וְהַנָּהָר
+
+Lemma: נַהַר
+
+Part of Speech: Noun, masculine singular
+
+Translation: And the river
+
+Analysis: Refers to the fourth river, the Euphrates.
+
+הָרְבִיעִי
+
+Lemma: רְבִיעִי
+
+Part of Speech: Adjective
+
+Translation: fourth
+
+Analysis: Refers to the fourth river.
+
+הוּא
+
+Lemma: הוּא
+
+Part of Speech: Pronoun, masculine singular
+
+Translation: it is
+
+Analysis: Refers back to the river Euphrates.
+
+פְרָת
+
+Lemma: פְרָת
+
+Part of Speech: Proper noun
+
+Translation: Euphrates
+
+Analysis: The name of the fourth river.
+
+Syntactic Overview
+This verse names the third and fourth rivers, Hiddekel (likely the Tigris) and Euphrates, and gives additional geographical information about their directions. This contributes to the identification of the broader regional context of Eden and its rivers.
+
+Verse 15
+Original
+וַיִּקַּח יְהוָה אֱלֹהִים אֶת־הָאָדָם; וַיַּנִּחֵהוּ בְגַן־עֵדֶן, לְעָבְדָהּ וּלְשָׁמְרָהּ׃
+
+Transliteration
+Vayikach Adonai Elohim et-ha'adam; vayannechehu b'gan-eden, leavdah uleshamrah
+
+Translation
+And the Lord God took the man, and put him into the garden of Eden to dress it and to keep it.
+
+Morphological Analysis
+
+וַיִּקַּח
+
+Lemma: לָקַח
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And He took
+
+Analysis: Describes the action of God taking the man.
+
+יְהוָה
+
+Lemma: יְהוָה
+
+Part of Speech: Proper noun
+
+Translation: The Lord
+
+Analysis: The divine name for God used here.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: Refers to God as the Creator.
+
+אֶת־הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: the man
+
+Analysis: Refers to the human created in God's image.
+
+וַיַּנִּחֵהוּ
+
+Lemma: נָחַה
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: and placed him
+
+Analysis: Describes God placing the man in the garden.
+
+בְגַן־עֵדֶן
+
+Lemma: גַּן
+
+Part of Speech: Noun, masculine singular
+
+Translation: in the garden of Eden
+
+Analysis: Refers to the location where man was placed.
+
+לְעָבְדָהּ
+
+Lemma: עָבַד
+
+Part of Speech: Verb, infinitive
+
+Translation: to dress it
+
+Analysis: Refers to the man’s task of working and cultivating the garden.
+
+וּלְשָׁמְרָהּ
+
+Lemma: שָׁמַר
+
+Part of Speech: Verb, infinitive
+
+Translation: and to keep it
+
+Analysis: Refers to the man’s responsibility to guard the garden.
+
+Syntactic Overview
+This verse details the divine action of placing man in the Garden of Eden, assigning him the task of both tending to and guarding the garden. This establishes the human role in Edenic order.
+
+
+Verse 16
+Original
+וַיְצַו יְהוָה אֱלֹהִים, עַל־הָאָדָם לֵאמֹר; מִכֹּל עֵץ־הַגָּן אָכֹל תֹּאכֵל׃
+
+Transliteration
+Vaytav Yahweh Elohim al-ha'adam le'emor; mikol etz-hagan akhol to'akel
+
+Translation
+And the Lord God commanded the man, saying: Of every tree of the garden thou mayest freely eat.
+
+Morphological Analysis
+
+וַיְצַו
+
+Lemma: צָוָה
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And He commanded
+
+Analysis: Describes God’s command to the man.
+
+יְהוָה
+
+Lemma: יְהוָה
+
+Part of Speech: Proper noun
+
+Translation: The Lord
+
+Analysis: Refers to God using the divine name.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: Refers to God as the Creator.
+
+עַל־הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: the man
+
+Analysis: Refers to the human being to whom the command is directed.
+
+לֵאמֹר
+
+Lemma: אָמַר
+
+Part of Speech: Verb, infinitive
+
+Translation: saying
+
+Analysis: A verb introducing what is commanded.
+
+מִכֹּל
+
+Lemma: כָּל
+
+Part of Speech: Adjective
+
+Translation: of every
+
+Analysis: Describes the range of the trees in the garden.
+
+עֵץ־הַגָּן
+
+Lemma: עֵץ
+
+Part of Speech: Noun, masculine singular
+
+Translation: tree of the garden
+
+Analysis: Refers to the trees in Eden.
+
+אָכֹל
+
+Lemma: אָכַל
+
+Part of Speech: Verb, infinitive
+
+Translation: thou mayest eat
+
+Analysis: Indicates permission to eat from every tree.
+
+תֹּאכֵל
+
+Lemma: אָכַל
+
+Part of Speech: Verb, imperfect, 2nd person singular
+
+Translation: thou mayest eat
+
+Analysis: Repeats the permission to eat, emphasizing the freedom granted.
+
+Syntactic Overview
+This verse presents God’s command, granting the man the freedom to eat from every tree in the garden except for the one tree that will be prohibited later. It sets up the environment of divine provision and the conditions of human autonomy.
+
+Verse 17
+Original
+וּמֵעֵץ, הַדַּעַת טוֹב וָרָע, לֹא תֹאכַל מִמֶּנּוּ; כִּי, בְּיוֹם אֲכָלְךָ מִמֶּנּוּ מוֹת תָּמוּת׃
+
+Transliteration
+U'mei'etz, hada'at tov vara, lo to'akal mimenu; ki, beyom akholcha mimenu mot tamut
+
+Translation
+But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.
+
+Morphological Analysis
+
+וּמֵעֵץ
+
+Lemma: עֵץ
+
+Part of Speech: Noun, masculine singular
+
+Translation: But of the tree
+
+Analysis: Introduces the prohibition of the tree of knowledge.
+
+הַדַּעַת
+
+Lemma: דַּעַת
+
+Part of Speech: Noun, feminine singular
+
+Translation: of the knowledge
+
+Analysis: Refers to the tree that imparts knowledge of good and evil.
+
+טוֹב
+
+Lemma: טוֹב
+
+Part of Speech: Adjective
+
+Translation: good
+
+Analysis: Describes the duality of knowledge the tree imparts.
+
+וָרָע
+
+Lemma: רַע
+
+Part of Speech: Adjective
+
+Translation: and evil
+
+Analysis: Completes the dual nature of the knowledge imparted by the tree.
+
+לֹא
+
+Lemma: לֹא
+
+Part of Speech: Adverb
+
+Translation: thou shalt not
+
+Analysis: Indicates prohibition.
+
+תֹאכַל
+
+Lemma: אָכַל
+
+Part of Speech: Verb, imperfect, 2nd person singular
+
+Translation: eat
+
+Analysis: Describes the action that is prohibited.
+
+מִמֶּנּוּ
+
+Lemma: מִן
+
+Part of Speech: Preposition
+
+Translation: of it
+
+Analysis: Refers back to the tree.
+
+כִּי
+
+Lemma: כִּי
+
+Part of Speech: Conjunction
+
+Translation: for
+
+Analysis: Introduces the reason for the prohibition.
+
+בְּיוֹם
+
+Lemma: יוֹם
+
+Part of Speech: Noun, masculine singular
+
+Translation: in the day
+
+Analysis: Indicates the time frame.
+
+אֲכָלְךָ
+
+Lemma: אָכַל
+
+Part of Speech: Verb, imperfect, 2nd person singular
+
+Translation: thou eatest
+
+Analysis: The verb indicates the specific action leading to the consequence.
+
+מִמֶּנּוּ
+
+Lemma: מִן
+
+Part of Speech: Preposition
+
+Translation: thereof
+
+Analysis: Refers back to the tree.
+
+מוֹת
+
+Lemma: מוּת
+
+Part of Speech: Verb, imperfect, 2nd person singular
+
+Translation: thou shalt die
+
+Analysis: Describes the consequence of the action.
+
+תָּמוּת
+
+Lemma: מוּת
+
+Part of Speech: Verb, imperfect, 2nd person singular
+
+Translation: thou shalt surely die
+
+Analysis: Emphasizes the certainty of death.
+
+Syntactic Overview
+This verse delivers the prohibition against eating from the tree of knowledge, explaining that the consequence of such an act will be death, thus framing the moment of temptation in Eden with serious implications for disobedience.
+
+Verse 18
+Original
+וַיֹּאמֶר יְהוָה אֱלֹהִים, לֹא־טוֹב הֱיוֹת הָאָדָם לְבַדּוֹ; אֶעֱשֶׂהּ־לּוֹ עֵזֶר כְּנֶגְדּוֹ׃
+
+Transliteration
+Vayomer Yahweh Elohim, lo-tov heyot ha'adam levaddo; e'eseh-lo ezer kenegdo
+
+Translation
+And the Lord God said: It is not good that the man should be alone; I will make him a help meet for him.
+
+Morphological Analysis
+
+וַיֹּאמֶר
+
+Lemma: אָמַר
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And He said
+
+Analysis: Describes God's speech, introducing the realization of man’s loneliness.
+
+יְהוָה
+
+Lemma: יְהוָה
+
+Part of Speech: Proper noun
+
+Translation: The Lord
+
+Analysis: Refers to God, using the divine name.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: Describes the Creator.
+
+לֹא־טוֹב
+
+Lemma: טוֹב
+
+Part of Speech: Adjective
+
+Translation: It is not good
+
+Analysis: A declaration that introduces the need for a companion.
+
+הֱיוֹת
+
+Lemma: הָיָה
+
+Part of Speech: Verb, infinitive
+
+Translation: to be
+
+Analysis: Expresses the condition of being alone.
+
+הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: the man
+
+Analysis: Refers to the first human created.
+
+לְבַדּוֹ
+
+Lemma: בַּד
+
+Part of Speech: Noun, masculine singular
+
+Translation: alone
+
+Analysis: Describes the solitary condition of man.
+
+אֶעֱשֶׂהּ־לּוֹ
+
+Lemma: עָשָׂה
+
+Part of Speech: Verb, imperfect, 1st person singular
+
+Translation: I will make for him
+
+Analysis: Describes God's intent to create a companion.
+
+עֵזֶר
+
+Lemma: עֵזֶר
+
+Part of Speech: Noun, masculine singular
+
+Translation: a help
+
+Analysis: Refers to the companion’s role as a helper.
+
+כְּנֶגְדּוֹ
+
+Lemma: נֶגֶד
+
+Part of Speech: Preposition
+
+Translation: meet for him
+
+Analysis: Describes the suitability of the help for the man.
+
+Syntactic Overview
+This verse expresses God’s observation that it is not good for the man to be alone, leading to the divine decision to create a companion for him. This introduces the concept of partnership and mutual support as fundamental to human existence.
+
+
+Verse 19
+Original
+וַיִּצֶר יְהוָה אֱלֹהִים מִן־הָאֲדָמָה, כָּל־חַיַּת הַשָּׂדֶה וְאֵת כָּל־עוֹף הַשָּׁמַיִם, וַיָּבֵא אֶל־הָאָדָם, לִרְאוֹת מַה־יִּקְרָא־לוֹ; וְכֹל אֲשֶׁר יִקְרָא־לוֹ הָאָדָם נֶפֶשׁ חַיָּה הוּא שְׁמוֹ׃
+
+Transliteration
+Vayitzer Yahweh Elohim min-ha'adamah, kol-chayat hasadeh v'et kol-oph hashamayim, vayave el-ha'adam, lir'ot ma-yikra-lo; ve'chol asher yikra-lo ha'adam nefesh chayah hu shemo
+
+Translation
+And out of the ground the Lord God formed every beast of the field, and every fowl of the air; and brought them unto the man to see what he would call them: and whatsoever the man called every living creature, that was the name thereof.
+
+Morphological Analysis
+
+וַיִּצֶר
+
+Lemma: יָצַר
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And He formed
+
+Analysis: Describes God’s action of forming creatures from the ground.
+
+יְהוָה
+
+Lemma: יְהוָה
+
+Part of Speech: Proper noun
+
+Translation: The Lord
+
+Analysis: Refers to God using the divine name.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: Refers to God, the Creator.
+
+מִן־הָאֲדָמָה
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: from the ground
+
+Analysis: Indicates the source from which creatures were formed.
+
+כָּל־חַיַּת
+
+Lemma: חַיָּה
+
+Part of Speech: Noun, feminine singular
+
+Translation: every beast
+
+Analysis: Refers to all land animals.
+
+הַשָּׂדֶה
+
+Lemma: שָׂדֶה
+
+Part of Speech: Noun, masculine singular
+
+Translation: of the field
+
+Analysis: Describes the habitat of these animals.
+
+וְאֵת כָּל־עוֹף
+
+Lemma: עוֹף
+
+Part of Speech: Noun, masculine singular
+
+Translation: and every fowl
+
+Analysis: Refers to all flying creatures.
+
+הַשָּׁמַיִם
+
+Lemma: שָׁמַיִם
+
+Part of Speech: Noun, masculine plural
+
+Translation: of the air
+
+Analysis: Indicates the realm where birds reside.
+
+וַיָּבֵא
+
+Lemma: בּוֹא
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: and He brought
+
+Analysis: Describes the action of bringing the creatures to the man.
+
+אֶל־הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: to the man
+
+Analysis: The creatures are brought to the man to see what he would name them.
+
+לִרְאוֹת
+
+Lemma: רָאָה
+
+Part of Speech: Verb, infinitive
+
+Translation: to see
+
+Analysis: The verb introduces the purpose of God bringing the creatures to the man.
+
+מַה־יִּקְרָא־לוֹ
+
+Lemma: קָרָא
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: what he would call them
+
+Analysis: Describes the act of naming the creatures.
+
+וְכֹל
+
+Lemma: כָּל
+
+Part of Speech: Pronoun
+
+Translation: and whatsoever
+
+Analysis: Refers to every living thing the man names.
+
+אֲשֶׁר
+
+Lemma: אֲשֶׁר
+
+Part of Speech: Relative pronoun
+
+Translation: that
+
+Analysis: Relates to the object of what the man names.
+
+יִקְרָא־לוֹ
+
+Lemma: קָרָא
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: he calls
+
+Analysis: Further emphasizes the naming process by the man.
+
+הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: the man
+
+Analysis: Refers to the human as the one performing the naming.
+
+נֶפֶשׁ
+
+Lemma: נֶפֶשׁ
+
+Part of Speech: Noun, feminine singular
+
+Translation: living creature
+
+Analysis: Refers to a soul or a living being.
+
+חַיָּה
+
+Lemma: חַיָּה
+
+Part of Speech: Noun, feminine singular
+
+Translation: living
+
+Analysis: Describes the nature of the creatures being named.
+
+הוּא
+
+Lemma: הוּא
+
+Part of Speech: Pronoun
+
+Translation: that was
+
+Analysis: Indicates the identity of the name given.
+
+שְׁמוֹ
+
+Lemma: שֵׁם
+
+Part of Speech: Noun, masculine singular
+
+Translation: his name
+
+Analysis: Refers to the name given by the man to the creature.
+
+Syntactic Overview
+In this verse, God forms animals and birds from the earth and brings them to Adam, to see what he will call them. This act highlights the human capacity for categorization and naming, which is integral to humanity’s relationship with the created world.
+
+Verse 20
+Original
+וַיִּקְרָא הָאָדָם שֵׁמוֹת, לְכָל־הַבְּהֵמָה וּלְעוֹף הַשָּׁמַיִם, וּלְכֹל חַיַּת הַשָּׂדֶה; וּלְאָדָם לֹא־מָצָא עֵזֶר כְּנֶגְדּוֹ׃
+
+Transliteration
+Vayikra ha'adam shemo, lechol-habehema ule'of hashamayim, ulechol-chayat hasadeh; uleadam lo-matza ezer kenegdo
+
+Translation
+And the man gave names to all cattle, and to the fowl of the air, and to every beast of the field; but for Adam there was not found a help meet for him.
+
+Morphological Analysis
+
+וַיִּקְרָא
+
+Lemma: קָרָא
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And he called
+
+Analysis: The action of Adam naming the creatures.
+
+הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: the man
+
+Analysis: Refers to Adam, the first human.
+
+שֵׁמוֹ
+
+Lemma: שֵׁם
+
+Part of Speech: Noun, masculine singular
+
+Translation: names
+
+Analysis: The act of giving names.
+
+לְכָל־הַבְּהֵמָה
+
+Lemma: בְּהֵמָה
+
+Part of Speech: Noun, feminine singular
+
+Translation: to all cattle
+
+Analysis: Refers to all the domesticated animals.
+
+וּלְעוֹף
+
+Lemma: עוֹף
+
+Part of Speech: Noun, masculine singular
+
+Translation: and to the fowl
+
+Analysis: Refers to the birds in the air.
+
+הַשָּׁמַיִם
+
+Lemma: שָׁמַיִם
+
+Part of Speech: Noun, masculine plural
+
+Translation: of the heavens
+
+Analysis: Refers to the realm of the birds.
+
+וּלְכֹל
+
+Lemma: כָּל
+
+Part of Speech: Pronoun
+
+Translation: and to every
+
+Analysis: Refers to all the creatures Adam names.
+
+חַיַּת
+
+Lemma: חַיָּה
+
+Part of Speech: Noun, feminine singular
+
+Translation: beast
+
+Analysis: Refers to wild animals.
+
+הַשָּׂדֶה
+
+Lemma: שָׂדֶה
+
+Part of Speech: Noun, masculine singular
+
+Translation: of the field
+
+Analysis: Describes the creatures of the field.
+
+וּלְאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: and for the man
+
+Analysis: Introduces the focus on Adam.
+
+לֹא־מָצָא
+
+Lemma: מָצָא
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: he found not
+
+Analysis: Adam does not find a suitable companion.
+
+עֵזֶר
+
+Lemma: עֵזֶר
+
+Part of Speech: Noun, masculine singular
+
+Translation: help
+
+Analysis: Describes the need for a helper.
+
+כְּנֶגְדּוֹ
+
+Lemma: נֶגֶד
+
+Part of Speech: Preposition
+
+Translation: meet for him
+
+Analysis: Describes the suitable nature of the help.
+
+Syntactic Overview
+In this verse, Adam names all the creatures but finds no suitable helper for himself. The absence of a companion highlights the need for God’s intervention in creating Eve.
+
+
+Verse 21
+Original
+וַיַּפֵּל יְהוָה אֱלֹהִים תַּרְדֵּמָה עַל־הָאָדָם וַיִּישָׁן; וַיִּקַּח, אַחַת מִצַּלְעֹתָיו, וַיִּסְגֹּר בָּשָׂר תַּחְתֶּנָּה׃
+
+Transliteration
+Vayyafel Yahweh Elohim tardemah al-ha'adam vayishan; vayikach, achat mitzal'otav, vayisgor basar takhtena
+
+Translation
+And the Lord God caused a deep sleep to fall upon the man, and he slept: and He took one of his ribs, and closed up the flesh instead thereof.
+
+Morphological Analysis
+
+וַיַּפֵּל
+
+Lemma: נָפַל
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And He caused to fall
+
+Analysis: Describes God’s action in causing the sleep to fall.
+
+יְהוָה
+
+Lemma: יְהוָה
+
+Part of Speech: Proper noun
+
+Translation: The Lord
+
+Analysis: Refers to God in the narrative.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: Another reference to God as Creator.
+
+תַּרְדֵּמָה
+
+Lemma: תַּרְדֵּמָה
+
+Part of Speech: Noun, feminine singular
+
+Translation: deep sleep
+
+Analysis: Describes the state of sleep that God induces.
+
+עַל־הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: upon the man
+
+Analysis: Describes the object of God’s action.
+
+וַיִּישָׁן
+
+Lemma: יָשַׁן
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: and he slept
+
+Analysis: Describes the result of the deep sleep.
+
+וַיִּקַּח
+
+Lemma: לָקַח
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And He took
+
+Analysis: Describes God’s next action.
+
+אַחַת
+
+Lemma: אַחַת
+
+Part of Speech: Adjective
+
+Translation: one
+
+Analysis: Refers to one rib taken from the man.
+
+מִצַּלְעֹתָיו
+
+Lemma: צַלְעֹת
+
+Part of Speech: Noun, feminine plural
+
+Translation: of his ribs
+
+Analysis: Refers to the specific part of the body from which God takes.
+
+וַיִּסְגֹּר
+
+Lemma: סָגַר
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: and He closed
+
+Analysis: Describes God’s action in closing up the flesh.
+
+בָּשָׂר
+
+Lemma: בָּשָׂר
+
+Part of Speech: Noun, masculine singular
+
+Translation: the flesh
+
+Analysis: Refers to the flesh of the man.
+
+תַחְתֶּנָּה
+
+Lemma: תַחְתֵּי
+
+Part of Speech: Preposition
+
+Translation: instead thereof
+
+Analysis: Indicates the place where the flesh was closed up.
+
+Syntactic Overview
+God puts Adam into a deep sleep, takes one of his ribs, and closes up the flesh. This is the first step in the creation of Eve.
+
+Verse 22
+Original
+וַיִּבֶן יְהוָה אֱלֹהִים אֶת־הַצֵּלָע אֲשֶׁר־לָקַח מִן־הָאָדָם לְאִשָּׁה; וַיְבִאֶהָ אֶל־הָאָדָם׃
+
+Transliteration
+Vayiven Yahweh Elohim et-hatzela asher-lakach min-ha'adam le'ishah; veyavi'eha el-ha'adam
+
+Translation
+And the Lord God built the rib which He had taken from the man into a woman, and brought her unto the man.
+
+Morphological Analysis
+
+וַיִּבֶן
+
+Lemma: בָּנָה
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And He built
+
+Analysis: Describes God’s action in forming Eve from Adam’s rib.
+
+יְהוָה
+
+Lemma: יְהוָה
+
+Part of Speech: Proper noun
+
+Translation: The Lord
+
+Analysis: Refers to God in this divine action.
+
+אֱלֹהִים
+
+Lemma: אֱלֹהִים
+
+Part of Speech: Noun, masculine plural
+
+Translation: God
+
+Analysis: Another reference to God as Creator.
+
+אֶת־הַצֵּלָע
+
+Lemma: צַלְעֹת
+
+Part of Speech: Noun, feminine singular
+
+Translation: the rib
+
+Analysis: The body part from which Eve is created.
+
+אֲשֶׁר־לָקַח
+
+Lemma: לָקַח
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: which He had taken
+
+Analysis: Refers to the rib taken from Adam.
+
+מִן־הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: from the man
+
+Analysis: Indicates the source of the rib.
+
+לְאִשָּׁה
+
+Lemma: אִשָּׁה
+
+Part of Speech: Noun, feminine singular
+
+Translation: into a woman
+
+Analysis: Refers to the creation of Eve.
+
+וַיְבִאֶהָ
+
+Lemma: בּוֹא
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: and He brought her
+
+Analysis: Describes God’s action of presenting Eve to Adam.
+
+אֶל־הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: to the man
+
+Analysis: Refers to the destination of Eve.
+
+Syntactic Overview
+God forms Eve from Adam’s rib and brings her to the man, completing the creation of humanity as male and female.
+
+Verse 23
+Original
+וַיֹּאמֶר הָאָדָם, זֹאת הַפַּעַם, עֶצֶם מֵעֲצָמַי, וּבָשָׂר מִבְּשָׂרִי; לְזֹאת יִקָּרֵא אִשָּׁה, כִּי מֵאִישׁ לֻקֳחָה־זֹּאת׃
+
+Transliteration
+Vayomer ha'adam, zot hap'am, etzem me'atzamai, uvasar mib'sari; le'zot yiqqare ishah, ki me'ish lukah zot
+
+Translation
+And the man said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.
+
+Morphological Analysis
+
+וַיֹּאמֶר
+
+Lemma: אָמַר
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: And the man said
+
+Analysis: Adam speaks upon seeing Eve.
+
+הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: the man
+
+Analysis: Refers to Adam.
+
+זֹאת
+
+Lemma: זֶה
+
+Part of Speech: Pronoun
+
+Translation: This
+
+Analysis: Refers to Eve.
+
+הַפַּעַם
+
+Lemma: פַּעַם
+
+Part of Speech: Noun, feminine singular
+
+Translation: now
+
+Analysis: Indicates the present moment of recognition.
+
+עֶצֶם
+
+Lemma: עֶצֶם
+
+Part of Speech: Noun, feminine singular
+
+Translation: bone
+
+Analysis: Describes the nature of the relationship.
+
+מֵעֲצָמַי
+
+Lemma: עֶצֶם
+
+Part of Speech: Noun, feminine plural
+
+Translation: of my bones
+
+Analysis: Refers to the close kinship of man and woman.
+
+וּבָשָׂר
+
+Lemma: בָּשָׂר
+
+Part of Speech: Noun, masculine singular
+
+Translation: and flesh
+
+Analysis: Refers to the physical closeness between man and woman.
+
+מִבְּשָׂרִי
+
+Lemma: בָּשָׂר
+
+Part of Speech: Noun, masculine singular
+
+Translation: of my flesh
+
+Analysis: Indicates the source of the woman.
+
+לְזֹאת
+
+Lemma: זֶה
+
+Part of Speech: Pronoun
+
+Translation: she shall be called
+
+Analysis: Describes the naming of the woman.
+
+יִקָּרֵא
+
+Lemma: קָרָא
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: shall be called
+
+Analysis: The verb indicates naming.
+
+אִשָּׁה
+
+Lemma: אִשָּׁה
+
+Part of Speech: Noun, feminine singular
+
+Translation: Woman
+
+Analysis: The name for Eve.
+
+כִּי
+
+Lemma: כִּי
+
+Part of Speech: Conjunction
+
+Translation: because
+
+Analysis: Introduces the reason for the name.
+
+מֵאִישׁ
+
+Lemma: אִישׁ
+
+Part of Speech: Noun, masculine singular
+
+Translation: from man
+
+Analysis: Indicates the origin of the woman.
+
+לֻקֳחָה־זֹּאת
+
+Lemma: לָקַח
+
+Part of Speech: Verb, perfect, 3rd person singular
+
+Translation: she was taken
+
+Analysis: Describes the action of Eve being taken from Adam.
+
+Syntactic Overview
+Adam acknowledges Eve as his equal, formed from his own body. This moment emphasizes the unity between man and woman in creation.
+
+Verse 24
+Original
+עַל־כֵּן יַעֲזָב־אִישׁ, אֶת־אָבִיו וְאֶת־אִמּוֹ; וְדָבַק בְּאִשְׁתּוֹ, וְהָיוּ לְבָשָׂר אֶחָד׃
+
+Transliteration
+Al-ken ya'azov ish et-aviv ve'et-imo; vedavek b'ishto, v'hayu le'basar echad
+
+Translation
+Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.
+
+Morphological Analysis
+
+עַל־כֵּן
+
+Lemma: עַל־כֵּן
+
+Part of Speech: Conjunction
+
+Translation: Therefore
+
+Analysis: Introduces the consequence of the previous statement.
+
+יַעֲזָב
+
+Lemma: עָזַב
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: shall leave
+
+Analysis: Describes the man's action of leaving his parents.
+
+אִישׁ
+
+Lemma: אִישׁ
+
+Part of Speech: Noun, masculine singular
+
+Translation: a man
+
+Analysis: Refers to the male figure in the marriage.
+
+אֶת־אָבִיו
+
+Lemma: אָב
+
+Part of Speech: Noun, masculine singular
+
+Translation: his father
+
+Analysis: Refers to the father whom the man leaves.
+
+וְאֶת־אִמּוֹ
+
+Lemma: אִמָּא
+
+Part of Speech: Noun, feminine singular
+
+Translation: and his mother
+
+Analysis: Refers to the mother whom the man leaves.
+
+וְדָבַק
+
+Lemma: דָּבַק
+
+Part of Speech: Verb, imperfect, 3rd person singular
+
+Translation: and shall cleave
+
+Analysis: Refers to the man’s deep connection with his wife.
+
+בְּאִשְׁתּוֹ
+
+Lemma: אִשָּׁה
+
+Part of Speech: Noun, feminine singular
+
+Translation: to his wife
+
+Analysis: Indicates the wife to whom the man cleaves.
+
+וְהָיוּ
+
+Lemma: הָיָה
+
+Part of Speech: Verb, imperfect, 3rd person plural
+
+Translation: and they shall be
+
+Analysis: Refers to the unity between the man and woman.
+
+לְבָשָׂר
+
+Lemma: בָּשָׂר
+
+Part of Speech: Noun, masculine singular
+
+Translation: one flesh
+
+Analysis: Refers to the physical and spiritual unity of the married couple.
+
+אֶחָד
+
+Lemma: אֶחָד
+
+Part of Speech: Adjective
+
+Translation: one
+
+Analysis: Describes the singularity of the relationship between the man and woman.
+
+Syntactic Overview
+This verse establishes the foundational principle of marriage: the man leaves his parents to join his wife in a unity that forms "one flesh," emphasizing the deep connection between husband and wife.
+
+Verse 25
+Original
+וַיִּהְיוּ שְׁנֵיהֶם עֲרוּמִּים, הָאָדָם וְאִשְׁתּוֹ; וְלֹא יִתְבֹּשָׁשׁוּ׃
+
+Transliteration
+Vayihyu shenehem arumim, ha'adam ve'ishto; v'lo yitbosheshu
+
+Translation
+And they were both naked, the man and his wife, and were not ashamed.
+
+Morphological Analysis
+
+וַיִּהְיוּ
+
+Lemma: הָיָה
+
+Part of Speech: Verb, imperfect, 3rd person plural
+
+Translation: And they were
+
+Analysis: Describes the state of Adam and Eve.
+
+שְׁנֵיהֶם
+
+Lemma: שְׁנֵי
+
+Part of Speech: Pronoun, dual
+
+Translation: both of them
+
+Analysis: Refers to both Adam and Eve.
+
+עֲרוּמִּים
+
+Lemma: עָרוֹם
+
+Part of Speech: Adjective
+
+Translation: naked
+
+Analysis: Describes the physical state of Adam and Eve before the Fall.
+
+הָאָדָם
+
+Lemma: אָדָם
+
+Part of Speech: Noun, masculine singular
+
+Translation: the man
+
+Analysis: Refers to Adam.
+
+וְאִשְׁתּוֹ
+
+Lemma: אִשָּׁה
+
+Part of Speech: Noun, feminine singular
+
+Translation: and his wife
+
+Analysis: Refers to Eve.
+
+וְלֹא
+
+Lemma: לֹא
+
+Part of Speech: Adverb
+
+Translation: and were not
+
+Analysis: Negates the following verb.
+
+יִתְבֹּשָׁשׁוּ
+
+Lemma: בָּשָׁש
+
+Part of Speech: Verb, imperfect, 3rd person plural
+
+Translation: ashamed
+
+Analysis: Indicates that they were not ashamed of their nakedness.
+
+Syntactic Overview
+Adam and Eve are described as being innocent and without shame in their nakedness, a state that represents the purity and harmony of their original condition before the Fall.
+
+
+
+
+
+
+
+
