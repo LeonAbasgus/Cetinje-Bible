@@ -1,0 +1,122 @@
+
+
+# TLS7-STD — Strict Requirements Checklist
+
+---
+
+### 1️⃣ Verse Number (Required)
+
+* Each verse starts with **bolded verse number**.
+* Format: `**1**`, `**2**`, etc.
+
+---
+
+### 2️⃣ Original Text (Hebrew) (Required)
+
+* Text must be from **Biblia Hebraica Stuttgartensia (BHS)**.
+* Text must include:
+
+  * **Full vocalization (nikkud)**.
+  * **Full cantillation marks (te'amim)**.
+* **Each word numbered**: `1.`, `2.`, `3.`, etc.
+* No omissions allowed.
+
+---
+
+### 3️⃣ Transliteration (Required)
+
+* Standard: **SBL General Purpose**.
+* **Each word numbered**, matching Original: `1.`, `2.`, `3.`, etc.
+* Transliteration must match the word order of the Original.
+* One line per verse.
+
+---
+
+### 4️⃣ Translation (Required)
+
+* Full sentence → English translation of the entire verse.
+* Default: **New JPS Tanakh (1985)**.
+* No numbering in the Translation line.
+* One line per verse.
+* Must reflect the meaning of the verse as closely as possible.
+
+---
+
+### 5️⃣ Morphological Analysis (Strictly Required)
+
+For **each word**:
+
+* **Word number**: must match Original/Transliteration numbering.
+
+* Provide the following fields, in this exact order:
+
+  1. **Lemma** → dictionary form (Hebrew).
+  2. **Part of Speech** → fully written out → no abbreviations allowed.
+  3. **Translation** → meaning of the word in this context.
+  4. **Analysis** → grammatical function, morphological peculiarities, syntactic role, semantic nuance.
+
+* Every word must be analyzed.
+
+* No "see previous" or skipped analysis is allowed.
+
+Example (template per word):
+
+```
+1. בְּרֵאשִׁית  
+   Lemma: רֵאשִׁית  
+   Part of Speech: Noun, feminine singular, construct state.  
+   Translation: in beginning  
+   Analysis: Temporal adverb. Construct chain with following verb.
+```
+
+---
+
+### 6️⃣ Syntactic Overview (Required)
+
+* One paragraph per verse.
+* Describe:
+
+  * Clause structure (VSO, SVO, etc.).
+  * Key syntactic constructions.
+  * Special morphological constructions.
+  * Rhetorical structure (if present).
+* Even simple verses must have at least 1–2 sentences of syntactic description.
+
+---
+
+### 7️⃣ Final Navigation Marker (Required)
+
+* At the end of the chapter, include navigation:
+
+  * Example: `End of Genesis Chapter 1 → Proceed to Genesis Chapter 2.`
+
+---
+
+### General Rules
+
+✅ **No abbreviations allowed** anywhere in Morphological Analysis.
+✅ **Word numbering must be consistent** across Original, Transliteration, Morphological Analysis.
+✅ **No omissions of words allowed**.
+✅ Every verse must be **fully covered**.
+✅ Analysis must be academically rigorous → based on Gesenius, Joüon-Muraoka, Waltke-O’Connor, BDB, HALOT.
+✅ Syntactic Overview → must not be skipped.
+
+---
+
+### Summary Structure per Verse
+
+```
+**Verse Number**
+
+Original → numbered words  
+Transliteration → numbered words  
+Translation → one sentence  
+Morphological Analysis → numbered words, full detail  
+Syntactic Overview → paragraph
+```
+
+---
+
+**End of TLS7-STD Requirements Checklist**
+
+
