@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+type: software
+title: "Cetinje Bible: Христианам третьего тысячелетия (ХТТ) — texts & translations"
+authors:
+  - family-names: "Adzhindzhal"
+    given-names: "Leon"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/LeonAbasgus/Cetinje-Bible"
+doi: "10.5281/zenodo.15793958"
+version: "2.2"
